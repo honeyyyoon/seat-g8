@@ -1,0 +1,6265 @@
+{
+ "chain": "CGV",
+ "theater": "CGV 용산아이파크몰",
+ "siteNo": "0013",
+ "screen": "IMAX관",
+ "screenNo": "018",
+ "sampledShowDate": "20261018",
+ "grid": {
+  "width": 49,
+  "height": 16
+ },
+ "seatCount": 624,
+ "seats": [
+  {
+   "row": "A",
+   "number": 3,
+   "x": 3,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 4,
+   "x": 4,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 5,
+   "x": 5,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 6,
+   "x": 6,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 7,
+   "x": 7,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 8,
+   "x": 8,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 9,
+   "x": 9,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 10,
+   "x": 10,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 11,
+   "x": 11,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 12,
+   "x": 12,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 13,
+   "x": 13,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 14,
+   "x": 14,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 15,
+   "x": 15,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 17,
+   "x": 18,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 18,
+   "x": 19,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 19,
+   "x": 20,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 22,
+   "x": 23,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 23,
+   "x": 24,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 24,
+   "x": 25,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 26,
+   "x": 27,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 27,
+   "x": 28,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 28,
+   "x": 29,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 29,
+   "x": 30,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 30,
+   "x": 31,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 31,
+   "x": 33,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 32,
+   "x": 34,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 33,
+   "x": 35,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 34,
+   "x": 36,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 35,
+   "x": 37,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 36,
+   "x": 38,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 37,
+   "x": 39,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 38,
+   "x": 40,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 39,
+   "x": 41,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 40,
+   "x": 42,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 41,
+   "x": 43,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 42,
+   "x": 44,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 43,
+   "x": 45,
+   "y": 0,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 3,
+   "x": 3,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 4,
+   "x": 4,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 5,
+   "x": 5,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 6,
+   "x": 6,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 7,
+   "x": 7,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 8,
+   "x": 8,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 9,
+   "x": 9,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 10,
+   "x": 10,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 11,
+   "x": 11,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 12,
+   "x": 12,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 13,
+   "x": 13,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 14,
+   "x": 14,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 15,
+   "x": 15,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 16,
+   "x": 17,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 17,
+   "x": 18,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 18,
+   "x": 19,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 19,
+   "x": 20,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 20,
+   "x": 21,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 21,
+   "x": 22,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 22,
+   "x": 23,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 23,
+   "x": 24,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 24,
+   "x": 25,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 25,
+   "x": 26,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 26,
+   "x": 27,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 27,
+   "x": 28,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 28,
+   "x": 29,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 29,
+   "x": 30,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 30,
+   "x": 31,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 31,
+   "x": 33,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 32,
+   "x": 34,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 33,
+   "x": 35,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 34,
+   "x": 36,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 35,
+   "x": 37,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 36,
+   "x": 38,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 37,
+   "x": 39,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 38,
+   "x": 40,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 39,
+   "x": 41,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 40,
+   "x": 42,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 41,
+   "x": 43,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 42,
+   "x": 44,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 43,
+   "x": 45,
+   "y": 1,
+   "zone": "Light존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 3,
+   "x": 3,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 4,
+   "x": 4,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 5,
+   "x": 5,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 6,
+   "x": 6,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 7,
+   "x": 7,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 8,
+   "x": 8,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 9,
+   "x": 9,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 10,
+   "x": 10,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 11,
+   "x": 11,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 12,
+   "x": 12,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 13,
+   "x": 13,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 14,
+   "x": 14,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 15,
+   "x": 15,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 16,
+   "x": 17,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 17,
+   "x": 18,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 18,
+   "x": 19,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 19,
+   "x": 20,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 20,
+   "x": 21,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 21,
+   "x": 22,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 22,
+   "x": 23,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 23,
+   "x": 24,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 24,
+   "x": 25,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 25,
+   "x": 26,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 26,
+   "x": 27,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 27,
+   "x": 28,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 28,
+   "x": 29,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 29,
+   "x": 30,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 30,
+   "x": 31,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 31,
+   "x": 33,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 32,
+   "x": 34,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 33,
+   "x": 35,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 34,
+   "x": 36,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 35,
+   "x": 37,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 36,
+   "x": 38,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 37,
+   "x": 39,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 38,
+   "x": 40,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 39,
+   "x": 41,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 40,
+   "x": 42,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 41,
+   "x": 43,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 42,
+   "x": 44,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 43,
+   "x": 45,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 3,
+   "x": 3,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 4,
+   "x": 4,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 5,
+   "x": 5,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 6,
+   "x": 6,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 7,
+   "x": 7,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 8,
+   "x": 8,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 9,
+   "x": 9,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 10,
+   "x": 10,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 11,
+   "x": 11,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 12,
+   "x": 12,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 13,
+   "x": 13,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 14,
+   "x": 14,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 15,
+   "x": 15,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 16,
+   "x": 17,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 17,
+   "x": 18,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 18,
+   "x": 19,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 19,
+   "x": 20,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 20,
+   "x": 21,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 21,
+   "x": 22,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 22,
+   "x": 23,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 23,
+   "x": 24,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 24,
+   "x": 25,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 25,
+   "x": 26,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 26,
+   "x": 27,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 27,
+   "x": 28,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 28,
+   "x": 29,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 29,
+   "x": 30,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 30,
+   "x": 31,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 31,
+   "x": 33,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 32,
+   "x": 34,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 33,
+   "x": 35,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 34,
+   "x": 36,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 35,
+   "x": 37,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 36,
+   "x": 38,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 37,
+   "x": 39,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 38,
+   "x": 40,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 39,
+   "x": 41,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 40,
+   "x": 42,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 41,
+   "x": 43,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 42,
+   "x": 44,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 43,
+   "x": 45,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 3,
+   "x": 3,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 4,
+   "x": 4,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 5,
+   "x": 5,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 6,
+   "x": 6,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 7,
+   "x": 7,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 8,
+   "x": 8,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 9,
+   "x": 9,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 10,
+   "x": 10,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 11,
+   "x": 11,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 12,
+   "x": 12,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 13,
+   "x": 13,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 14,
+   "x": 14,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 15,
+   "x": 15,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 16,
+   "x": 17,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 17,
+   "x": 18,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 18,
+   "x": 19,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 19,
+   "x": 20,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 20,
+   "x": 21,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 21,
+   "x": 22,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 22,
+   "x": 23,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 23,
+   "x": 24,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 24,
+   "x": 25,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 25,
+   "x": 26,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 26,
+   "x": 27,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 27,
+   "x": 28,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 28,
+   "x": 29,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 29,
+   "x": 30,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 31,
+   "x": 33,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 32,
+   "x": 34,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 33,
+   "x": 35,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 34,
+   "x": 36,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 35,
+   "x": 37,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 36,
+   "x": 38,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 37,
+   "x": 39,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 38,
+   "x": 40,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 39,
+   "x": 41,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 40,
+   "x": 42,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 41,
+   "x": 43,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 42,
+   "x": 44,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 43,
+   "x": 45,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 3,
+   "x": 3,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 4,
+   "x": 4,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 5,
+   "x": 5,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 6,
+   "x": 6,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 7,
+   "x": 7,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 8,
+   "x": 8,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 9,
+   "x": 9,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 10,
+   "x": 10,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 11,
+   "x": 11,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 12,
+   "x": 12,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 13,
+   "x": 13,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 14,
+   "x": 14,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 16,
+   "x": 17,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 17,
+   "x": 18,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 18,
+   "x": 19,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 19,
+   "x": 20,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 20,
+   "x": 21,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 21,
+   "x": 22,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 22,
+   "x": 23,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 23,
+   "x": 24,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 24,
+   "x": 25,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 25,
+   "x": 26,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 26,
+   "x": 27,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 27,
+   "x": 28,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 28,
+   "x": 29,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 29,
+   "x": 30,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 31,
+   "x": 33,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 32,
+   "x": 34,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 33,
+   "x": 35,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 34,
+   "x": 36,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 35,
+   "x": 37,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 36,
+   "x": 38,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 37,
+   "x": 39,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 38,
+   "x": 40,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 39,
+   "x": 41,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 40,
+   "x": 42,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 41,
+   "x": 43,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 42,
+   "x": 44,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 3,
+   "x": 3,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 4,
+   "x": 4,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 5,
+   "x": 5,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 6,
+   "x": 6,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 7,
+   "x": 7,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 8,
+   "x": 8,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 9,
+   "x": 9,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 10,
+   "x": 10,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 11,
+   "x": 11,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 12,
+   "x": 12,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 13,
+   "x": 13,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 14,
+   "x": 14,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 16,
+   "x": 17,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 17,
+   "x": 18,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 18,
+   "x": 19,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 19,
+   "x": 20,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 20,
+   "x": 21,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 21,
+   "x": 22,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 22,
+   "x": 23,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 23,
+   "x": 24,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 24,
+   "x": 25,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 25,
+   "x": 26,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 26,
+   "x": 27,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 27,
+   "x": 28,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 28,
+   "x": 29,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 29,
+   "x": 30,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 31,
+   "x": 33,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 32,
+   "x": 34,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 33,
+   "x": 35,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 34,
+   "x": 36,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 35,
+   "x": 37,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 36,
+   "x": 38,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 37,
+   "x": 39,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 38,
+   "x": 40,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 39,
+   "x": 41,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 40,
+   "x": 42,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 41,
+   "x": 43,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 42,
+   "x": 44,
+   "y": 6,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 3,
+   "x": 3,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 4,
+   "x": 4,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 5,
+   "x": 5,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 6,
+   "x": 6,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 7,
+   "x": 7,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 8,
+   "x": 8,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 9,
+   "x": 9,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 10,
+   "x": 10,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 11,
+   "x": 11,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 12,
+   "x": 12,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 13,
+   "x": 13,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 14,
+   "x": 14,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 16,
+   "x": 17,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 17,
+   "x": 18,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 18,
+   "x": 19,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 19,
+   "x": 20,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 20,
+   "x": 21,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 21,
+   "x": 22,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 22,
+   "x": 23,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 23,
+   "x": 24,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 24,
+   "x": 25,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 25,
+   "x": 26,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 26,
+   "x": 27,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 27,
+   "x": 28,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 28,
+   "x": 29,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 29,
+   "x": 30,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 31,
+   "x": 33,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 32,
+   "x": 34,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 33,
+   "x": 35,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 34,
+   "x": 36,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 35,
+   "x": 37,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 36,
+   "x": 38,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 37,
+   "x": 39,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 38,
+   "x": 40,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 39,
+   "x": 41,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 40,
+   "x": 42,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 41,
+   "x": 43,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 42,
+   "x": 44,
+   "y": 7,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 1,
+   "x": 0,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 2,
+   "x": 1,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 3,
+   "x": 3,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 4,
+   "x": 4,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 5,
+   "x": 5,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 6,
+   "x": 6,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 7,
+   "x": 7,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 8,
+   "x": 8,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 9,
+   "x": 9,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 10,
+   "x": 10,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 11,
+   "x": 11,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 12,
+   "x": 12,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 13,
+   "x": 13,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 14,
+   "x": 14,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 16,
+   "x": 17,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 17,
+   "x": 18,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 18,
+   "x": 19,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 19,
+   "x": 20,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 20,
+   "x": 21,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 21,
+   "x": 22,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 22,
+   "x": 23,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 23,
+   "x": 24,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 24,
+   "x": 25,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 25,
+   "x": 26,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 26,
+   "x": 27,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 27,
+   "x": 28,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 28,
+   "x": 29,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 29,
+   "x": 30,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 31,
+   "x": 33,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 32,
+   "x": 34,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 33,
+   "x": 35,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 34,
+   "x": 36,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 35,
+   "x": 37,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 36,
+   "x": 38,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 37,
+   "x": 39,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 38,
+   "x": 40,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 39,
+   "x": 41,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 40,
+   "x": 42,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 41,
+   "x": 43,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 42,
+   "x": 44,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 44,
+   "x": 47,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 45,
+   "x": 48,
+   "y": 8,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 1,
+   "x": 0,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 2,
+   "x": 1,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 3,
+   "x": 3,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 4,
+   "x": 4,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 5,
+   "x": 5,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 6,
+   "x": 6,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 7,
+   "x": 7,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 8,
+   "x": 8,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 9,
+   "x": 9,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 10,
+   "x": 10,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 11,
+   "x": 11,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 12,
+   "x": 12,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 13,
+   "x": 13,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 14,
+   "x": 14,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 16,
+   "x": 17,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 17,
+   "x": 18,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 18,
+   "x": 19,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 19,
+   "x": 20,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 20,
+   "x": 21,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 21,
+   "x": 22,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 22,
+   "x": 23,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 23,
+   "x": 24,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 24,
+   "x": 25,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 25,
+   "x": 26,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 26,
+   "x": 27,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 27,
+   "x": 28,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 28,
+   "x": 29,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 29,
+   "x": 30,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 31,
+   "x": 33,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 32,
+   "x": 34,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 33,
+   "x": 35,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 34,
+   "x": 36,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 35,
+   "x": 37,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 36,
+   "x": 38,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 37,
+   "x": 39,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 38,
+   "x": 40,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 39,
+   "x": 41,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 40,
+   "x": 42,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 41,
+   "x": 43,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 42,
+   "x": 44,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 44,
+   "x": 47,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 45,
+   "x": 48,
+   "y": 9,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "K",
+   "number": 1,
+   "x": 0,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 2,
+   "x": 1,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "K",
+   "number": 3,
+   "x": 3,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 4,
+   "x": 4,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 5,
+   "x": 5,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 6,
+   "x": 6,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 7,
+   "x": 7,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 8,
+   "x": 8,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 9,
+   "x": 9,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 10,
+   "x": 10,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 11,
+   "x": 11,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 12,
+   "x": 12,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 13,
+   "x": 13,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 14,
+   "x": 14,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "K",
+   "number": 16,
+   "x": 17,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 17,
+   "x": 18,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 18,
+   "x": 19,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 19,
+   "x": 20,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 20,
+   "x": 21,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 21,
+   "x": 22,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 22,
+   "x": 23,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 23,
+   "x": 24,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 24,
+   "x": 25,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 25,
+   "x": 26,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 26,
+   "x": 27,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 27,
+   "x": 28,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 28,
+   "x": 29,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 29,
+   "x": 30,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "K",
+   "number": 31,
+   "x": 33,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 32,
+   "x": 34,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 33,
+   "x": 35,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 34,
+   "x": 36,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 35,
+   "x": 37,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 36,
+   "x": 38,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 37,
+   "x": 39,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 38,
+   "x": 40,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 39,
+   "x": 41,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 40,
+   "x": 42,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 41,
+   "x": 43,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 42,
+   "x": 44,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "K",
+   "number": 44,
+   "x": 47,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "K",
+   "number": 45,
+   "x": 48,
+   "y": 10,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "L",
+   "number": 1,
+   "x": 0,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 2,
+   "x": 1,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "L",
+   "number": 3,
+   "x": 3,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 4,
+   "x": 4,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 5,
+   "x": 5,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 6,
+   "x": 6,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 7,
+   "x": 7,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 8,
+   "x": 8,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 9,
+   "x": 9,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 10,
+   "x": 10,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 11,
+   "x": 11,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 12,
+   "x": 12,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 13,
+   "x": 13,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 14,
+   "x": 14,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "L",
+   "number": 16,
+   "x": 17,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 17,
+   "x": 18,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 18,
+   "x": 19,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 19,
+   "x": 20,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 20,
+   "x": 21,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 21,
+   "x": 22,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 22,
+   "x": 23,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 23,
+   "x": 24,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 24,
+   "x": 25,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 25,
+   "x": 26,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 26,
+   "x": 27,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 27,
+   "x": 28,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 28,
+   "x": 29,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 29,
+   "x": 30,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "L",
+   "number": 31,
+   "x": 33,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 32,
+   "x": 34,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 33,
+   "x": 35,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 34,
+   "x": 36,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 35,
+   "x": 37,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 36,
+   "x": 38,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 37,
+   "x": 39,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 38,
+   "x": 40,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 39,
+   "x": 41,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 40,
+   "x": 42,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 41,
+   "x": 43,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 42,
+   "x": 44,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "L",
+   "number": 44,
+   "x": 47,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "L",
+   "number": 45,
+   "x": 48,
+   "y": 11,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "M",
+   "number": 1,
+   "x": 0,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 2,
+   "x": 1,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "M",
+   "number": 3,
+   "x": 3,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 4,
+   "x": 4,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 5,
+   "x": 5,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 6,
+   "x": 6,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 7,
+   "x": 7,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 8,
+   "x": 8,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 9,
+   "x": 9,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 10,
+   "x": 10,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 11,
+   "x": 11,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 12,
+   "x": 12,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 13,
+   "x": 13,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 14,
+   "x": 14,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "M",
+   "number": 16,
+   "x": 17,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 17,
+   "x": 18,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 18,
+   "x": 19,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 19,
+   "x": 20,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 20,
+   "x": 21,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 21,
+   "x": 22,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 22,
+   "x": 23,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 23,
+   "x": 24,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 24,
+   "x": 25,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 25,
+   "x": 26,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 26,
+   "x": 27,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 27,
+   "x": 28,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 28,
+   "x": 29,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 29,
+   "x": 30,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "M",
+   "number": 31,
+   "x": 33,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 32,
+   "x": 34,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 33,
+   "x": 35,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 34,
+   "x": 36,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 35,
+   "x": 37,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 36,
+   "x": 38,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 37,
+   "x": 39,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 38,
+   "x": 40,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 39,
+   "x": 41,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 40,
+   "x": 42,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 41,
+   "x": 43,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 42,
+   "x": 44,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "M",
+   "number": 44,
+   "x": 47,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "M",
+   "number": 45,
+   "x": 48,
+   "y": 12,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "N",
+   "number": 1,
+   "x": 0,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 2,
+   "x": 1,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "N",
+   "number": 3,
+   "x": 3,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 4,
+   "x": 4,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 5,
+   "x": 5,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 6,
+   "x": 6,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 7,
+   "x": 7,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 8,
+   "x": 8,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 9,
+   "x": 9,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 10,
+   "x": 10,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 11,
+   "x": 11,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 12,
+   "x": 12,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 13,
+   "x": 13,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 14,
+   "x": 14,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "N",
+   "number": 16,
+   "x": 17,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 17,
+   "x": 18,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 18,
+   "x": 19,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 19,
+   "x": 20,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 20,
+   "x": 21,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 21,
+   "x": 22,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 22,
+   "x": 23,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 23,
+   "x": 24,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 24,
+   "x": 25,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 25,
+   "x": 26,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 26,
+   "x": 27,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 27,
+   "x": 28,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 28,
+   "x": 29,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 29,
+   "x": 30,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "N",
+   "number": 31,
+   "x": 33,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 32,
+   "x": 34,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 33,
+   "x": 35,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 34,
+   "x": 36,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 35,
+   "x": 37,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 36,
+   "x": 38,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 37,
+   "x": 39,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 38,
+   "x": 40,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 39,
+   "x": 41,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 40,
+   "x": 42,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 41,
+   "x": 43,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 42,
+   "x": 44,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "N",
+   "number": 44,
+   "x": 47,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "N",
+   "number": 45,
+   "x": 48,
+   "y": 13,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "O",
+   "number": 1,
+   "x": 0,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 2,
+   "x": 1,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "O",
+   "number": 3,
+   "x": 3,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 4,
+   "x": 4,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 5,
+   "x": 5,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 6,
+   "x": 6,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 7,
+   "x": 7,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 8,
+   "x": 8,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 9,
+   "x": 9,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 10,
+   "x": 10,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 11,
+   "x": 11,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 12,
+   "x": 12,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 13,
+   "x": 13,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 14,
+   "x": 14,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "O",
+   "number": 16,
+   "x": 17,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 17,
+   "x": 18,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 18,
+   "x": 19,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 19,
+   "x": 20,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 20,
+   "x": 21,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 21,
+   "x": 22,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 22,
+   "x": 23,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 23,
+   "x": 24,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 24,
+   "x": 25,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 25,
+   "x": 26,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 26,
+   "x": 27,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 27,
+   "x": 28,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 28,
+   "x": 29,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 29,
+   "x": 30,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "O",
+   "number": 31,
+   "x": 33,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 32,
+   "x": 34,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 33,
+   "x": 35,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 34,
+   "x": 36,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 35,
+   "x": 37,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 36,
+   "x": 38,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 37,
+   "x": 39,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 38,
+   "x": 40,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 39,
+   "x": 41,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 40,
+   "x": 42,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 41,
+   "x": 43,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 42,
+   "x": 44,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "O",
+   "number": 44,
+   "x": 47,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "O",
+   "number": 45,
+   "x": 48,
+   "y": 14,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "P",
+   "number": 1,
+   "x": 0,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "P",
+   "number": 2,
+   "x": 1,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "P",
+   "number": 3,
+   "x": 3,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "P",
+   "number": 4,
+   "x": 4,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "P",
+   "number": 5,
+   "x": 5,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "P",
+   "number": 6,
+   "x": 6,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "P",
+   "number": 7,
+   "x": 7,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "P",
+   "number": 8,
+   "x": 8,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "P",
+   "number": 37,
+   "x": 39,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "P",
+   "number": 38,
+   "x": 40,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "P",
+   "number": 39,
+   "x": 41,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "P",
+   "number": 40,
+   "x": 42,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "P",
+   "number": 41,
+   "x": 43,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "P",
+   "number": 42,
+   "x": 44,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "P",
+   "number": 44,
+   "x": 47,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "P",
+   "number": 45,
+   "x": 48,
+   "y": 15,
+   "zone": "일반존",
+   "kind": "일반석",
+   "aisleLeft": false,
+   "aisleRight": true
+  }
+ ],
+ "entrances": [
+  {
+   "x": 33,
+   "y": 0
+  },
+  {
+   "x": 17,
+   "y": 0
+  }
+ ]
+}

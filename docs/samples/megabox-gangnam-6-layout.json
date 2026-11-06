@@ -1,0 +1,585 @@
+{
+ "chain": "메가박스",
+ "theater": "메가박스 강남",
+ "siteNo": "1372",
+ "screen": "르 리클라이너 6관",
+ "screenNo": "06",
+ "sampledShowDate": "20261020",
+ "grid": {
+  "width": 20,
+  "height": 5
+ },
+ "seatCount": 56,
+ "seats": [
+  {
+   "row": "A",
+   "number": 1,
+   "x": 0,
+   "y": 0,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 2,
+   "x": 1,
+   "y": 0,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 3,
+   "x": 2,
+   "y": 0,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 4,
+   "x": 3,
+   "y": 0,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 5,
+   "x": 6,
+   "y": 0,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 6,
+   "x": 7,
+   "y": 0,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 7,
+   "x": 8,
+   "y": 0,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 8,
+   "x": 9,
+   "y": 0,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 9,
+   "x": 10,
+   "y": 0,
+   "zone": null,
+   "kind": "장애인석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 10,
+   "x": 11,
+   "y": 0,
+   "zone": null,
+   "kind": "장애인석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 13,
+   "x": 16,
+   "y": 0,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 14,
+   "x": 17,
+   "y": 0,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 15,
+   "x": 18,
+   "y": 0,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 16,
+   "x": 19,
+   "y": 0,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 1,
+   "x": 0,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 2,
+   "x": 1,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 3,
+   "x": 2,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 4,
+   "x": 3,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 5,
+   "x": 6,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 6,
+   "x": 7,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 7,
+   "x": 8,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 8,
+   "x": 9,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 9,
+   "x": 10,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 10,
+   "x": 11,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 11,
+   "x": 12,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 12,
+   "x": 13,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 13,
+   "x": 16,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 14,
+   "x": 17,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 15,
+   "x": 18,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 16,
+   "x": 19,
+   "y": 1,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 1,
+   "x": 0,
+   "y": 3,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 2,
+   "x": 1,
+   "y": 3,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 3,
+   "x": 4,
+   "y": 3,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 4,
+   "x": 5,
+   "y": 3,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 5,
+   "x": 6,
+   "y": 3,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 6,
+   "x": 7,
+   "y": 3,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 7,
+   "x": 8,
+   "y": 3,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 8,
+   "x": 9,
+   "y": 3,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 9,
+   "x": 10,
+   "y": 3,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 10,
+   "x": 11,
+   "y": 3,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 11,
+   "x": 12,
+   "y": 3,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 12,
+   "x": 13,
+   "y": 3,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 13,
+   "x": 14,
+   "y": 3,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 1,
+   "x": 0,
+   "y": 4,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 2,
+   "x": 1,
+   "y": 4,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 3,
+   "x": 4,
+   "y": 4,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 4,
+   "x": 5,
+   "y": 4,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 5,
+   "x": 6,
+   "y": 4,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 6,
+   "x": 7,
+   "y": 4,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 7,
+   "x": 8,
+   "y": 4,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 8,
+   "x": 9,
+   "y": 4,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 9,
+   "x": 10,
+   "y": 4,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 10,
+   "x": 11,
+   "y": 4,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 11,
+   "x": 12,
+   "y": 4,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 12,
+   "x": 13,
+   "y": 4,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 13,
+   "x": 14,
+   "y": 4,
+   "zone": null,
+   "kind": "리클라이너석",
+   "aisleLeft": false,
+   "aisleRight": true
+  }
+ ],
+ "entrances": [
+  {
+   "x": 20,
+   "y": -1
+  },
+  {
+   "x": 19,
+   "y": 4
+  }
+ ]
+}
