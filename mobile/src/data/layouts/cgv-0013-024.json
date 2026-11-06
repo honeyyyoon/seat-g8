@@ -1,0 +1,141 @@
+{
+ "chain": "CGV",
+ "theater": "CGV 용산아이파크몰",
+ "siteNo": "0013",
+ "screen": "17관[PREMIUM] (Laser)",
+ "screenNo": "024",
+ "sampledShowDate": "20261106",
+ "grid": {
+  "width": 14,
+  "height": 1
+ },
+ "seatCount": 12,
+ "seats": [
+  {
+   "row": "J",
+   "number": 1,
+   "x": 0,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "프리미엄",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 2,
+   "x": 1,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "프리미엄",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 3,
+   "x": 2,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "프리미엄",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 4,
+   "x": 3,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "프리미엄",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 5,
+   "x": 5,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "프리미엄",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 6,
+   "x": 6,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "프리미엄",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 7,
+   "x": 7,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "프리미엄",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 8,
+   "x": 8,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "프리미엄",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 9,
+   "x": 10,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "프리미엄",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 10,
+   "x": 11,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "프리미엄",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 11,
+   "x": 12,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "프리미엄",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "J",
+   "number": 12,
+   "x": 13,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "프리미엄",
+   "aisleLeft": false,
+   "aisleRight": true
+  }
+ ],
+ "entrances": [
+  {
+   "x": 12,
+   "y": 2
+  }
+ ]
+}
