@@ -1,18 +1,35 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from 'expo-router';
-import * as SplashScreen from 'expo-splash-screen';
-import { useColorScheme } from 'react-native';
+import { Stack } from 'expo-router';
+import { SQLiteProvider, useSQLiteContext } from 'expo-sqlite';
+import { StatusBar } from 'expo-status-bar';
+import type { ReactNode } from 'react';
 
-import { AnimatedSplashOverlay } from '@/components/animated-icon';
-import AppTabs from '@/components/app-tabs';
+import { colors } from '@/constants/theme';
+import { DbProvider } from '@/db/db-context';
+import { migrate } from '@/db/migrate';
 
-SplashScreen.preventAutoHideAsync();
+function WithDb({ children }: { children: ReactNode }) {
+  const db = useSQLiteContext();
+  return <DbProvider db={db}>{children}</DbProvider>;
+}
 
-export default function TabLayout() {
-  const colorScheme = useColorScheme();
+export default function RootLayout() {
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <AnimatedSplashOverlay />
-      <AppTabs />
-    </ThemeProvider>
+    <SQLiteProvider databaseName="seat-g8.db" onInit={migrate}>
+      <WithDb>
+        <StatusBar style="dark" />
+        <Stack
+          screenOptions={{
+            headerStyle: { backgroundColor: colors.bg },
+            headerShadowVisible: false,
+            headerTintColor: colors.accent,
+            headerTitleStyle: { color: colors.ink, fontWeight: '700' },
+            headerBackButtonDisplayMode: 'minimal',
+            contentStyle: { backgroundColor: colors.bg },
+          }}>
+          <Stack.Screen name="index" options={{ title: 'G열 8번', headerShown: false }} />
+          <Stack.Screen name="screens/[screenId]" options={{ title: '' }} />
+        </Stack>
+      </WithDb>
+    </SQLiteProvider>
   );
 }

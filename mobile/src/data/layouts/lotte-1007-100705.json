@@ -1,0 +1,1111 @@
+{
+ "chain": "롯데시네마",
+ "theater": "롯데시네마 신림",
+ "siteNo": "1007",
+ "screen": "5관",
+ "screenNo": "100705",
+ "sampledShowDate": "20261106",
+ "grid": {
+  "width": 862,
+  "height": 5959
+ },
+ "seatCount": 109,
+ "seats": [
+  {
+   "row": "A",
+   "number": 1,
+   "x": 0,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 2,
+   "x": 73,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 3,
+   "x": 218,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 4,
+   "x": 291,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 5,
+   "x": 363,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 6,
+   "x": 436,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 7,
+   "x": 510,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 8,
+   "x": 581,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 9,
+   "x": 654,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 10,
+   "x": 792,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 11,
+   "x": 861,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 1,
+   "x": 0,
+   "y": 662,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 2,
+   "x": 73,
+   "y": 662,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 3,
+   "x": 218,
+   "y": 662,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 4,
+   "x": 291,
+   "y": 662,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 5,
+   "x": 363,
+   "y": 662,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 6,
+   "x": 436,
+   "y": 662,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 7,
+   "x": 509,
+   "y": 662,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 8,
+   "x": 581,
+   "y": 662,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 9,
+   "x": 654,
+   "y": 662,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 10,
+   "x": 792,
+   "y": 662,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 11,
+   "x": 861,
+   "y": 662,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 1,
+   "x": 0,
+   "y": 1324,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 2,
+   "x": 73,
+   "y": 1324,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 3,
+   "x": 218,
+   "y": 1324,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 4,
+   "x": 291,
+   "y": 1324,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 5,
+   "x": 363,
+   "y": 1324,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 6,
+   "x": 436,
+   "y": 1324,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 7,
+   "x": 509,
+   "y": 1324,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 8,
+   "x": 581,
+   "y": 1324,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 9,
+   "x": 654,
+   "y": 1324,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 10,
+   "x": 792,
+   "y": 1324,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 11,
+   "x": 861,
+   "y": 1324,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 1,
+   "x": 0,
+   "y": 1986,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 2,
+   "x": 73,
+   "y": 1986,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 3,
+   "x": 218,
+   "y": 1986,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 4,
+   "x": 291,
+   "y": 1986,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 5,
+   "x": 363,
+   "y": 1986,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 6,
+   "x": 436,
+   "y": 1986,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 7,
+   "x": 509,
+   "y": 1986,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 8,
+   "x": 581,
+   "y": 1986,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 9,
+   "x": 654,
+   "y": 1986,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 10,
+   "x": 792,
+   "y": 1986,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 11,
+   "x": 861,
+   "y": 1986,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 1,
+   "x": 0,
+   "y": 2648,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 2,
+   "x": 73,
+   "y": 2648,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 3,
+   "x": 218,
+   "y": 2648,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 4,
+   "x": 291,
+   "y": 2648,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 5,
+   "x": 363,
+   "y": 2648,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 6,
+   "x": 436,
+   "y": 2648,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 7,
+   "x": 509,
+   "y": 2648,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 8,
+   "x": 581,
+   "y": 2648,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 9,
+   "x": 654,
+   "y": 2648,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 10,
+   "x": 792,
+   "y": 2648,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 11,
+   "x": 861,
+   "y": 2648,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 1,
+   "x": 0,
+   "y": 3310,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 2,
+   "x": 73,
+   "y": 3310,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 3,
+   "x": 218,
+   "y": 3310,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 4,
+   "x": 291,
+   "y": 3310,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 5,
+   "x": 363,
+   "y": 3310,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 6,
+   "x": 436,
+   "y": 3310,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 7,
+   "x": 509,
+   "y": 3310,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 8,
+   "x": 581,
+   "y": 3310,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 9,
+   "x": 654,
+   "y": 3310,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 10,
+   "x": 792,
+   "y": 3310,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 11,
+   "x": 861,
+   "y": 3310,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 1,
+   "x": 0,
+   "y": 3972,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 2,
+   "x": 73,
+   "y": 3972,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 3,
+   "x": 218,
+   "y": 3972,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 4,
+   "x": 291,
+   "y": 3972,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 5,
+   "x": 363,
+   "y": 3972,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 6,
+   "x": 436,
+   "y": 3972,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 7,
+   "x": 509,
+   "y": 3972,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 8,
+   "x": 581,
+   "y": 3972,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 9,
+   "x": 654,
+   "y": 3972,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 10,
+   "x": 792,
+   "y": 3972,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "G",
+   "number": 11,
+   "x": 861,
+   "y": 3972,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 3,
+   "x": 218,
+   "y": 4633,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 4,
+   "x": 291,
+   "y": 4633,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 1,
+   "x": 0,
+   "y": 4634,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 2,
+   "x": 73,
+   "y": 4634,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 5,
+   "x": 363,
+   "y": 4634,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 6,
+   "x": 436,
+   "y": 4634,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 7,
+   "x": 509,
+   "y": 4634,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 8,
+   "x": 581,
+   "y": 4634,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 9,
+   "x": 654,
+   "y": 4634,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 10,
+   "x": 792,
+   "y": 4634,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 11,
+   "x": 861,
+   "y": 4634,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 1,
+   "x": 0,
+   "y": 5296,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 2,
+   "x": 73,
+   "y": 5296,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 3,
+   "x": 218,
+   "y": 5296,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 4,
+   "x": 291,
+   "y": 5296,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 5,
+   "x": 363,
+   "y": 5296,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 6,
+   "x": 436,
+   "y": 5296,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 7,
+   "x": 509,
+   "y": 5296,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 8,
+   "x": 581,
+   "y": 5296,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 9,
+   "x": 654,
+   "y": 5296,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 10,
+   "x": 792,
+   "y": 5296,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "I",
+   "number": 11,
+   "x": 861,
+   "y": 5296,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 1,
+   "x": 0,
+   "y": 5958,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 2,
+   "x": 73,
+   "y": 5958,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 3,
+   "x": 218,
+   "y": 5958,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 4,
+   "x": 291,
+   "y": 5958,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 5,
+   "x": 363,
+   "y": 5958,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 6,
+   "x": 436,
+   "y": 5958,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 7,
+   "x": 509,
+   "y": 5958,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 8,
+   "x": 581,
+   "y": 5958,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 10,
+   "x": 792,
+   "y": 5958,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "J",
+   "number": 11,
+   "x": 861,
+   "y": 5958,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": true,
+   "aisleRight": true
+  }
+ ],
+ "entrances": [
+  {
+   "x": -79,
+   "y": -576
+  }
+ ]
+}

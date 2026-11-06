@@ -52,13 +52,13 @@ Records are searched and sorted, so SQLite rather than AsyncStorage. Nothing is 
 
 ## Data sources
 
-All three chains require login for the seat page, so I save each screen's seat response once with my own account: from DevTools, or for CGV with `scripts/fetch_cgv_seats.py` (one request per manual run).
+None of the three chains need a login for showtimes or seats, so I save each screen's layout once with `scripts/fetch_layouts.py`.
 
-| Chain | Response | Notes |
-|---|---|---|
-| CGV | `searchIfSeatData` | grid coordinates, zones, aisle flags |
-| Lotte Cinema | `TicketingData.aspx` (`GetSeats`) | pixel coordinates, no theater or screen name |
-| Megabox | seat list with `seatListSD01` | grid coordinates, seat classes, last-updated dates |
+| Chain | Response | Request needs | Notes |
+|---|---|---|---|
+| CGV | `searchIfSeatData` | a browser User-Agent and a cgv.co.kr Referer | grid coordinates, zones, aisle flags |
+| Lotte Cinema | `TicketingData.aspx` (`GetSeats`) | `channelType`, `osType`, `osVersion` in ParamList | pixel coordinates, no theater or screen name |
+| Megabox | seat list with `seatListSD01` | `playSchdlNo` (showtimes: `brchNo1`, `playDe`) | grid coordinates, seat classes, last-updated dates |
 
 `scripts/extract_seat_layout.py` converts all three into one format and drops anything tied to a showing or a person: sale status, other customers' booking numbers, staff ids. Drawn as text with `render_layout.py`, all three match the sites' seat maps.
 
@@ -70,7 +70,7 @@ Collected so far (layout; raw response, ids redacted):
 
 Each screen is collected once, and again after a renovation. If collection fails, I type the row and number instead (Core flow step 2).
 
-Limits: only collected screens are covered, and login tokens expire. Lotte and Megabox have no aisle flags, so an empty neighboring cell counts as an aisle.
+Limits: only collected screens are covered. Lotte and Megabox have no aisle flags, so an empty neighboring cell counts as an aisle.
 
 ## Decisions
 
