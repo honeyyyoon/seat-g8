@@ -69,6 +69,21 @@ def from_megabox(raw):
     return meta, seats, entrances
 
 
+def to_layout(meta, seats, entrances):
+    x0, y0 = min(s["x"] for s in seats), min(s["y"] for s in seats)
+    for p in seats + entrances:
+        p["x"] -= x0
+        p["y"] -= y0
+    seats.sort(key=lambda s: (s["y"], s["x"]))
+    entrances.sort(key=lambda e: (e["y"], e["x"]))
+    cells = [(s["x"], s["y"]) for s in seats]
+    if len(set(cells)) != len(cells):
+        print(f"경고: {len(cells) - len(set(cells))}개 좌석이 다른 좌석과 같은 칸에 겹칩니다", file=sys.stderr)
+    return {**meta,
+            "grid": {"width": max(s["x"] for s in seats) + 1, "height": max(s["y"] for s in seats) + 1},
+            "seatCount": len(seats), "seats": seats, "entrances": entrances}
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("chain", choices=["cgv", "lotte", "megabox"])
@@ -84,13 +99,7 @@ def main():
         meta, seats, entrances = from_lotte(raw, args)
     else:
         meta, seats, entrances = from_megabox(raw)
-    seats.sort(key=lambda s: (s["y"], s["x"]))
-    cells = [(s["x"], s["y"]) for s in seats]
-    if len(set(cells)) != len(cells):
-        print(f"경고: {len(cells) - len(set(cells))}개 좌석이 다른 좌석과 같은 칸에 겹칩니다", file=sys.stderr)
-    layout = {**meta,
-              "grid": {"width": max(s["x"] for s in seats) + 1, "height": max(s["y"] for s in seats) + 1},
-              "seatCount": len(seats), "seats": seats, "entrances": entrances}
+    layout = to_layout(meta, seats, entrances)
     os.makedirs(os.path.dirname(args.dst) or ".", exist_ok=True)
     with open(args.dst, "w", encoding="utf-8") as f:
         json.dump(layout, f, ensure_ascii=False, indent=1)
