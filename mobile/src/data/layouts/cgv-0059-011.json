@@ -1,0 +1,261 @@
+{
+ "chain": "CGV",
+ "theater": "CGV 영등포타임스퀘어",
+ "siteNo": "0059",
+ "screen": "COWAY BEREX관",
+ "screenNo": "011",
+ "sampledShowDate": "20261114",
+ "grid": {
+  "width": 7,
+  "height": 4
+ },
+ "seatCount": 24,
+ "seats": [
+  {
+   "row": "A",
+   "number": 1,
+   "x": 0,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 2,
+   "x": 1,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 3,
+   "x": 3,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 4,
+   "x": 4,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 5,
+   "x": 5,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 6,
+   "x": 6,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 1,
+   "x": 0,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 2,
+   "x": 1,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 3,
+   "x": 3,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 4,
+   "x": 4,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 5,
+   "x": 5,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 6,
+   "x": 6,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 1,
+   "x": 0,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 2,
+   "x": 1,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 3,
+   "x": 3,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 4,
+   "x": 4,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 5,
+   "x": 5,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 6,
+   "x": 6,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 1,
+   "x": 0,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 2,
+   "x": 1,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 3,
+   "x": 3,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 4,
+   "x": 4,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 5,
+   "x": 5,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 6,
+   "x": 6,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "모션베드",
+   "aisleLeft": false,
+   "aisleRight": true
+  }
+ ],
+ "entrances": [
+  {
+   "x": 0,
+   "y": 4
+  }
+ ]
+}

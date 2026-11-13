@@ -21,17 +21,34 @@ def from_cgv(raw):
     return meta, seats, entrances
 
 
+def grid_index(values, tolerance):
+    starts = []
+    for v in sorted(set(values)):
+        if not starts or v - starts[-1][-1] > tolerance:
+            starts.append([v])
+        else:
+            starts[-1].append(v)
+    centers = [sum(c) / len(c) for c in starts]
+    gaps = [b - a for a, b in zip(centers, centers[1:])]
+    near = sorted(g for g in gaps if g < min(gaps) * 1.5) or [1]
+    step = near[len(near) // 2]
+    index, cell = {}, 0
+    for i, cluster in enumerate(starts):
+        if i:
+            cell += max(1, round(gaps[i - 1] / step))
+        for v in cluster:
+            index[v] = cell
+    return index, step, centers[0]
+
+
 def from_lotte(raw, args):
     items = raw["Seats"]["Items"]
-    xs = sorted({s["SeatXCoordinate"] for s in items})
-    ys = sorted({s["SeatYCoordinate"] for s in items})
-    step_x = min(b - a for a, b in zip(xs, xs[1:])) if len(xs) > 1 else 1
-    step_y = min(b - a for a, b in zip(ys, ys[1:])) if len(ys) > 1 else 1
-    x0, y0 = xs[0], ys[0]
+    col, step_x, x0 = grid_index([s["SeatXCoordinate"] for s in items], min(s["SeatXLength"] for s in items) / 2)
+    row, step_y, y0 = grid_index([s["SeatYCoordinate"] for s in items], min(s["SeatYLength"] for s in items) / 2)
     seats = [{
         "row": s["ShowSeatRow"], "number": s["ShowSeatColumn"],
-        "x": round((s["SeatXCoordinate"] - x0) / step_x),
-        "y": round((s["SeatYCoordinate"] - y0) / step_y),
+        "x": col[s["SeatXCoordinate"]],
+        "y": row[s["SeatYCoordinate"]],
         "zone": "스위트스팟" if s.get("SweetSpotYN") == "Y" else None,
         "kind": None,
     } for s in items]

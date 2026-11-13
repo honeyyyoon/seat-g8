@@ -1,18 +1,14 @@
+import DateTimePicker, { DateTimePickerAndroid } from '@react-native-community/datetimepicker';
 import { useState } from 'react';
-import { Modal, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { Modal, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-import { HEIGHT_LABELS, SIDE_LABELS } from '@/constants/ratings';
+import { DISCOMFORTS, HEIGHT_LABELS, SIDE_LABELS, type Discomfort } from '@/constants/ratings';
 import { colors, radius, spacing } from '@/constants/theme';
 import type { Seat } from '@/data/layouts';
 import { useDb } from '@/db/db-context';
 import { addVisit, type Rating } from '@/db/visits';
 import { takeFailNextSave } from '@/dev/fail-next-save';
-
-function today() {
-  const d = new Date();
-  const pad = (n: number) => String(n).padStart(2, '0');
-  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
-}
+import { formatKoreanDate, toIsoDate } from '@/lib/dates';
 
 type Props = {
   screenId: string;
@@ -24,12 +20,31 @@ type Props = {
 
 export function VisitForm({ screenId, subtitle, seat, onSaved, onCancel }: Props) {
   const db = useDb();
-  const [visitDate, setVisitDate] = useState(today);
+  const [visitDate, setVisitDate] = useState(() => new Date());
+  const [calendarOpen, setCalendarOpen] = useState(false);
   const [height, setHeight] = useState<Rating | null>(null);
   const [side, setSide] = useState<Rating | null>(null);
+  const [discomforts, setDiscomforts] = useState<Discomfort[]>([]);
   const [saving, setSaving] = useState(false);
   const [failed, setFailed] = useState(false);
-  const canSave = !saving && height !== null && side !== null && /^\d{4}-\d{2}-\d{2}$/.test(visitDate);
+  const canSave = !saving && height !== null && side !== null;
+
+  function openCalendar() {
+    if (Platform.OS === 'android') {
+      DateTimePickerAndroid.open({
+        value: visitDate,
+        mode: 'date',
+        maximumDate: new Date(),
+        onValueChange: (_, date) => setVisitDate(date),
+      });
+      return;
+    }
+    setCalendarOpen((open) => !open);
+  }
+
+  function toggleDiscomfort(id: Discomfort) {
+    setDiscomforts((current) => (current.includes(id) ? current.filter((d) => d !== id) : [...current, id]));
+  }
 
   async function save() {
     if (height === null || side === null) return;
@@ -38,7 +53,7 @@ export function VisitForm({ screenId, subtitle, seat, onSaved, onCancel }: Props
       if (__DEV__ && takeFailNextSave()) {
         throw new Error('forced failure');
       }
-      await addVisit(db, { screenId, seatRow: seat.row, seatNumber: seat.number, visitDate, height, side });
+      await addVisit(db, { screenId, seatRow: seat.row, seatNumber: seat.number, visitDate: toIsoDate(visitDate), height, side, discomforts });
       onSaved();
     } catch {
       setFailed(true);
@@ -57,20 +72,61 @@ export function VisitForm({ screenId, subtitle, seat, onSaved, onCancel }: Props
           </Text>
 
           <View style={styles.section}>
-            <Text style={styles.label}>날짜</Text>
-            <TextInput
-              accessibilityLabel="날짜"
-              value={visitDate}
-              onChangeText={setVisitDate}
-              placeholder="YYYY-MM-DD"
-              placeholderTextColor={colors.muted}
-              keyboardType="numbers-and-punctuation"
-              style={styles.input}
-            />
+            <View style={styles.dateRow}>
+              <Text style={styles.label}>날짜</Text>
+              <Pressable
+                accessibilityRole="button"
+                accessibilityLabel={`날짜, ${formatKoreanDate(visitDate)}`}
+                accessibilityState={{ expanded: calendarOpen }}
+                onPress={openCalendar}
+                style={({ pressed }) => [styles.dateButton, (calendarOpen || pressed) && styles.dateButtonActive]}>
+                <Text style={[styles.dateText, calendarOpen && styles.dateTextActive]}>{formatKoreanDate(visitDate)}</Text>
+              </Pressable>
+            </View>
+            {calendarOpen && (
+              <DateTimePicker
+                testID="visit-date-calendar"
+                value={visitDate}
+                mode="date"
+                display="inline"
+                locale="ko-KR"
+                maximumDate={new Date()}
+                accentColor={colors.accent}
+                themeVariant="light"
+                style={styles.calendar}
+                onValueChange={(_, date) => {
+                  setVisitDate(date);
+                  setCalendarOpen(false);
+                }}
+              />
+            )}
           </View>
 
           <RatingPicker title="높이" labels={HEIGHT_LABELS} value={height} onChange={setHeight} />
           <RatingPicker title="좌우" labels={SIDE_LABELS} value={side} onChange={setSide} />
+
+          <View style={styles.section}>
+            <View style={styles.labelRow}>
+              <Text style={styles.label}>불편했던 점</Text>
+              <Text style={styles.optional}>선택</Text>
+            </View>
+            <View style={styles.options}>
+              {DISCOMFORTS.map(({ id, label }) => {
+                const selected = discomforts.includes(id);
+                return (
+                  <Pressable
+                    key={id}
+                    accessibilityRole="checkbox"
+                    accessibilityLabel={`불편: ${label}`}
+                    accessibilityState={{ checked: selected }}
+                    onPress={() => toggleDiscomfort(id)}
+                    style={[styles.option, selected && styles.discomfortSelected]}>
+                    <Text style={[styles.optionText, selected && styles.discomfortTextSelected]}>{label}</Text>
+                  </Pressable>
+                );
+              })}
+            </View>
+          </View>
 
           {failed && (
             <View style={styles.errorBanner}>
@@ -137,16 +193,16 @@ const styles = StyleSheet.create({
   title: { fontSize: 30, fontWeight: '800', color: colors.ink, marginTop: -spacing.md },
   section: { backgroundColor: colors.surface, borderRadius: radius.lg, padding: spacing.lg, gap: spacing.md },
   label: { fontSize: 15, fontWeight: '700', color: colors.ink },
-  input: {
-    borderWidth: 1,
-    borderColor: colors.line,
-    borderRadius: radius.md,
-    paddingHorizontal: spacing.md,
-    paddingVertical: 10,
-    fontSize: 16,
-    color: colors.ink,
-    backgroundColor: colors.bg,
-  },
+  calendar: { alignSelf: 'center' },
+  dateRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
+  dateButton: { backgroundColor: colors.bg, borderRadius: radius.md, paddingHorizontal: spacing.md, paddingVertical: 8 },
+  dateButtonActive: { backgroundColor: colors.accentSoft },
+  dateText: { fontSize: 16, color: colors.ink, fontWeight: '600' },
+  dateTextActive: { color: colors.accent },
+  labelRow: { flexDirection: 'row', alignItems: 'baseline', gap: spacing.sm },
+  optional: { fontSize: 13, color: colors.muted },
+  discomfortSelected: { backgroundColor: colors.errorSoft, borderColor: colors.error },
+  discomfortTextSelected: { color: colors.error, fontWeight: '700' },
   options: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm },
   option: { borderWidth: 1, borderColor: colors.line, backgroundColor: colors.surface, borderRadius: 999, paddingVertical: 8, paddingHorizontal: 14 },
   optionSelected: { backgroundColor: colors.accent, borderColor: colors.accent },
