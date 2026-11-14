@@ -4,9 +4,9 @@
  "siteNo": "1007",
  "screen": "7관",
  "screenNo": "100707",
- "sampledShowDate": "20261106",
+ "sampledShowDate": "20261114",
  "grid": {
-  "width": 16,
+  "width": 17,
   "height": 8
  },
  "seatCount": 84,
@@ -124,7 +124,7 @@
   {
    "row": "A",
    "number": 12,
-   "x": 14,
+   "x": 15,
    "y": 0,
    "zone": null,
    "kind": null,
@@ -134,7 +134,7 @@
   {
    "row": "A",
    "number": 13,
-   "x": 15,
+   "x": 16,
    "y": 0,
    "zone": null,
    "kind": null,
@@ -254,7 +254,7 @@
   {
    "row": "B",
    "number": 12,
-   "x": 14,
+   "x": 15,
    "y": 1,
    "zone": null,
    "kind": null,
@@ -264,7 +264,7 @@
   {
    "row": "B",
    "number": 13,
-   "x": 15,
+   "x": 16,
    "y": 1,
    "zone": null,
    "kind": null,
@@ -384,7 +384,7 @@
   {
    "row": "C",
    "number": 12,
-   "x": 14,
+   "x": 15,
    "y": 2,
    "zone": null,
    "kind": null,
@@ -394,7 +394,7 @@
   {
    "row": "C",
    "number": 13,
-   "x": 15,
+   "x": 16,
    "y": 2,
    "zone": null,
    "kind": null,
@@ -494,7 +494,7 @@
   {
    "row": "D",
    "number": 12,
-   "x": 14,
+   "x": 15,
    "y": 4,
    "zone": null,
    "kind": null,
@@ -504,7 +504,7 @@
   {
    "row": "D",
    "number": 13,
-   "x": 15,
+   "x": 16,
    "y": 4,
    "zone": null,
    "kind": null,
@@ -604,7 +604,7 @@
   {
    "row": "E",
    "number": 12,
-   "x": 14,
+   "x": 15,
    "y": 5,
    "zone": null,
    "kind": null,
@@ -614,7 +614,7 @@
   {
    "row": "E",
    "number": 13,
-   "x": 15,
+   "x": 16,
    "y": 5,
    "zone": null,
    "kind": null,
@@ -714,7 +714,7 @@
   {
    "row": "F",
    "number": 12,
-   "x": 14,
+   "x": 15,
    "y": 6,
    "zone": null,
    "kind": null,
@@ -724,7 +724,7 @@
   {
    "row": "F",
    "number": 13,
-   "x": 15,
+   "x": 16,
    "y": 6,
    "zone": null,
    "kind": null,
@@ -834,7 +834,7 @@
   {
    "row": "G",
    "number": 12,
-   "x": 14,
+   "x": 15,
    "y": 7,
    "zone": null,
    "kind": null,
@@ -844,7 +844,7 @@
   {
    "row": "G",
    "number": 13,
-   "x": 15,
+   "x": 16,
    "y": 7,
    "zone": null,
    "kind": null,

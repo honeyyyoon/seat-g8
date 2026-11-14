@@ -4,9 +4,9 @@
  "siteNo": "1013",
  "screen": "1관",
  "screenNo": "101301",
- "sampledShowDate": "20261106",
+ "sampledShowDate": "20261114",
  "grid": {
-  "width": 19,
+  "width": 20,
   "height": 11
  },
  "seatCount": 164,
@@ -99,31 +99,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "A",
    "number": 10,
-   "x": 10,
+   "x": 11,
    "y": 0,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "A",
    "number": 11,
-   "x": 11,
-   "y": 0,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "A",
-   "number": 12,
    "x": 12,
    "y": 0,
    "zone": null,
@@ -133,8 +123,18 @@
   },
   {
    "row": "A",
-   "number": 13,
+   "number": 12,
    "x": 13,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 13,
+   "x": 14,
    "y": 0,
    "zone": null,
    "kind": null,
@@ -144,7 +144,7 @@
   {
    "row": "A",
    "number": 14,
-   "x": 15,
+   "x": 16,
    "y": 0,
    "zone": null,
    "kind": null,
@@ -154,16 +154,6 @@
   {
    "row": "A",
    "number": 15,
-   "x": 16,
-   "y": 0,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "A",
-   "number": 16,
    "x": 17,
    "y": 0,
    "zone": null,
@@ -173,8 +163,18 @@
   },
   {
    "row": "A",
-   "number": 17,
+   "number": 16,
    "x": 18,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 17,
+   "x": 19,
    "y": 0,
    "zone": null,
    "kind": null,
@@ -269,31 +269,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "B",
    "number": 10,
-   "x": 10,
+   "x": 11,
    "y": 1,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "B",
    "number": 11,
-   "x": 11,
-   "y": 1,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "B",
-   "number": 12,
    "x": 12,
    "y": 1,
    "zone": null,
@@ -303,8 +293,18 @@
   },
   {
    "row": "B",
-   "number": 13,
+   "number": 12,
    "x": 13,
+   "y": 1,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 13,
+   "x": 14,
    "y": 1,
    "zone": null,
    "kind": null,
@@ -314,7 +314,7 @@
   {
    "row": "B",
    "number": 14,
-   "x": 15,
+   "x": 16,
    "y": 1,
    "zone": null,
    "kind": null,
@@ -324,16 +324,6 @@
   {
    "row": "B",
    "number": 15,
-   "x": 16,
-   "y": 1,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "B",
-   "number": 16,
    "x": 17,
    "y": 1,
    "zone": null,
@@ -343,8 +333,18 @@
   },
   {
    "row": "B",
-   "number": 17,
+   "number": 16,
    "x": 18,
+   "y": 1,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 17,
+   "x": 19,
    "y": 1,
    "zone": null,
    "kind": null,
@@ -439,31 +439,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "C",
    "number": 10,
-   "x": 10,
+   "x": 11,
    "y": 2,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "C",
    "number": 11,
-   "x": 11,
-   "y": 2,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "C",
-   "number": 12,
    "x": 12,
    "y": 2,
    "zone": null,
@@ -473,8 +463,18 @@
   },
   {
    "row": "C",
-   "number": 13,
+   "number": 12,
    "x": 13,
+   "y": 2,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 13,
+   "x": 14,
    "y": 2,
    "zone": null,
    "kind": null,
@@ -484,7 +484,7 @@
   {
    "row": "C",
    "number": 14,
-   "x": 15,
+   "x": 16,
    "y": 2,
    "zone": null,
    "kind": null,
@@ -494,16 +494,6 @@
   {
    "row": "C",
    "number": 15,
-   "x": 16,
-   "y": 2,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "C",
-   "number": 16,
    "x": 17,
    "y": 2,
    "zone": null,
@@ -513,8 +503,18 @@
   },
   {
    "row": "C",
-   "number": 17,
+   "number": 16,
    "x": 18,
+   "y": 2,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 17,
+   "x": 19,
    "y": 2,
    "zone": null,
    "kind": null,
@@ -609,31 +609,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "D",
    "number": 10,
-   "x": 10,
+   "x": 11,
    "y": 3,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "D",
    "number": 11,
-   "x": 11,
-   "y": 3,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "D",
-   "number": 12,
    "x": 12,
    "y": 3,
    "zone": null,
@@ -643,8 +633,18 @@
   },
   {
    "row": "D",
-   "number": 13,
+   "number": 12,
    "x": 13,
+   "y": 3,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 13,
+   "x": 14,
    "y": 3,
    "zone": null,
    "kind": null,
@@ -654,7 +654,7 @@
   {
    "row": "D",
    "number": 14,
-   "x": 15,
+   "x": 16,
    "y": 3,
    "zone": null,
    "kind": null,
@@ -664,16 +664,6 @@
   {
    "row": "D",
    "number": 15,
-   "x": 16,
-   "y": 3,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "D",
-   "number": 16,
    "x": 17,
    "y": 3,
    "zone": null,
@@ -683,8 +673,18 @@
   },
   {
    "row": "D",
-   "number": 17,
+   "number": 16,
    "x": 18,
+   "y": 3,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 17,
+   "x": 19,
    "y": 3,
    "zone": null,
    "kind": null,
@@ -779,31 +779,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "E",
    "number": 10,
-   "x": 10,
+   "x": 11,
    "y": 4,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "E",
    "number": 11,
-   "x": 11,
-   "y": 4,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "E",
-   "number": 12,
    "x": 12,
    "y": 4,
    "zone": null,
@@ -813,8 +803,18 @@
   },
   {
    "row": "E",
-   "number": 13,
+   "number": 12,
    "x": 13,
+   "y": 4,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 13,
+   "x": 14,
    "y": 4,
    "zone": null,
    "kind": null,
@@ -824,7 +824,7 @@
   {
    "row": "E",
    "number": 14,
-   "x": 15,
+   "x": 16,
    "y": 4,
    "zone": null,
    "kind": null,
@@ -834,16 +834,6 @@
   {
    "row": "E",
    "number": 15,
-   "x": 16,
-   "y": 4,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "E",
-   "number": 16,
    "x": 17,
    "y": 4,
    "zone": null,
@@ -853,8 +843,18 @@
   },
   {
    "row": "E",
-   "number": 17,
+   "number": 16,
    "x": 18,
+   "y": 4,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 17,
+   "x": 19,
    "y": 4,
    "zone": null,
    "kind": null,
@@ -949,31 +949,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "F",
    "number": 10,
-   "x": 10,
+   "x": 11,
    "y": 5,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "F",
    "number": 11,
-   "x": 11,
-   "y": 5,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "F",
-   "number": 12,
    "x": 12,
    "y": 5,
    "zone": null,
@@ -983,8 +973,18 @@
   },
   {
    "row": "F",
-   "number": 13,
+   "number": 12,
    "x": 13,
+   "y": 5,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 13,
+   "x": 14,
    "y": 5,
    "zone": null,
    "kind": null,
@@ -994,7 +994,7 @@
   {
    "row": "F",
    "number": 14,
-   "x": 15,
+   "x": 16,
    "y": 5,
    "zone": null,
    "kind": null,
@@ -1004,16 +1004,6 @@
   {
    "row": "F",
    "number": 15,
-   "x": 16,
-   "y": 5,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "F",
-   "number": 16,
    "x": 17,
    "y": 5,
    "zone": null,
@@ -1023,8 +1013,18 @@
   },
   {
    "row": "F",
-   "number": 17,
+   "number": 16,
    "x": 18,
+   "y": 5,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 17,
+   "x": 19,
    "y": 5,
    "zone": null,
    "kind": null,
@@ -1119,31 +1119,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "G",
    "number": 10,
-   "x": 10,
+   "x": 11,
    "y": 6,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "G",
    "number": 11,
-   "x": 11,
-   "y": 6,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "G",
-   "number": 12,
    "x": 12,
    "y": 6,
    "zone": null,
@@ -1153,8 +1143,18 @@
   },
   {
    "row": "G",
-   "number": 13,
+   "number": 12,
    "x": 13,
+   "y": 6,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 13,
+   "x": 14,
    "y": 6,
    "zone": null,
    "kind": null,
@@ -1164,7 +1164,7 @@
   {
    "row": "G",
    "number": 14,
-   "x": 15,
+   "x": 16,
    "y": 6,
    "zone": null,
    "kind": null,
@@ -1174,16 +1174,6 @@
   {
    "row": "G",
    "number": 15,
-   "x": 16,
-   "y": 6,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "G",
-   "number": 16,
    "x": 17,
    "y": 6,
    "zone": null,
@@ -1193,8 +1183,18 @@
   },
   {
    "row": "G",
-   "number": 17,
+   "number": 16,
    "x": 18,
+   "y": 6,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 17,
+   "x": 19,
    "y": 6,
    "zone": null,
    "kind": null,
@@ -1289,31 +1289,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "H",
    "number": 10,
-   "x": 10,
+   "x": 11,
    "y": 7,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "H",
    "number": 11,
-   "x": 11,
-   "y": 7,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "H",
-   "number": 12,
    "x": 12,
    "y": 7,
    "zone": null,
@@ -1323,8 +1313,18 @@
   },
   {
    "row": "H",
-   "number": 13,
+   "number": 12,
    "x": 13,
+   "y": 7,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 13,
+   "x": 14,
    "y": 7,
    "zone": null,
    "kind": null,
@@ -1334,7 +1334,7 @@
   {
    "row": "H",
    "number": 14,
-   "x": 15,
+   "x": 16,
    "y": 7,
    "zone": null,
    "kind": null,
@@ -1344,16 +1344,6 @@
   {
    "row": "H",
    "number": 15,
-   "x": 16,
-   "y": 7,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "H",
-   "number": 16,
    "x": 17,
    "y": 7,
    "zone": null,
@@ -1363,8 +1353,18 @@
   },
   {
    "row": "H",
-   "number": 17,
+   "number": 16,
    "x": 18,
+   "y": 7,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 17,
+   "x": 19,
    "y": 7,
    "zone": null,
    "kind": null,
@@ -1459,31 +1459,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "I",
    "number": 10,
-   "x": 10,
+   "x": 11,
    "y": 8,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "I",
    "number": 11,
-   "x": 11,
-   "y": 8,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "I",
-   "number": 12,
    "x": 12,
    "y": 8,
    "zone": null,
@@ -1493,8 +1483,18 @@
   },
   {
    "row": "I",
-   "number": 13,
+   "number": 12,
    "x": 13,
+   "y": 8,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "I",
+   "number": 13,
+   "x": 14,
    "y": 8,
    "zone": null,
    "kind": null,
@@ -1589,22 +1589,22 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "J",
    "number": 10,
-   "x": 10,
+   "x": 11,
    "y": 9,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "J",
    "number": 11,
-   "x": 11,
+   "x": 12,
    "y": 9,
    "zone": null,
    "kind": null,

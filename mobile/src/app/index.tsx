@@ -1,22 +1,59 @@
 import { router } from 'expo-router';
 import { useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { chainColors, colors, radius, spacing } from '@/constants/theme';
 import { listChains, type Chain, type Theater } from '@/data/layouts';
 
-const chains = listChains();
+function screenCount(chains: Chain[]) {
+  return chains.reduce((sum, chain) => sum + chain.screenCount, 0);
+}
 
 export default function HomeScreen() {
+  const [query, setQuery] = useState('');
+  const searching = query.trim().length > 0;
+  const chains = listChains(query);
   return (
-    <ScrollView contentInsetAdjustmentBehavior="never" contentContainerStyle={styles.content}>
+    <ScrollView
+      contentInsetAdjustmentBehavior="never"
+      contentContainerStyle={styles.content}
+      keyboardShouldPersistTaps="handled"
+      keyboardDismissMode="on-drag">
       <Hero />
       <View style={styles.list}>
-        <Text style={styles.sectionLabel}>기록할 상영관을 골라요</Text>
+        <View style={styles.search}>
+          <Text style={styles.searchIcon}>⌕</Text>
+          <TextInput
+            accessibilityLabel="극장·상영관 검색"
+            value={query}
+            onChangeText={setQuery}
+            placeholder="극장·상영관 검색 (신림, IMAX)"
+            placeholderTextColor={colors.muted}
+            returnKeyType="search"
+            autoCorrect={false}
+            autoCapitalize="none"
+            clearButtonMode="while-editing"
+            style={styles.searchInput}
+          />
+        </View>
+        <Text style={styles.sectionLabel}>
+          {searching
+            ? `검색 결과 ${screenCount(chains)}개`
+            : `극장 ${chains.reduce((sum, chain) => sum + chain.theaters.length, 0)}곳 · 상영관 ${screenCount(chains)}개`}
+        </Text>
         {chains.map((chain) => (
-          <ChainCard key={chain.name} chain={chain} />
+          <ChainCard key={chain.name} chain={chain} searching={searching} />
         ))}
+        {searching && chains.length === 0 && (
+          <View style={styles.empty}>
+            <Text style={styles.emptyTitle}>‘{query.trim()}’에 맞는 상영관이 없어요</Text>
+            <Text style={styles.emptyBody}>극장 이름(신림, 코엑스)이나 상영관(IMAX, 4DX)으로 찾아보세요.</Text>
+            <Pressable accessibilityRole="button" onPress={() => setQuery('')} style={styles.emptyButton}>
+              <Text style={styles.emptyButtonText}>검색 지우기</Text>
+            </Pressable>
+          </View>
+        )}
       </View>
     </ScrollView>
   );
@@ -41,7 +78,7 @@ function Hero() {
   );
 }
 
-function ChainCard({ chain }: { chain: Chain }) {
+function ChainCard({ chain, searching }: { chain: Chain; searching: boolean }) {
   const color = chainColors[chain.name] ?? colors.accent;
   return (
     <View style={styles.card}>
@@ -50,14 +87,22 @@ function ChainCard({ chain }: { chain: Chain }) {
         <Text style={styles.chainName}>{chain.name}</Text>
       </View>
       {chain.theaters.map((theater) => (
-        <TheaterGroup key={theater.name} chain={chain.name} theater={theater} color={color} />
+        <TheaterGroup
+          key={`${theater.name}-${searching}`}
+          chain={chain.name}
+          theater={theater}
+          color={color}
+          initiallyOpen={searching}
+        />
       ))}
     </View>
   );
 }
 
-function TheaterGroup({ chain, theater, color }: { chain: string; theater: Theater; color: string }) {
-  const [open, setOpen] = useState(false);
+type TheaterGroupProps = { chain: string; theater: Theater; color: string; initiallyOpen: boolean };
+
+function TheaterGroup({ chain, theater, color, initiallyOpen }: TheaterGroupProps) {
+  const [open, setOpen] = useState(initiallyOpen);
   return (
     <View style={styles.group}>
       <Pressable
@@ -114,6 +159,20 @@ const styles = StyleSheet.create({
   motifSeatOn: { backgroundColor: colors.accent },
   heroTitle: { fontSize: 40, fontWeight: '900', color: colors.accent, letterSpacing: -1 },
   list: { padding: spacing.lg, gap: spacing.md },
+  search: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: colors.surface,
+    borderRadius: radius.lg,
+    paddingHorizontal: spacing.md,
+  },
+  searchIcon: { fontSize: 20, color: colors.muted, marginRight: spacing.xs },
+  searchInput: { flex: 1, fontSize: 16, color: colors.ink, paddingVertical: 12 },
+  empty: { backgroundColor: colors.surface, borderRadius: radius.lg, padding: spacing.lg, gap: spacing.sm },
+  emptyTitle: { fontSize: 16, fontWeight: '700', color: colors.ink },
+  emptyBody: { fontSize: 14, color: colors.muted, lineHeight: 20 },
+  emptyButton: { alignSelf: 'flex-start', marginTop: spacing.xs, paddingVertical: 6 },
+  emptyButtonText: { fontSize: 15, fontWeight: '700', color: colors.accent },
   sectionLabel: { fontSize: 13, fontWeight: '700', color: colors.muted, marginTop: spacing.sm, marginLeft: spacing.xs },
   card: { backgroundColor: colors.surface, borderRadius: radius.lg, overflow: 'hidden' },
   cardHeader: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: spacing.lg, paddingTop: spacing.lg, paddingBottom: spacing.sm },

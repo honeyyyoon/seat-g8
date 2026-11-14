@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react';
-import { ActivityIndicator, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Alert, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { SeatGrid } from '@/components/seat-grid';
+import { SeatLookup } from '@/components/seat-lookup';
 import { VisitDetail } from '@/components/visit-detail';
 import { VisitForm } from '@/components/visit-form';
 import { colors, radius, spacing } from '@/constants/theme';
 import { seatKey, type Layout, type Seat } from '@/data/layouts';
 import { useDb } from '@/db/db-context';
-import { listVisitsByScreen, type Visit } from '@/db/visits';
+import { deleteVisit, listVisitsByScreen, type Visit } from '@/db/visits';
 import { isFailNextSaveArmed, setFailNextSave } from '@/dev/fail-next-save';
 
 type LoadState = { status: 'loading' } | { status: 'error' } | { status: 'ready'; visits: Visit[] };
@@ -63,6 +64,22 @@ export function ScreenView({ layout }: { layout: Layout }) {
     setRecordAfterDetail(false);
   }
 
+  async function removeVisit(visit: Visit) {
+    try {
+      await deleteVisit(db, visit.id);
+    } catch {
+      Alert.alert('기록을 지우지 못했어요', '잠시 뒤에 다시 시도해 주세요.');
+      return;
+    }
+    const left = visits.filter(
+      (v) => v.id !== visit.id && v.seatRow === visit.seatRow && v.seatNumber === visit.seatNumber,
+    );
+    if (left.length === 0) {
+      closeDetail(false);
+    }
+    setReloadKey((k) => k + 1);
+  }
+
   function retry() {
     setState({ status: 'loading' });
     setReloadKey((k) => k + 1);
@@ -103,7 +120,7 @@ export function ScreenView({ layout }: { layout: Layout }) {
       )}
       {state.status === 'ready' && visits.length === 0 && (
         <View style={[styles.banner, styles.bannerInfo]}>
-          <Text style={styles.infoText}>아직 기록이 없어요. 앉았던 좌석을 눌러 기록해 보세요.</Text>
+          <Text style={styles.infoText}>앉았던 좌석을 누르거나 번호로 골라 기록해 보세요.</Text>
         </View>
       )}
 
@@ -115,6 +132,8 @@ export function ScreenView({ layout }: { layout: Layout }) {
         </View>
       </View>
 
+      <SeatLookup layout={layout} onSelect={pressSeat} />
+
       {detailSeat && (
         <VisitDetail
           visible={detailOpen}
@@ -122,6 +141,7 @@ export function ScreenView({ layout }: { layout: Layout }) {
           seat={detailSeat}
           visits={visits.filter((v) => v.seatRow === detailSeat.row && v.seatNumber === detailSeat.number)}
           onRecordAgain={() => closeDetail(true)}
+          onDelete={removeVisit}
           onClose={() => closeDetail(false)}
           onDismiss={() => finishDetail()}
         />

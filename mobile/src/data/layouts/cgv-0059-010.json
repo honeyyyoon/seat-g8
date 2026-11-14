@@ -1,0 +1,2205 @@
+{
+ "chain": "CGV",
+ "theater": "CGV 영등포타임스퀘어",
+ "siteNo": "0059",
+ "screen": "SCREENX관 (리클라이너) with PRIVATE BOX",
+ "screenNo": "010",
+ "sampledShowDate": "20261114",
+ "grid": {
+  "width": 42,
+  "height": 6
+ },
+ "seatCount": 218,
+ "seats": [
+  {
+   "row": "A",
+   "number": 5,
+   "x": 4,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 6,
+   "x": 5,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 7,
+   "x": 6,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 8,
+   "x": 7,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 9,
+   "x": 9,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 10,
+   "x": 10,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 11,
+   "x": 11,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 12,
+   "x": 12,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 13,
+   "x": 13,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 14,
+   "x": 14,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 15,
+   "x": 16,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 16,
+   "x": 17,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 17,
+   "x": 18,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 18,
+   "x": 19,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 19,
+   "x": 20,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 20,
+   "x": 21,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 21,
+   "x": 22,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 22,
+   "x": 23,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 23,
+   "x": 24,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 24,
+   "x": 25,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 25,
+   "x": 27,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 26,
+   "x": 28,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 27,
+   "x": 29,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 28,
+   "x": 30,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 29,
+   "x": 31,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 30,
+   "x": 32,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 31,
+   "x": 34,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 32,
+   "x": 35,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 33,
+   "x": 36,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 34,
+   "x": 37,
+   "y": 0,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 1,
+   "x": 0,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 2,
+   "x": 1,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 3,
+   "x": 2,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 4,
+   "x": 3,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 5,
+   "x": 4,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 6,
+   "x": 5,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 7,
+   "x": 6,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 8,
+   "x": 7,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 9,
+   "x": 9,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 10,
+   "x": 10,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 11,
+   "x": 11,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 12,
+   "x": 12,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 13,
+   "x": 13,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 14,
+   "x": 14,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 15,
+   "x": 16,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 16,
+   "x": 17,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 17,
+   "x": 18,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 18,
+   "x": 19,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 19,
+   "x": 20,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 20,
+   "x": 21,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 21,
+   "x": 22,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 22,
+   "x": 23,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 23,
+   "x": 24,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 24,
+   "x": 25,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 25,
+   "x": 27,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 26,
+   "x": 28,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 27,
+   "x": 29,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 28,
+   "x": 30,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 29,
+   "x": 31,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 30,
+   "x": 32,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 31,
+   "x": 34,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 32,
+   "x": 35,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 33,
+   "x": 36,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 34,
+   "x": 37,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 35,
+   "x": 38,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 36,
+   "x": 39,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 37,
+   "x": 40,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 38,
+   "x": 41,
+   "y": 1,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 1,
+   "x": 0,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 2,
+   "x": 1,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 3,
+   "x": 2,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 4,
+   "x": 3,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 5,
+   "x": 4,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 6,
+   "x": 5,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 7,
+   "x": 6,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 8,
+   "x": 7,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 9,
+   "x": 9,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 10,
+   "x": 10,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 11,
+   "x": 11,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 12,
+   "x": 12,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 13,
+   "x": 13,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 14,
+   "x": 14,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 15,
+   "x": 16,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 16,
+   "x": 17,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 17,
+   "x": 18,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 18,
+   "x": 19,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 19,
+   "x": 20,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 20,
+   "x": 21,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 21,
+   "x": 22,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 22,
+   "x": 23,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 23,
+   "x": 24,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 24,
+   "x": 25,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 25,
+   "x": 27,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 26,
+   "x": 28,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 27,
+   "x": 29,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 28,
+   "x": 30,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 29,
+   "x": 31,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 30,
+   "x": 32,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 31,
+   "x": 34,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 32,
+   "x": 35,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 33,
+   "x": 36,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 34,
+   "x": 37,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 35,
+   "x": 38,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 36,
+   "x": 39,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 37,
+   "x": 40,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 38,
+   "x": 41,
+   "y": 2,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 1,
+   "x": 0,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 2,
+   "x": 1,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 3,
+   "x": 2,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 4,
+   "x": 3,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 5,
+   "x": 4,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 6,
+   "x": 5,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 7,
+   "x": 6,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 8,
+   "x": 7,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 9,
+   "x": 9,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 10,
+   "x": 10,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 11,
+   "x": 11,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 12,
+   "x": 12,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 13,
+   "x": 13,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 14,
+   "x": 14,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 15,
+   "x": 16,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 16,
+   "x": 17,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 17,
+   "x": 18,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 18,
+   "x": 19,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 19,
+   "x": 20,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 20,
+   "x": 21,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 21,
+   "x": 22,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 22,
+   "x": 23,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 23,
+   "x": 24,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 24,
+   "x": 25,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 25,
+   "x": 27,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 26,
+   "x": 28,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 27,
+   "x": 29,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 28,
+   "x": 30,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 29,
+   "x": 31,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 30,
+   "x": 32,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 31,
+   "x": 34,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 32,
+   "x": 35,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 33,
+   "x": 36,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 34,
+   "x": 37,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 35,
+   "x": 38,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 36,
+   "x": 39,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 37,
+   "x": 40,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 38,
+   "x": 41,
+   "y": 3,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 1,
+   "x": 0,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 2,
+   "x": 1,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 3,
+   "x": 2,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 4,
+   "x": 3,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 5,
+   "x": 4,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 6,
+   "x": 5,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 7,
+   "x": 6,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 8,
+   "x": 7,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 9,
+   "x": 9,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 10,
+   "x": 10,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 11,
+   "x": 11,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 12,
+   "x": 12,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 13,
+   "x": 13,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 14,
+   "x": 14,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 15,
+   "x": 16,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 16,
+   "x": 17,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 17,
+   "x": 18,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 18,
+   "x": 19,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 19,
+   "x": 20,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 20,
+   "x": 21,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 21,
+   "x": 22,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 22,
+   "x": 23,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 23,
+   "x": 24,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 24,
+   "x": 25,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 25,
+   "x": 27,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 26,
+   "x": 28,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 27,
+   "x": 29,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 28,
+   "x": 30,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 29,
+   "x": 31,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 30,
+   "x": 32,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 31,
+   "x": 34,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 32,
+   "x": 35,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 33,
+   "x": 36,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 34,
+   "x": 37,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 35,
+   "x": 38,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 36,
+   "x": 39,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 37,
+   "x": 40,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 38,
+   "x": 41,
+   "y": 4,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 2,
+   "x": 1,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 3,
+   "x": 2,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 4,
+   "x": 3,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 5,
+   "x": 4,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 6,
+   "x": 5,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 7,
+   "x": 6,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 8,
+   "x": 7,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 9,
+   "x": 9,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 10,
+   "x": 10,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 11,
+   "x": 11,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 12,
+   "x": 12,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 13,
+   "x": 13,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 14,
+   "x": 14,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 15,
+   "x": 16,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 16,
+   "x": 17,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 17,
+   "x": 18,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 18,
+   "x": 19,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 19,
+   "x": 20,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 20,
+   "x": 21,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 21,
+   "x": 22,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 22,
+   "x": 23,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 23,
+   "x": 24,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 24,
+   "x": 25,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 25,
+   "x": 27,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 26,
+   "x": 28,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 27,
+   "x": 29,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 28,
+   "x": 30,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 29,
+   "x": 31,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 30,
+   "x": 32,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 31,
+   "x": 34,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 32,
+   "x": 35,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 33,
+   "x": 36,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 34,
+   "x": 37,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 35,
+   "x": 38,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 36,
+   "x": 39,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 37,
+   "x": 40,
+   "y": 5,
+   "zone": "일반존",
+   "kind": "C)리클라이너",
+   "aisleLeft": false,
+   "aisleRight": true
+  }
+ ],
+ "entrances": [
+  {
+   "x": 31,
+   "y": -1
+  },
+  {
+   "x": 42,
+   "y": -1
+  }
+ ]
+}

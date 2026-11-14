@@ -4,10 +4,10 @@
  "siteNo": "1007",
  "screen": "5관",
  "screenNo": "100705",
- "sampledShowDate": "20261106",
+ "sampledShowDate": "20261114",
  "grid": {
-  "width": 862,
-  "height": 5959
+  "width": 13,
+  "height": 10
  },
  "seatCount": 109,
  "seats": [
@@ -19,1093 +19,1093 @@
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "A",
    "number": 2,
-   "x": 73,
+   "x": 1,
    "y": 0,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "A",
    "number": 3,
-   "x": 218,
+   "x": 3,
    "y": 0,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "A",
    "number": 4,
-   "x": 291,
+   "x": 4,
    "y": 0,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "A",
    "number": 5,
-   "x": 363,
+   "x": 5,
    "y": 0,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "A",
    "number": 6,
-   "x": 436,
+   "x": 6,
    "y": 0,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "A",
    "number": 7,
-   "x": 510,
+   "x": 7,
    "y": 0,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "A",
    "number": 8,
-   "x": 581,
+   "x": 8,
    "y": 0,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "A",
    "number": 9,
-   "x": 654,
+   "x": 9,
    "y": 0,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "A",
    "number": 10,
-   "x": 792,
+   "x": 11,
    "y": 0,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "A",
    "number": 11,
-   "x": 861,
+   "x": 12,
    "y": 0,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "B",
    "number": 1,
    "x": 0,
-   "y": 662,
+   "y": 1,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "B",
    "number": 2,
-   "x": 73,
-   "y": 662,
+   "x": 1,
+   "y": 1,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "B",
    "number": 3,
-   "x": 218,
-   "y": 662,
+   "x": 3,
+   "y": 1,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "B",
    "number": 4,
-   "x": 291,
-   "y": 662,
+   "x": 4,
+   "y": 1,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "B",
    "number": 5,
-   "x": 363,
-   "y": 662,
+   "x": 5,
+   "y": 1,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "B",
    "number": 6,
-   "x": 436,
-   "y": 662,
+   "x": 6,
+   "y": 1,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "B",
    "number": 7,
-   "x": 509,
-   "y": 662,
+   "x": 7,
+   "y": 1,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "B",
    "number": 8,
-   "x": 581,
-   "y": 662,
+   "x": 8,
+   "y": 1,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "B",
    "number": 9,
-   "x": 654,
-   "y": 662,
+   "x": 9,
+   "y": 1,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "B",
    "number": 10,
-   "x": 792,
-   "y": 662,
+   "x": 11,
+   "y": 1,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "B",
    "number": 11,
-   "x": 861,
-   "y": 662,
+   "x": 12,
+   "y": 1,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "C",
    "number": 1,
    "x": 0,
-   "y": 1324,
+   "y": 2,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "C",
    "number": 2,
-   "x": 73,
-   "y": 1324,
+   "x": 1,
+   "y": 2,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "C",
    "number": 3,
-   "x": 218,
-   "y": 1324,
+   "x": 3,
+   "y": 2,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "C",
    "number": 4,
-   "x": 291,
-   "y": 1324,
+   "x": 4,
+   "y": 2,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "C",
    "number": 5,
-   "x": 363,
-   "y": 1324,
+   "x": 5,
+   "y": 2,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "C",
    "number": 6,
-   "x": 436,
-   "y": 1324,
+   "x": 6,
+   "y": 2,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "C",
    "number": 7,
-   "x": 509,
-   "y": 1324,
+   "x": 7,
+   "y": 2,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "C",
    "number": 8,
-   "x": 581,
-   "y": 1324,
+   "x": 8,
+   "y": 2,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "C",
    "number": 9,
-   "x": 654,
-   "y": 1324,
+   "x": 9,
+   "y": 2,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "C",
    "number": 10,
-   "x": 792,
-   "y": 1324,
+   "x": 11,
+   "y": 2,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "C",
    "number": 11,
-   "x": 861,
-   "y": 1324,
+   "x": 12,
+   "y": 2,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "D",
    "number": 1,
    "x": 0,
-   "y": 1986,
+   "y": 3,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "D",
    "number": 2,
-   "x": 73,
-   "y": 1986,
+   "x": 1,
+   "y": 3,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "D",
    "number": 3,
-   "x": 218,
-   "y": 1986,
+   "x": 3,
+   "y": 3,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "D",
    "number": 4,
-   "x": 291,
-   "y": 1986,
+   "x": 4,
+   "y": 3,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "D",
    "number": 5,
-   "x": 363,
-   "y": 1986,
+   "x": 5,
+   "y": 3,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "D",
    "number": 6,
-   "x": 436,
-   "y": 1986,
+   "x": 6,
+   "y": 3,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "D",
    "number": 7,
-   "x": 509,
-   "y": 1986,
+   "x": 7,
+   "y": 3,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "D",
    "number": 8,
-   "x": 581,
-   "y": 1986,
+   "x": 8,
+   "y": 3,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "D",
    "number": 9,
-   "x": 654,
-   "y": 1986,
+   "x": 9,
+   "y": 3,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "D",
    "number": 10,
-   "x": 792,
-   "y": 1986,
+   "x": 11,
+   "y": 3,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "D",
    "number": 11,
-   "x": 861,
-   "y": 1986,
+   "x": 12,
+   "y": 3,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "E",
    "number": 1,
    "x": 0,
-   "y": 2648,
+   "y": 4,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "E",
    "number": 2,
-   "x": 73,
-   "y": 2648,
+   "x": 1,
+   "y": 4,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "E",
    "number": 3,
-   "x": 218,
-   "y": 2648,
+   "x": 3,
+   "y": 4,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "E",
    "number": 4,
-   "x": 291,
-   "y": 2648,
+   "x": 4,
+   "y": 4,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "E",
    "number": 5,
-   "x": 363,
-   "y": 2648,
+   "x": 5,
+   "y": 4,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "E",
    "number": 6,
-   "x": 436,
-   "y": 2648,
+   "x": 6,
+   "y": 4,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "E",
    "number": 7,
-   "x": 509,
-   "y": 2648,
+   "x": 7,
+   "y": 4,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "E",
    "number": 8,
-   "x": 581,
-   "y": 2648,
+   "x": 8,
+   "y": 4,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "E",
    "number": 9,
-   "x": 654,
-   "y": 2648,
+   "x": 9,
+   "y": 4,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "E",
    "number": 10,
-   "x": 792,
-   "y": 2648,
+   "x": 11,
+   "y": 4,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "E",
    "number": 11,
-   "x": 861,
-   "y": 2648,
+   "x": 12,
+   "y": 4,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "F",
    "number": 1,
    "x": 0,
-   "y": 3310,
+   "y": 5,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "F",
    "number": 2,
-   "x": 73,
-   "y": 3310,
+   "x": 1,
+   "y": 5,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "F",
    "number": 3,
-   "x": 218,
-   "y": 3310,
+   "x": 3,
+   "y": 5,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "F",
    "number": 4,
-   "x": 291,
-   "y": 3310,
+   "x": 4,
+   "y": 5,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "F",
    "number": 5,
-   "x": 363,
-   "y": 3310,
+   "x": 5,
+   "y": 5,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "F",
    "number": 6,
-   "x": 436,
-   "y": 3310,
+   "x": 6,
+   "y": 5,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "F",
    "number": 7,
-   "x": 509,
-   "y": 3310,
+   "x": 7,
+   "y": 5,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "F",
    "number": 8,
-   "x": 581,
-   "y": 3310,
+   "x": 8,
+   "y": 5,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "F",
    "number": 9,
-   "x": 654,
-   "y": 3310,
+   "x": 9,
+   "y": 5,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "F",
    "number": 10,
-   "x": 792,
-   "y": 3310,
+   "x": 11,
+   "y": 5,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "F",
    "number": 11,
-   "x": 861,
-   "y": 3310,
+   "x": 12,
+   "y": 5,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "G",
    "number": 1,
    "x": 0,
-   "y": 3972,
+   "y": 6,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "G",
    "number": 2,
-   "x": 73,
-   "y": 3972,
+   "x": 1,
+   "y": 6,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "G",
    "number": 3,
-   "x": 218,
-   "y": 3972,
+   "x": 3,
+   "y": 6,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "G",
    "number": 4,
-   "x": 291,
-   "y": 3972,
+   "x": 4,
+   "y": 6,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "G",
    "number": 5,
-   "x": 363,
-   "y": 3972,
+   "x": 5,
+   "y": 6,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "G",
    "number": 6,
-   "x": 436,
-   "y": 3972,
+   "x": 6,
+   "y": 6,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "G",
    "number": 7,
-   "x": 509,
-   "y": 3972,
+   "x": 7,
+   "y": 6,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "G",
    "number": 8,
-   "x": 581,
-   "y": 3972,
+   "x": 8,
+   "y": 6,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "G",
    "number": 9,
-   "x": 654,
-   "y": 3972,
+   "x": 9,
+   "y": 6,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "G",
    "number": 10,
-   "x": 792,
-   "y": 3972,
+   "x": 11,
+   "y": 6,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "G",
    "number": 11,
-   "x": 861,
-   "y": 3972,
+   "x": 12,
+   "y": 6,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
-  },
-  {
-   "row": "H",
-   "number": 3,
-   "x": 218,
-   "y": 4633,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
-  },
-  {
-   "row": "H",
-   "number": 4,
-   "x": 291,
-   "y": 4633,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "H",
    "number": 1,
    "x": 0,
-   "y": 4634,
+   "y": 7,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "H",
    "number": 2,
-   "x": 73,
-   "y": 4634,
+   "x": 1,
+   "y": 7,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "H",
+   "number": 3,
+   "x": 3,
+   "y": 7,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
+  },
+  {
+   "row": "H",
+   "number": 4,
+   "x": 4,
+   "y": 7,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "H",
    "number": 5,
-   "x": 363,
-   "y": 4634,
+   "x": 5,
+   "y": 7,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "H",
    "number": 6,
-   "x": 436,
-   "y": 4634,
+   "x": 6,
+   "y": 7,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "H",
    "number": 7,
-   "x": 509,
-   "y": 4634,
+   "x": 7,
+   "y": 7,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "H",
    "number": 8,
-   "x": 581,
-   "y": 4634,
+   "x": 8,
+   "y": 7,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "H",
    "number": 9,
-   "x": 654,
-   "y": 4634,
+   "x": 9,
+   "y": 7,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "H",
    "number": 10,
-   "x": 792,
-   "y": 4634,
+   "x": 11,
+   "y": 7,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "H",
    "number": 11,
-   "x": 861,
-   "y": 4634,
+   "x": 12,
+   "y": 7,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "I",
    "number": 1,
    "x": 0,
-   "y": 5296,
+   "y": 8,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "I",
    "number": 2,
-   "x": 73,
-   "y": 5296,
+   "x": 1,
+   "y": 8,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "I",
    "number": 3,
-   "x": 218,
-   "y": 5296,
+   "x": 3,
+   "y": 8,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "I",
    "number": 4,
-   "x": 291,
-   "y": 5296,
+   "x": 4,
+   "y": 8,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "I",
    "number": 5,
-   "x": 363,
-   "y": 5296,
+   "x": 5,
+   "y": 8,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "I",
    "number": 6,
-   "x": 436,
-   "y": 5296,
+   "x": 6,
+   "y": 8,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "I",
    "number": 7,
-   "x": 509,
-   "y": 5296,
+   "x": 7,
+   "y": 8,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "I",
    "number": 8,
-   "x": 581,
-   "y": 5296,
+   "x": 8,
+   "y": 8,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "I",
    "number": 9,
-   "x": 654,
-   "y": 5296,
+   "x": 9,
+   "y": 8,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "I",
    "number": 10,
-   "x": 792,
-   "y": 5296,
+   "x": 11,
+   "y": 8,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "I",
    "number": 11,
-   "x": 861,
-   "y": 5296,
+   "x": 12,
+   "y": 8,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "J",
    "number": 1,
    "x": 0,
-   "y": 5958,
+   "y": 9,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "J",
    "number": 2,
-   "x": 73,
-   "y": 5958,
+   "x": 1,
+   "y": 9,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "J",
    "number": 3,
-   "x": 218,
-   "y": 5958,
+   "x": 3,
+   "y": 9,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "J",
    "number": 4,
-   "x": 291,
-   "y": 5958,
+   "x": 4,
+   "y": 9,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "J",
    "number": 5,
-   "x": 363,
-   "y": 5958,
+   "x": 5,
+   "y": 9,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "J",
    "number": 6,
-   "x": 436,
-   "y": 5958,
+   "x": 6,
+   "y": 9,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "J",
    "number": 7,
-   "x": 509,
-   "y": 5958,
+   "x": 7,
+   "y": 9,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
-   "aisleRight": true
+   "aisleLeft": false,
+   "aisleRight": false
   },
   {
    "row": "J",
    "number": 8,
-   "x": 581,
-   "y": 5958,
+   "x": 8,
+   "y": 9,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   },
   {
    "row": "J",
    "number": 10,
-   "x": 792,
-   "y": 5958,
+   "x": 11,
+   "y": 9,
    "zone": null,
    "kind": null,
    "aisleLeft": true,
-   "aisleRight": true
+   "aisleRight": false
   },
   {
    "row": "J",
    "number": 11,
-   "x": 861,
-   "y": 5958,
+   "x": 12,
+   "y": 9,
    "zone": null,
    "kind": null,
-   "aisleLeft": true,
+   "aisleLeft": false,
    "aisleRight": true
   }
  ],
  "entrances": [
   {
-   "x": -79,
-   "y": -576
+   "x": -1,
+   "y": -1
   }
  ]
 }

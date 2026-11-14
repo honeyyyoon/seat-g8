@@ -92,7 +92,7 @@ CHAINS = {"cgv": cgv_layouts, "lotte": lotte_layouts, "megabox": megabox_layouts
 def save(out_dir, chain, result):
     meta, seats, entrances = result
     seats = [s for s in seats if "PRIVATE" not in (s["kind"] or "").upper()]
-    if not seats:
+    if not seats or "프라이빗" in meta["screen"]:
         print(f"{meta['theater']} {meta['screen']}: 남은 좌석 없음", file=sys.stderr)
         return str(meta["screenNo"])
     meta = {**meta, "theater": html.unescape(meta["theater"]), "screen": html.unescape(meta["screen"])}
@@ -102,6 +102,16 @@ def save(out_dir, chain, result):
         json.dump(layout, f, ensure_ascii=False, indent=1)
     print(f"{layout['theater']} {layout['screen']}: {layout['seatCount']}석 -> {path}")
     return str(meta["screenNo"])
+
+
+def write_index(out_dir):
+    ids = sorted(f[:-5] for f in os.listdir(out_dir) if f.endswith(".json"))
+    name = lambda i: "l_" + i.replace("-", "_")
+    lines = [f"import {name(i)} from './{i}.json';" for i in ids]
+    lines += ["", "export const rawLayouts = {"] + [f"  '{i}': {name(i)}," for i in ids] + ["};", ""]
+    with open(os.path.join(out_dir, "raw.ts"), "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+    print(f"raw.ts: 상영관 {len(ids)}개")
 
 
 def main():
@@ -132,6 +142,7 @@ def main():
                     print(f"{chain} {theater} {date}: {e}", file=sys.stderr)
                     failed += 1
     print(f"저장 {saved}개, 실패 {failed}개")
+    write_index(a.out_dir)
 
 
 if __name__ == "__main__":

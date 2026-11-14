@@ -1,0 +1,381 @@
+{
+ "chain": "메가박스",
+ "theater": "메가박스 코엑스",
+ "siteNo": "1351",
+ "screen": "부티크 스위트 105호",
+ "screenNo": "15",
+ "sampledShowDate": "20261114",
+ "grid": {
+  "width": 6.6,
+  "height": 6
+ },
+ "seatCount": 36,
+ "seats": [
+  {
+   "row": "A",
+   "number": 1,
+   "x": 0.0,
+   "y": 0,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 2,
+   "x": 1.0,
+   "y": 0,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 3,
+   "x": 2.3,
+   "y": 0,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 4,
+   "x": 3.3000000000000003,
+   "y": 0,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 5,
+   "x": 4.6,
+   "y": 0,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 6,
+   "x": 5.6,
+   "y": 0,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 1,
+   "x": 0.0,
+   "y": 1,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 2,
+   "x": 1.0,
+   "y": 1,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 3,
+   "x": 2.3,
+   "y": 1,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 4,
+   "x": 3.3000000000000003,
+   "y": 1,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 5,
+   "x": 4.6,
+   "y": 1,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 6,
+   "x": 5.6,
+   "y": 1,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 1,
+   "x": 0.0,
+   "y": 2,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 2,
+   "x": 1.0,
+   "y": 2,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 3,
+   "x": 2.3,
+   "y": 2,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 4,
+   "x": 3.3000000000000003,
+   "y": 2,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 5,
+   "x": 4.6,
+   "y": 2,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 6,
+   "x": 5.6,
+   "y": 2,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 1,
+   "x": 0.0,
+   "y": 3,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 2,
+   "x": 1.0,
+   "y": 3,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 3,
+   "x": 2.3,
+   "y": 3,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 4,
+   "x": 3.3000000000000003,
+   "y": 3,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 5,
+   "x": 4.6,
+   "y": 3,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 6,
+   "x": 5.6,
+   "y": 3,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 1,
+   "x": 0.0,
+   "y": 4,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 2,
+   "x": 1.0,
+   "y": 4,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 3,
+   "x": 2.3,
+   "y": 4,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 4,
+   "x": 3.3000000000000003,
+   "y": 4,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 5,
+   "x": 4.6,
+   "y": 4,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 6,
+   "x": 5.6,
+   "y": 4,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 1,
+   "x": 0.0,
+   "y": 5,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 2,
+   "x": 1.0,
+   "y": 5,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 3,
+   "x": 2.3,
+   "y": 5,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 4,
+   "x": 3.3000000000000003,
+   "y": 5,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "F",
+   "number": 5,
+   "x": 4.6,
+   "y": 5,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 6,
+   "x": 5.6,
+   "y": 5,
+   "zone": null,
+   "kind": "스위트석",
+   "aisleLeft": false,
+   "aisleRight": true
+  }
+ ],
+ "entrances": [
+  {
+   "x": 7.4,
+   "y": -1
+  }
+ ]
+}

@@ -4,9 +4,9 @@
  "siteNo": "1013",
  "screen": "3관",
  "screenNo": "101303",
- "sampledShowDate": "20261106",
+ "sampledShowDate": "20261114",
  "grid": {
-  "width": 13,
+  "width": 14,
   "height": 9
  },
  "seatCount": 100,
@@ -89,31 +89,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "A",
    "number": 9,
-   "x": 9,
+   "x": 10,
    "y": 0,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "A",
    "number": 10,
-   "x": 10,
-   "y": 0,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "A",
-   "number": 11,
    "x": 11,
    "y": 0,
    "zone": null,
@@ -123,8 +113,18 @@
   },
   {
    "row": "A",
-   "number": 12,
+   "number": 11,
    "x": 12,
+   "y": 0,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 12,
+   "x": 13,
    "y": 0,
    "zone": null,
    "kind": null,
@@ -209,31 +209,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "B",
    "number": 9,
-   "x": 9,
+   "x": 10,
    "y": 1,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "B",
    "number": 10,
-   "x": 10,
-   "y": 1,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "B",
-   "number": 11,
    "x": 11,
    "y": 1,
    "zone": null,
@@ -243,8 +233,18 @@
   },
   {
    "row": "B",
-   "number": 12,
+   "number": 11,
    "x": 12,
+   "y": 1,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 12,
+   "x": 13,
    "y": 1,
    "zone": null,
    "kind": null,
@@ -329,31 +329,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "C",
    "number": 9,
-   "x": 9,
+   "x": 10,
    "y": 2,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "C",
    "number": 10,
-   "x": 10,
-   "y": 2,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "C",
-   "number": 11,
    "x": 11,
    "y": 2,
    "zone": null,
@@ -363,8 +353,18 @@
   },
   {
    "row": "C",
-   "number": 12,
+   "number": 11,
    "x": 12,
+   "y": 2,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 12,
+   "x": 13,
    "y": 2,
    "zone": null,
    "kind": null,
@@ -449,31 +449,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "D",
    "number": 9,
-   "x": 9,
+   "x": 10,
    "y": 3,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "D",
    "number": 10,
-   "x": 10,
-   "y": 3,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "D",
-   "number": 11,
    "x": 11,
    "y": 3,
    "zone": null,
@@ -483,8 +473,18 @@
   },
   {
    "row": "D",
-   "number": 12,
+   "number": 11,
    "x": 12,
+   "y": 3,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 12,
+   "x": 13,
    "y": 3,
    "zone": null,
    "kind": null,
@@ -569,31 +569,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "E",
    "number": 9,
-   "x": 9,
+   "x": 10,
    "y": 4,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "E",
    "number": 10,
-   "x": 10,
-   "y": 4,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "E",
-   "number": 11,
    "x": 11,
    "y": 4,
    "zone": null,
@@ -603,8 +593,18 @@
   },
   {
    "row": "E",
-   "number": 12,
+   "number": 11,
    "x": 12,
+   "y": 4,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 12,
+   "x": 13,
    "y": 4,
    "zone": null,
    "kind": null,
@@ -689,31 +689,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "F",
    "number": 9,
-   "x": 9,
+   "x": 10,
    "y": 5,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "F",
    "number": 10,
-   "x": 10,
-   "y": 5,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "F",
-   "number": 11,
    "x": 11,
    "y": 5,
    "zone": null,
@@ -723,8 +713,18 @@
   },
   {
    "row": "F",
-   "number": 12,
+   "number": 11,
    "x": 12,
+   "y": 5,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "F",
+   "number": 12,
+   "x": 13,
    "y": 5,
    "zone": null,
    "kind": null,
@@ -809,31 +809,21 @@
    "zone": null,
    "kind": null,
    "aisleLeft": false,
-   "aisleRight": false
+   "aisleRight": true
   },
   {
    "row": "G",
    "number": 9,
-   "x": 9,
+   "x": 10,
    "y": 6,
    "zone": null,
    "kind": null,
-   "aisleLeft": false,
+   "aisleLeft": true,
    "aisleRight": false
   },
   {
    "row": "G",
    "number": 10,
-   "x": 10,
-   "y": 6,
-   "zone": null,
-   "kind": null,
-   "aisleLeft": false,
-   "aisleRight": false
-  },
-  {
-   "row": "G",
-   "number": 11,
    "x": 11,
    "y": 6,
    "zone": null,
@@ -843,8 +833,18 @@
   },
   {
    "row": "G",
-   "number": 12,
+   "number": 11,
    "x": 12,
+   "y": 6,
+   "zone": null,
+   "kind": null,
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "G",
+   "number": 12,
+   "x": 13,
    "y": 6,
    "zone": null,
    "kind": null,
