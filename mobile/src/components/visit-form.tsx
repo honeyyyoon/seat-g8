@@ -3,12 +3,13 @@ import { useState } from 'react';
 import { Modal, Platform, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 import { Text, TextInput } from '@/components/text';
-import { DISCOMFORTS, HEIGHT_LABELS, SIDE_LABELS, type Discomfort } from '@/constants/ratings';
+import { DISCOMFORTS, HEIGHT_LABELS, seatVerdict, SIDE_LABELS, type Discomfort } from '@/constants/ratings';
 import { colors, radius, spacing } from '@/constants/theme';
-import type { Seat } from '@/data/layouts';
+import { getScreen, type Seat } from '@/data/layouts';
 import { useDb } from '@/db/db-context';
 import { addVisit, type Rating } from '@/db/visits';
 import { takeFailNextSave } from '@/dev/fail-next-save';
+import { track } from '@/lib/analytics';
 import { formatKoreanDate, toIsoDate } from '@/lib/dates';
 
 type Props = {
@@ -56,6 +57,12 @@ export function VisitForm({ screenId, subtitle, seat, onSaved, onCancel }: Props
         throw new Error('forced failure');
       }
       await addVisit(db, { screenId, seatRow: seat.row, seatNumber: seat.number, visitDate: toIsoDate(visitDate), height, side, discomforts, movie });
+      track('visit_saved', {
+        chain: getScreen(screenId)?.chain ?? 'unknown',
+        verdict: seatVerdict({ height, side, discomforts }),
+        has_movie: movie.trim().length > 0,
+        discomforts: discomforts.length,
+      });
       onSaved();
     } catch {
       setFailed(true);

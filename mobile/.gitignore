@@ -41,3 +41,10 @@ example
 # generated native folders
 /ios
 /android
+
+# iOS signing (TestFlight)
+credentials.json
+*.p12
+*.mobileprovision
+
+*.p8

@@ -285,3 +285,19 @@ test('seat lookup starts open and can be folded', async () => {
 
   expect(screen.queryByLabelText('열')).toBeNull();
 });
+
+test('saving a visit sends an anonymous visit_saved event without the seat or movie', async () => {
+  const { track } = jest.requireMock('@/lib/analytics') as { track: jest.Mock };
+  const user = userEvent.setup();
+  await renderScreen(await createTestDb());
+  await screen.findByText(EMPTY);
+
+  await user.press(screen.getByLabelText('G열 8번'));
+  await user.type(screen.getByLabelText('영화 제목'), '위키드');
+  await user.press(screen.getByLabelText('높이: 딱 좋음'));
+  await user.press(screen.getByLabelText('좌우: 딱 좋음'));
+  await user.press(screen.getByRole('button', { name: '저장' }));
+
+  expect(await screen.findByText('기록 완료!')).toBeTruthy();
+  expect(track).toHaveBeenCalledWith('visit_saved', { chain: '롯데시네마', verdict: 'good', has_movie: true, discomforts: 0 });
+});
