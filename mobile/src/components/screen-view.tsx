@@ -15,6 +15,7 @@ import { seatKey, type Layout, type Seat } from '@/data/layouts';
 import { useDb } from '@/db/db-context';
 import { addVisit, deleteVisit, listVisitsByScreen, type Visit } from '@/db/visits';
 import { isFailNextSaveArmed, setFailNextSave } from '@/dev/fail-next-save';
+import { track } from '@/lib/analytics';
 import { formatShortDate, fromIsoDate } from '@/lib/dates';
 
 type LoadState = { status: 'loading' } | { status: 'error' } | { status: 'ready'; visits: Visit[] };
@@ -33,6 +34,10 @@ export function ScreenView({ layout }: { layout: Layout }) {
   const scrollRef = useRef<ComponentRef<typeof ScrollView>>(null);
   const recordsY = useRef(0);
   const [preview, setPreview] = useState<{ row: string; number: number | null } | null>(null);
+
+  useEffect(() => {
+    track('screen_opened', { chain: layout.chain, screen_id: layout.id });
+  }, [layout.chain, layout.id]);
 
   useEffect(() => {
     let cancelled = false;

@@ -1,5 +1,5 @@
-import { expect, test } from '@jest/globals';
-import { render, screen, userEvent } from '@testing-library/react-native';
+import { expect, jest, test } from '@jest/globals';
+import { fireEvent, render, screen, userEvent } from '@testing-library/react-native';
 
 import MenuScreen from '@/app/menu';
 
@@ -11,4 +11,13 @@ test('the guide can be opened again from the menu', async () => {
   await user.press(screen.getByRole('button', { name: '사용법' }));
 
   expect(screen.getByText('상영관 찾기')).toBeTruthy();
+});
+
+test('usage statistics can be turned off from the menu', async () => {
+  const { setAnalyticsOn } = jest.requireMock('@/lib/analytics') as { setAnalyticsOn: jest.Mock };
+  await render(<MenuScreen />);
+
+  await fireEvent(screen.getByLabelText('사용 통계 보내기'), 'valueChange', false);
+
+  expect(setAnalyticsOn).toHaveBeenCalledWith(false);
 });
