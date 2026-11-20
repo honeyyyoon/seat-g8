@@ -1,7 +1,7 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
-import { Text } from 'react-native';
 
 import { ScreenView } from '@/components/screen-view';
+import { Text } from '@/components/text';
 import { getLayout } from '@/data/layouts';
 
 export default function ScreenRoute() {

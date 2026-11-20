@@ -86,7 +86,27 @@ def from_megabox(raw):
     return meta, seats, entrances
 
 
+def move_overlapping_rows(seats):
+    rows = {}
+    for s in seats:
+        rows.setdefault(s["row"], []).append(s)
+    taken, moved = set(), []
+    for row in sorted(rows, key=lambda r: (len(r), r)):
+        cells = {(s["x"], s["y"]) for s in rows[row]}
+        if cells & taken:
+            moved.append(row)
+        else:
+            taken |= cells
+    if not moved:
+        return
+    shifted = [s for r in moved for s in rows[r]]
+    offset = max(y for _, y in taken) + 2 - min(s["y"] for s in shifted)
+    for s in shifted:
+        s["y"] += offset
+
+
 def to_layout(meta, seats, entrances):
+    move_overlapping_rows(seats)
     x0, y0 = min(s["x"] for s in seats), min(s["y"] for s in seats)
     for p in seats + entrances:
         p["x"] -= x0

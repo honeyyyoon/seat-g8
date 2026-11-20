@@ -1,5 +1,7 @@
-import { Alert, Modal, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import type { ReactNode } from 'react';
+import { Modal, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
+import { Text } from '@/components/text';
 import { discomfortLabel, HEIGHT_LABELS, SIDE_LABELS } from '@/constants/ratings';
 import { colors, radius, spacing } from '@/constants/theme';
 import type { Seat } from '@/data/layouts';
@@ -15,15 +17,20 @@ type Props = {
   onDelete: (visit: Visit) => void;
   onClose: () => void;
   onDismiss: () => void;
+  overlay?: ReactNode;
 };
 
-export function VisitDetail({ visible, subtitle, seat, visits, onRecordAgain, onDelete, onClose, onDismiss }: Props) {
-  function confirmDelete(visit: Visit) {
-    Alert.alert(`${formatKoreanDate(fromIsoDate(visit.visitDate))} 기록을 지울까요?`, '지운 기록은 되돌릴 수 없어요.', [
-      { text: '취소', style: 'cancel' },
-      { text: '삭제', style: 'destructive', onPress: () => onDelete(visit) },
-    ]);
-  }
+export function VisitDetail({
+  visible,
+  subtitle,
+  seat,
+  visits,
+  onRecordAgain,
+  onDelete,
+  onClose,
+  onDismiss,
+  overlay,
+}: Props) {
 
   return (
     <Modal
@@ -44,12 +51,15 @@ export function VisitDetail({ visible, subtitle, seat, visits, onRecordAgain, on
           {visits.map((visit) => (
             <View key={visit.id} style={styles.card}>
               <View style={styles.cardHeader}>
-                <Text style={styles.date}>{formatKoreanDate(fromIsoDate(visit.visitDate))}</Text>
+                <View style={styles.heading}>
+                  <Text style={styles.date}>{formatKoreanDate(fromIsoDate(visit.visitDate))}</Text>
+                  {visit.movie && <Text style={styles.movie}>{visit.movie}</Text>}
+                </View>
                 <Pressable
                   accessibilityRole="button"
                   accessibilityLabel={`${formatKoreanDate(fromIsoDate(visit.visitDate))} 기록 삭제`}
                   hitSlop={8}
-                  onPress={() => confirmDelete(visit)}>
+                  onPress={() => onDelete(visit)}>
                   {({ pressed }) => <Text style={[styles.delete, pressed && styles.deletePressed]}>삭제</Text>}
                 </Pressable>
               </View>
@@ -84,6 +94,7 @@ export function VisitDetail({ visible, subtitle, seat, visits, onRecordAgain, on
             <Text style={styles.secondaryText}>닫기</Text>
           </Pressable>
         </View>
+        {overlay}
       </View>
     </Modal>
   );
@@ -109,7 +120,9 @@ const styles = StyleSheet.create({
   cardHeader: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
   delete: { fontSize: 14, fontWeight: '600', color: colors.muted },
   deletePressed: { color: colors.error },
+  heading: { flex: 1, gap: 2 },
   date: { fontSize: 17, fontWeight: '700', color: colors.ink },
+  movie: { fontSize: 15, color: colors.muted },
   ratings: { flexDirection: 'row', gap: spacing.sm },
   rating: { flex: 1, backgroundColor: colors.bg, borderRadius: radius.md, paddingVertical: spacing.md, paddingHorizontal: spacing.md, gap: 2 },
   ratingLabel: { fontSize: 12, color: colors.muted, fontWeight: '600' },

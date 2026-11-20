@@ -1,0 +1,435 @@
+{
+ "chain": "메가박스",
+ "theater": "메가박스 화곡",
+ "siteNo": "0083",
+ "screen": "컴포트4관(리클라이너)",
+ "screenNo": "04",
+ "sampledShowDate": "20261120",
+ "grid": {
+  "width": 10,
+  "height": 5
+ },
+ "seatCount": 41,
+ "seats": [
+  {
+   "row": "A",
+   "number": 3,
+   "x": 2,
+   "y": 0,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 4,
+   "x": 3,
+   "y": 0,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 5,
+   "x": 4,
+   "y": 0,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 6,
+   "x": 5,
+   "y": 0,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 7,
+   "x": 6,
+   "y": 0,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 8,
+   "x": 7,
+   "y": 0,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 9,
+   "x": 8,
+   "y": 0,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 10,
+   "x": 9,
+   "y": 0,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 3,
+   "x": 2,
+   "y": 1,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 4,
+   "x": 3,
+   "y": 1,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 5,
+   "x": 4,
+   "y": 1,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 6,
+   "x": 5,
+   "y": 1,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 7,
+   "x": 6,
+   "y": 1,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 8,
+   "x": 7,
+   "y": 1,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 9,
+   "x": 8,
+   "y": 1,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 10,
+   "x": 9,
+   "y": 1,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "C",
+   "number": 3,
+   "x": 2,
+   "y": 2,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 4,
+   "x": 3,
+   "y": 2,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 5,
+   "x": 4,
+   "y": 2,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 6,
+   "x": 5,
+   "y": 2,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 7,
+   "x": 6,
+   "y": 2,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 8,
+   "x": 7,
+   "y": 2,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 9,
+   "x": 8,
+   "y": 2,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "C",
+   "number": 10,
+   "x": 9,
+   "y": 2,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "D",
+   "number": 3,
+   "x": 2,
+   "y": 3,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 4,
+   "x": 3,
+   "y": 3,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 5,
+   "x": 4,
+   "y": 3,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 6,
+   "x": 5,
+   "y": 3,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 7,
+   "x": 6,
+   "y": 3,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 8,
+   "x": 7,
+   "y": 3,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 9,
+   "x": 8,
+   "y": 3,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "D",
+   "number": 10,
+   "x": 9,
+   "y": 3,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 2,
+   "x": 0,
+   "y": 4,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": true,
+   "aisleRight": true
+  },
+  {
+   "row": "E",
+   "number": 3,
+   "x": 2,
+   "y": 4,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 4,
+   "x": 3,
+   "y": 4,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 5,
+   "x": 4,
+   "y": 4,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 6,
+   "x": 5,
+   "y": 4,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 7,
+   "x": 6,
+   "y": 4,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 8,
+   "x": 7,
+   "y": 4,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 9,
+   "x": 8,
+   "y": 4,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "E",
+   "number": 10,
+   "x": 9,
+   "y": 4,
+   "zone": null,
+   "kind": "일반",
+   "aisleLeft": false,
+   "aisleRight": true
+  }
+ ],
+ "entrances": [
+  {
+   "x": -1,
+   "y": -1
+  },
+  {
+   "x": 0,
+   "y": 3
+  }
+ ]
+}

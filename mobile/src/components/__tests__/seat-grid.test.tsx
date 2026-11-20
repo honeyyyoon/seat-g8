@@ -16,7 +16,7 @@ test('a big screen can be zoomed in until seat numbers show, and back out', asyn
   const user = userEvent.setup();
   await render(
     <GestureHandlerRootView>
-      <SeatGrid layout={imax} markedSeats={new Set()} onPressSeat={() => {}} />
+      <SeatGrid layout={imax} verdicts={new Map()} onPressSeat={() => {}} />
     </GestureHandlerRootView>,
   );
   const start = seatWidth();

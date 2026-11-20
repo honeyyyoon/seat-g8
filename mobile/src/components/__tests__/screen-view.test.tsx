@@ -1,6 +1,5 @@
 import { expect, jest, test } from '@jest/globals';
-import { act, fireEvent, render, screen, userEvent } from '@testing-library/react-native';
-import { Alert, type AlertButton } from 'react-native';
+import { fireEvent, render, screen, userEvent } from '@testing-library/react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 import { ScreenView } from '@/components/screen-view';
@@ -9,6 +8,8 @@ import { DbProvider } from '@/db/db-context';
 import type { Db } from '@/db/types';
 import { addVisit } from '@/db/visits';
 import { createDbThatFailsToSave, createTestDb } from '@/test-utils/test-db';
+
+jest.mock('react-native-safe-area-context', () => require('react-native-safe-area-context/jest/mock').default);
 
 const sillim1 = getLayout('lotte-1007-100701')!;
 const EMPTY = '앉았던 좌석을 누르거나 번호로 골라 기록해 보세요.';
@@ -126,14 +127,7 @@ test('discomforts I check are shown with that visit', async () => {
   expect(screen.queryByText('의자')).toBeNull();
 });
 
-async function confirmDeleteAlert() {
-  const alert = jest.mocked(Alert.alert);
-  const buttons = alert.mock.calls.at(-1)?.[2] as AlertButton[];
-  await act(async () => buttons.find((b) => b.style === 'destructive')!.onPress!());
-}
-
 test('deleting one of two visits keeps the other on that seat', async () => {
-  jest.spyOn(Alert, 'alert').mockImplementation(() => {});
   const user = userEvent.setup();
   const db = await createTestDb();
   await addVisit(db, { screenId: sillim1.id, seatRow: 'G', seatNumber: 8, visitDate: '2026-10-01', height: 3, side: 3 });
@@ -142,7 +136,6 @@ test('deleting one of two visits keeps the other on that seat', async () => {
 
   await user.press(await screen.findByLabelText('G열 8번, 내가 앉았던 좌석'));
   await user.press(screen.getByRole('button', { name: '2026년 11월 1일 (일) 기록 삭제' }));
-  await confirmDeleteAlert();
 
   expect(await screen.findByText('이 좌석에 1번 앉았어요')).toBeTruthy();
   expect(screen.getByText('2026년 10월 1일 (목)')).toBeTruthy();
@@ -150,7 +143,6 @@ test('deleting one of two visits keeps the other on that seat', async () => {
 });
 
 test('deleting the only visit on a seat unmarks it', async () => {
-  jest.spyOn(Alert, 'alert').mockImplementation(() => {});
   const user = userEvent.setup();
   const db = await createTestDb();
   await addVisit(db, { screenId: sillim1.id, seatRow: 'G', seatNumber: 8, visitDate: '2026-11-01', height: 2, side: 4 });
@@ -158,11 +150,23 @@ test('deleting the only visit on a seat unmarks it', async () => {
 
   await user.press(await screen.findByLabelText('G열 8번, 내가 앉았던 좌석'));
   await user.press(screen.getByRole('button', { name: '2026년 11월 1일 (일) 기록 삭제' }));
-  expect(screen.getByText('2026년 11월 1일 (일)')).toBeTruthy();
-  await confirmDeleteAlert();
 
-  expect(await screen.findByText('앉았던 좌석을 누르거나 번호로 골라 기록해 보세요.')).toBeTruthy();
+  expect(await screen.findByText(EMPTY)).toBeTruthy();
   expect(screen.queryByLabelText('G열 8번, 내가 앉았던 좌석')).toBeNull();
+});
+
+test('a deleted visit can be brought back from the toast', async () => {
+  const user = userEvent.setup();
+  const db = await createTestDb();
+  await addVisit(db, { screenId: sillim1.id, seatRow: 'G', seatNumber: 8, visitDate: '2026-11-01', height: 2, side: 4 });
+  await renderScreen(db);
+
+  await user.press(await screen.findByLabelText('G열 8번, 내가 앉았던 좌석'));
+  await user.press(screen.getByRole('button', { name: '2026년 11월 1일 (일) 기록 삭제' }));
+  expect(await screen.findByText('기록을 지웠어요')).toBeTruthy();
+  await user.press(screen.getByRole('button', { name: '되돌리기' }));
+
+  expect(await screen.findByLabelText('G열 8번, 내가 앉았던 좌석')).toBeTruthy();
 });
 
 test('typing a row and number selects that seat', async () => {
@@ -192,6 +196,19 @@ test('picking a row and number from the lists selects that seat', async () => {
   expect(await screen.findByText('G열 8번')).toBeTruthy();
 });
 
+test('picking a seat number highlights that seat on the grid', async () => {
+  const user = userEvent.setup();
+  await renderScreen(await createTestDb());
+  await screen.findByText(EMPTY);
+
+  await user.press(screen.getByRole('button', { name: 'G열' }));
+  expect(screen.getByRole('button', { name: 'G열 8번' }).props.accessibilityState).toEqual({ selected: false });
+
+  await user.press(screen.getByRole('button', { name: '8번' }));
+  expect(screen.getByRole('button', { name: 'G열 8번' }).props.accessibilityState).toEqual({ selected: true });
+  expect(screen.getByRole('button', { name: 'G열 9번' }).props.accessibilityState).toEqual({ selected: false });
+});
+
 test('a seat number that is not in this screen says so', async () => {
   const user = userEvent.setup();
   await renderScreen(await createTestDb());
@@ -203,4 +220,68 @@ test('a seat number that is not in this screen says so', async () => {
 
   expect(screen.getByText('Z열 99번은 이 상영관에 없어요')).toBeTruthy();
   expect(screen.queryByRole('button', { name: '저장' })).toBeNull();
+});
+
+test('a marked seat is colored by how it went', async () => {
+  const db = await createTestDb();
+  await addVisit(db, { screenId: sillim1.id, seatRow: 'G', seatNumber: 8, visitDate: '2026-11-01', height: 1, side: 3, discomforts: ['chair'] });
+  await renderScreen(db);
+
+  const seat = await screen.findByLabelText('G열 8번, 내가 앉았던 좌석');
+  expect(seat.props.accessibilityValue).toEqual({ text: '아쉬움' });
+  expect(screen.getByText('아쉬웠던 좌석')).toBeTruthy();
+});
+
+test('a movie title can be saved with the visit and shows in its detail', async () => {
+  const user = userEvent.setup();
+  await renderScreen(await createTestDb());
+  await screen.findByText(EMPTY);
+
+  await user.press(screen.getByLabelText('G열 8번'));
+  await user.type(screen.getByLabelText('영화 제목'), '듄: 파트 2');
+  await user.press(screen.getByLabelText('높이: 딱 좋음'));
+  await user.press(screen.getByLabelText('좌우: 딱 좋음'));
+  await user.press(screen.getByRole('button', { name: '저장' }));
+  await user.press(await screen.findByLabelText('G열 8번, 내가 앉았던 좌석'));
+
+  expect(await screen.findAllByText('듄: 파트 2')).toHaveLength(2);
+});
+
+test('saving a visit says it was recorded', async () => {
+  const user = userEvent.setup();
+  await renderScreen(await createTestDb());
+  await screen.findByText(EMPTY);
+
+  await user.press(screen.getByLabelText('G열 8번'));
+  await user.press(screen.getByLabelText('높이: 딱 좋음'));
+  await user.press(screen.getByLabelText('좌우: 딱 좋음'));
+  await user.press(screen.getByRole('button', { name: '저장' }));
+
+  expect(await screen.findByText('기록 완료!')).toBeTruthy();
+  expect(screen.getByText('G열 8번을 기록했어요')).toBeTruthy();
+});
+
+test('my visits in this screen are listed and open the seat detail', async () => {
+  const user = userEvent.setup();
+  const db = await createTestDb();
+  await addVisit(db, { screenId: sillim1.id, seatRow: 'G', seatNumber: 8, visitDate: '2026-11-01', height: 3, side: 3, movie: '위키드' });
+  await addVisit(db, { screenId: sillim1.id, seatRow: 'E', seatNumber: 5, visitDate: '2026-10-01', height: 2, side: 3 });
+  await renderScreen(db);
+
+  expect(await screen.findByText('이 상영관 내 기록 2개')).toBeTruthy();
+  expect(screen.getByRole('button', { name: '내 기록 2개 보기' })).toBeTruthy();
+  await user.press(screen.getByRole('button', { name: /^11월 1일, 위키드, G열 8번/ }));
+
+  expect(await screen.findByText('이 좌석에 1번 앉았어요')).toBeTruthy();
+});
+
+test('seat lookup starts open and can be folded', async () => {
+  const user = userEvent.setup();
+  await renderScreen(await createTestDb());
+  await screen.findByText(EMPTY);
+
+  expect(screen.getByLabelText('열')).toBeTruthy();
+  await user.press(screen.getByRole('button', { name: '좌석 번호로 고르기' }));
+
+  expect(screen.queryByLabelText('열')).toBeNull();
 });
