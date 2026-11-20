@@ -1,12 +1,19 @@
 {
   "expo": {
     "name": "G열 8번",
-    "slug": "mobile",
+    "slug": "seat-g8",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "mobile",
+    "scheme": "seatg8",
     "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.honeyyyoon.seatg8",
+      "supportsTablet": false,
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#7A1F3D",
@@ -14,7 +21,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.honeyyyoon.seatg8"
     },
     "web": {
       "output": "server",
