@@ -1,363 +1,464 @@
-import l_cgv_0013_001 from './cgv-0013-001.json';
-import l_cgv_0013_002 from './cgv-0013-002.json';
-import l_cgv_0013_003 from './cgv-0013-003.json';
-import l_cgv_0013_004 from './cgv-0013-004.json';
-import l_cgv_0013_005 from './cgv-0013-005.json';
-import l_cgv_0013_006 from './cgv-0013-006.json';
-import l_cgv_0013_007 from './cgv-0013-007.json';
-import l_cgv_0013_009 from './cgv-0013-009.json';
-import l_cgv_0013_010 from './cgv-0013-010.json';
-import l_cgv_0013_011 from './cgv-0013-011.json';
-import l_cgv_0013_012 from './cgv-0013-012.json';
-import l_cgv_0013_013 from './cgv-0013-013.json';
-import l_cgv_0013_014 from './cgv-0013-014.json';
-import l_cgv_0013_015 from './cgv-0013-015.json';
-import l_cgv_0013_016 from './cgv-0013-016.json';
-import l_cgv_0013_017 from './cgv-0013-017.json';
-import l_cgv_0013_018 from './cgv-0013-018.json';
-import l_cgv_0013_024 from './cgv-0013-024.json';
-import l_cgv_0056_001 from './cgv-0056-001.json';
-import l_cgv_0056_003 from './cgv-0056-003.json';
-import l_cgv_0056_004 from './cgv-0056-004.json';
-import l_cgv_0056_005 from './cgv-0056-005.json';
-import l_cgv_0056_006 from './cgv-0056-006.json';
-import l_cgv_0059_001 from './cgv-0059-001.json';
-import l_cgv_0059_002 from './cgv-0059-002.json';
-import l_cgv_0059_003 from './cgv-0059-003.json';
-import l_cgv_0059_004 from './cgv-0059-004.json';
-import l_cgv_0059_005 from './cgv-0059-005.json';
-import l_cgv_0059_007 from './cgv-0059-007.json';
-import l_cgv_0059_008 from './cgv-0059-008.json';
-import l_cgv_0059_009 from './cgv-0059-009.json';
-import l_cgv_0059_010 from './cgv-0059-010.json';
-import l_cgv_0059_011 from './cgv-0059-011.json';
-import l_cgv_0059_017 from './cgv-0059-017.json';
-import l_cgv_0074_001 from './cgv-0074-001.json';
-import l_cgv_0074_002 from './cgv-0074-002.json';
-import l_cgv_0074_004 from './cgv-0074-004.json';
-import l_cgv_0074_005 from './cgv-0074-005.json';
-import l_cgv_0074_006 from './cgv-0074-006.json';
-import l_cgv_0074_007 from './cgv-0074-007.json';
-import l_cgv_0074_008 from './cgv-0074-008.json';
-import l_cgv_0074_009 from './cgv-0074-009.json';
-import l_cgv_0074_010 from './cgv-0074-010.json';
-import l_cgv_0112_003 from './cgv-0112-003.json';
-import l_cgv_0112_004 from './cgv-0112-004.json';
-import l_cgv_0112_005 from './cgv-0112-005.json';
-import l_cgv_0112_006 from './cgv-0112-006.json';
-import l_cgv_0112_008 from './cgv-0112-008.json';
-import l_cgv_0112_009 from './cgv-0112-009.json';
-import l_cgv_0131_001 from './cgv-0131-001.json';
-import l_cgv_0131_002 from './cgv-0131-002.json';
-import l_cgv_0131_003 from './cgv-0131-003.json';
-import l_cgv_0131_004 from './cgv-0131-004.json';
-import l_cgv_0131_005 from './cgv-0131-005.json';
-import l_cgv_0131_006 from './cgv-0131-006.json';
-import l_cgv_0131_007 from './cgv-0131-007.json';
-import l_cgv_0150_003 from './cgv-0150-003.json';
-import l_cgv_0150_004 from './cgv-0150-004.json';
-import l_cgv_0150_005 from './cgv-0150-005.json';
-import l_cgv_0150_006 from './cgv-0150-006.json';
-import l_cgv_0150_007 from './cgv-0150-007.json';
-import l_cgv_0150_008 from './cgv-0150-008.json';
-import l_cgv_0150_016 from './cgv-0150-016.json';
-import l_cgv_0191_001 from './cgv-0191-001.json';
-import l_cgv_0191_002 from './cgv-0191-002.json';
-import l_cgv_0191_003 from './cgv-0191-003.json';
-import l_cgv_0191_004 from './cgv-0191-004.json';
-import l_cgv_0191_005 from './cgv-0191-005.json';
-import l_cgv_0191_006 from './cgv-0191-006.json';
-import l_lotte_1003_100301 from './lotte-1003-100301.json';
-import l_lotte_1003_100302 from './lotte-1003-100302.json';
-import l_lotte_1003_100303 from './lotte-1003-100303.json';
-import l_lotte_1003_100304 from './lotte-1003-100304.json';
-import l_lotte_1003_100305 from './lotte-1003-100305.json';
-import l_lotte_1003_100306 from './lotte-1003-100306.json';
-import l_lotte_1003_100307 from './lotte-1003-100307.json';
-import l_lotte_1003_100308 from './lotte-1003-100308.json';
-import l_lotte_1003_100309 from './lotte-1003-100309.json';
-import l_lotte_1003_100310 from './lotte-1003-100310.json';
-import l_lotte_1004_100401 from './lotte-1004-100401.json';
-import l_lotte_1004_100402 from './lotte-1004-100402.json';
-import l_lotte_1004_100403 from './lotte-1004-100403.json';
-import l_lotte_1004_100404 from './lotte-1004-100404.json';
-import l_lotte_1004_100405 from './lotte-1004-100405.json';
-import l_lotte_1004_100406 from './lotte-1004-100406.json';
-import l_lotte_1004_100407 from './lotte-1004-100407.json';
-import l_lotte_1004_100408 from './lotte-1004-100408.json';
-import l_lotte_1004_100409 from './lotte-1004-100409.json';
-import l_lotte_1004_100410 from './lotte-1004-100410.json';
-import l_lotte_1004_301 from './lotte-1004-301.json';
-import l_lotte_1007_100701 from './lotte-1007-100701.json';
-import l_lotte_1007_100702 from './lotte-1007-100702.json';
-import l_lotte_1007_100703 from './lotte-1007-100703.json';
-import l_lotte_1007_100704 from './lotte-1007-100704.json';
-import l_lotte_1007_100705 from './lotte-1007-100705.json';
-import l_lotte_1007_100706 from './lotte-1007-100706.json';
-import l_lotte_1007_100707 from './lotte-1007-100707.json';
-import l_lotte_1007_100708 from './lotte-1007-100708.json';
-import l_lotte_1012_101201 from './lotte-1012-101201.json';
-import l_lotte_1012_101202 from './lotte-1012-101202.json';
-import l_lotte_1012_101203 from './lotte-1012-101203.json';
-import l_lotte_1012_101204 from './lotte-1012-101204.json';
-import l_lotte_1012_101205 from './lotte-1012-101205.json';
-import l_lotte_1013_101301 from './lotte-1013-101301.json';
-import l_lotte_1013_101302 from './lotte-1013-101302.json';
-import l_lotte_1013_101303 from './lotte-1013-101303.json';
-import l_lotte_1013_101304 from './lotte-1013-101304.json';
-import l_lotte_1013_101305 from './lotte-1013-101305.json';
-import l_lotte_1013_101306 from './lotte-1013-101306.json';
-import l_lotte_1014_101401 from './lotte-1014-101401.json';
-import l_lotte_1014_101402 from './lotte-1014-101402.json';
-import l_lotte_1014_101403 from './lotte-1014-101403.json';
-import l_lotte_1014_101404 from './lotte-1014-101404.json';
-import l_lotte_1014_101405 from './lotte-1014-101405.json';
-import l_lotte_1014_101406 from './lotte-1014-101406.json';
-import l_lotte_1014_101407 from './lotte-1014-101407.json';
-import l_lotte_1014_101408 from './lotte-1014-101408.json';
-import l_lotte_1016_101603 from './lotte-1016-101603.json';
-import l_lotte_1016_101604 from './lotte-1016-101604.json';
-import l_lotte_1016_101605 from './lotte-1016-101605.json';
-import l_lotte_1016_101606 from './lotte-1016-101606.json';
-import l_lotte_1016_101607 from './lotte-1016-101607.json';
-import l_lotte_1016_101608 from './lotte-1016-101608.json';
-import l_lotte_1016_101609 from './lotte-1016-101609.json';
-import l_lotte_1016_101610 from './lotte-1016-101610.json';
-import l_lotte_1016_101613 from './lotte-1016-101613.json';
-import l_lotte_1016_101614 from './lotte-1016-101614.json';
-import l_lotte_1016_101615 from './lotte-1016-101615.json';
-import l_lotte_1016_101616 from './lotte-1016-101616.json';
-import l_lotte_1016_101617 from './lotte-1016-101617.json';
-import l_lotte_1016_101618 from './lotte-1016-101618.json';
-import l_lotte_1016_101619 from './lotte-1016-101619.json';
-import l_lotte_1016_101620 from './lotte-1016-101620.json';
-import l_lotte_1016_101621 from './lotte-1016-101621.json';
-import l_lotte_1016_1201 from './lotte-1016-1201.json';
-import l_lotte_1016_1202 from './lotte-1016-1202.json';
-import l_megabox_1212_01 from './megabox-1212-01.json';
-import l_megabox_1212_02 from './megabox-1212-02.json';
-import l_megabox_1212_03 from './megabox-1212-03.json';
-import l_megabox_1212_04 from './megabox-1212-04.json';
-import l_megabox_1212_05 from './megabox-1212-05.json';
-import l_megabox_1351_01 from './megabox-1351-01.json';
-import l_megabox_1351_02 from './megabox-1351-02.json';
-import l_megabox_1351_03 from './megabox-1351-03.json';
-import l_megabox_1351_04 from './megabox-1351-04.json';
-import l_megabox_1351_05 from './megabox-1351-05.json';
-import l_megabox_1351_06 from './megabox-1351-06.json';
-import l_megabox_1351_07 from './megabox-1351-07.json';
-import l_megabox_1351_08 from './megabox-1351-08.json';
-import l_megabox_1351_09 from './megabox-1351-09.json';
-import l_megabox_1351_10 from './megabox-1351-10.json';
-import l_megabox_1351_11 from './megabox-1351-11.json';
-import l_megabox_1351_12 from './megabox-1351-12.json';
-import l_megabox_1351_13 from './megabox-1351-13.json';
-import l_megabox_1351_14 from './megabox-1351-14.json';
-import l_megabox_1351_15 from './megabox-1351-15.json';
-import l_megabox_1351_16 from './megabox-1351-16.json';
-import l_megabox_1351_17 from './megabox-1351-17.json';
-import l_megabox_1351_18 from './megabox-1351-18.json';
-import l_megabox_1371_01 from './megabox-1371-01.json';
-import l_megabox_1371_02 from './megabox-1371-02.json';
-import l_megabox_1371_03 from './megabox-1371-03.json';
-import l_megabox_1371_04 from './megabox-1371-04.json';
-import l_megabox_1371_05 from './megabox-1371-05.json';
-import l_megabox_1372_01 from './megabox-1372-01.json';
-import l_megabox_1372_02 from './megabox-1372-02.json';
-import l_megabox_1372_03 from './megabox-1372-03.json';
-import l_megabox_1372_04 from './megabox-1372-04.json';
-import l_megabox_1372_05 from './megabox-1372-05.json';
-import l_megabox_1372_06 from './megabox-1372-06.json';
-import l_megabox_1372_07 from './megabox-1372-07.json';
-import l_megabox_1581_01 from './megabox-1581-01.json';
-import l_megabox_1581_02 from './megabox-1581-02.json';
-import l_megabox_1581_03 from './megabox-1581-03.json';
-import l_megabox_1581_04 from './megabox-1581-04.json';
-import l_megabox_1581_05 from './megabox-1581-05.json';
-import l_megabox_1581_06 from './megabox-1581-06.json';
-import l_megabox_1581_07 from './megabox-1581-07.json';
-import l_megabox_1581_08 from './megabox-1581-08.json';
-import l_megabox_1581_09 from './megabox-1581-09.json';
-
-export const rawLayouts = {
-  'cgv-0013-001': l_cgv_0013_001,
-  'cgv-0013-002': l_cgv_0013_002,
-  'cgv-0013-003': l_cgv_0013_003,
-  'cgv-0013-004': l_cgv_0013_004,
-  'cgv-0013-005': l_cgv_0013_005,
-  'cgv-0013-006': l_cgv_0013_006,
-  'cgv-0013-007': l_cgv_0013_007,
-  'cgv-0013-009': l_cgv_0013_009,
-  'cgv-0013-010': l_cgv_0013_010,
-  'cgv-0013-011': l_cgv_0013_011,
-  'cgv-0013-012': l_cgv_0013_012,
-  'cgv-0013-013': l_cgv_0013_013,
-  'cgv-0013-014': l_cgv_0013_014,
-  'cgv-0013-015': l_cgv_0013_015,
-  'cgv-0013-016': l_cgv_0013_016,
-  'cgv-0013-017': l_cgv_0013_017,
-  'cgv-0013-018': l_cgv_0013_018,
-  'cgv-0013-024': l_cgv_0013_024,
-  'cgv-0056-001': l_cgv_0056_001,
-  'cgv-0056-003': l_cgv_0056_003,
-  'cgv-0056-004': l_cgv_0056_004,
-  'cgv-0056-005': l_cgv_0056_005,
-  'cgv-0056-006': l_cgv_0056_006,
-  'cgv-0059-001': l_cgv_0059_001,
-  'cgv-0059-002': l_cgv_0059_002,
-  'cgv-0059-003': l_cgv_0059_003,
-  'cgv-0059-004': l_cgv_0059_004,
-  'cgv-0059-005': l_cgv_0059_005,
-  'cgv-0059-007': l_cgv_0059_007,
-  'cgv-0059-008': l_cgv_0059_008,
-  'cgv-0059-009': l_cgv_0059_009,
-  'cgv-0059-010': l_cgv_0059_010,
-  'cgv-0059-011': l_cgv_0059_011,
-  'cgv-0059-017': l_cgv_0059_017,
-  'cgv-0074-001': l_cgv_0074_001,
-  'cgv-0074-002': l_cgv_0074_002,
-  'cgv-0074-004': l_cgv_0074_004,
-  'cgv-0074-005': l_cgv_0074_005,
-  'cgv-0074-006': l_cgv_0074_006,
-  'cgv-0074-007': l_cgv_0074_007,
-  'cgv-0074-008': l_cgv_0074_008,
-  'cgv-0074-009': l_cgv_0074_009,
-  'cgv-0074-010': l_cgv_0074_010,
-  'cgv-0112-003': l_cgv_0112_003,
-  'cgv-0112-004': l_cgv_0112_004,
-  'cgv-0112-005': l_cgv_0112_005,
-  'cgv-0112-006': l_cgv_0112_006,
-  'cgv-0112-008': l_cgv_0112_008,
-  'cgv-0112-009': l_cgv_0112_009,
-  'cgv-0131-001': l_cgv_0131_001,
-  'cgv-0131-002': l_cgv_0131_002,
-  'cgv-0131-003': l_cgv_0131_003,
-  'cgv-0131-004': l_cgv_0131_004,
-  'cgv-0131-005': l_cgv_0131_005,
-  'cgv-0131-006': l_cgv_0131_006,
-  'cgv-0131-007': l_cgv_0131_007,
-  'cgv-0150-003': l_cgv_0150_003,
-  'cgv-0150-004': l_cgv_0150_004,
-  'cgv-0150-005': l_cgv_0150_005,
-  'cgv-0150-006': l_cgv_0150_006,
-  'cgv-0150-007': l_cgv_0150_007,
-  'cgv-0150-008': l_cgv_0150_008,
-  'cgv-0150-016': l_cgv_0150_016,
-  'cgv-0191-001': l_cgv_0191_001,
-  'cgv-0191-002': l_cgv_0191_002,
-  'cgv-0191-003': l_cgv_0191_003,
-  'cgv-0191-004': l_cgv_0191_004,
-  'cgv-0191-005': l_cgv_0191_005,
-  'cgv-0191-006': l_cgv_0191_006,
-  'lotte-1003-100301': l_lotte_1003_100301,
-  'lotte-1003-100302': l_lotte_1003_100302,
-  'lotte-1003-100303': l_lotte_1003_100303,
-  'lotte-1003-100304': l_lotte_1003_100304,
-  'lotte-1003-100305': l_lotte_1003_100305,
-  'lotte-1003-100306': l_lotte_1003_100306,
-  'lotte-1003-100307': l_lotte_1003_100307,
-  'lotte-1003-100308': l_lotte_1003_100308,
-  'lotte-1003-100309': l_lotte_1003_100309,
-  'lotte-1003-100310': l_lotte_1003_100310,
-  'lotte-1004-100401': l_lotte_1004_100401,
-  'lotte-1004-100402': l_lotte_1004_100402,
-  'lotte-1004-100403': l_lotte_1004_100403,
-  'lotte-1004-100404': l_lotte_1004_100404,
-  'lotte-1004-100405': l_lotte_1004_100405,
-  'lotte-1004-100406': l_lotte_1004_100406,
-  'lotte-1004-100407': l_lotte_1004_100407,
-  'lotte-1004-100408': l_lotte_1004_100408,
-  'lotte-1004-100409': l_lotte_1004_100409,
-  'lotte-1004-100410': l_lotte_1004_100410,
-  'lotte-1004-301': l_lotte_1004_301,
-  'lotte-1007-100701': l_lotte_1007_100701,
-  'lotte-1007-100702': l_lotte_1007_100702,
-  'lotte-1007-100703': l_lotte_1007_100703,
-  'lotte-1007-100704': l_lotte_1007_100704,
-  'lotte-1007-100705': l_lotte_1007_100705,
-  'lotte-1007-100706': l_lotte_1007_100706,
-  'lotte-1007-100707': l_lotte_1007_100707,
-  'lotte-1007-100708': l_lotte_1007_100708,
-  'lotte-1012-101201': l_lotte_1012_101201,
-  'lotte-1012-101202': l_lotte_1012_101202,
-  'lotte-1012-101203': l_lotte_1012_101203,
-  'lotte-1012-101204': l_lotte_1012_101204,
-  'lotte-1012-101205': l_lotte_1012_101205,
-  'lotte-1013-101301': l_lotte_1013_101301,
-  'lotte-1013-101302': l_lotte_1013_101302,
-  'lotte-1013-101303': l_lotte_1013_101303,
-  'lotte-1013-101304': l_lotte_1013_101304,
-  'lotte-1013-101305': l_lotte_1013_101305,
-  'lotte-1013-101306': l_lotte_1013_101306,
-  'lotte-1014-101401': l_lotte_1014_101401,
-  'lotte-1014-101402': l_lotte_1014_101402,
-  'lotte-1014-101403': l_lotte_1014_101403,
-  'lotte-1014-101404': l_lotte_1014_101404,
-  'lotte-1014-101405': l_lotte_1014_101405,
-  'lotte-1014-101406': l_lotte_1014_101406,
-  'lotte-1014-101407': l_lotte_1014_101407,
-  'lotte-1014-101408': l_lotte_1014_101408,
-  'lotte-1016-101603': l_lotte_1016_101603,
-  'lotte-1016-101604': l_lotte_1016_101604,
-  'lotte-1016-101605': l_lotte_1016_101605,
-  'lotte-1016-101606': l_lotte_1016_101606,
-  'lotte-1016-101607': l_lotte_1016_101607,
-  'lotte-1016-101608': l_lotte_1016_101608,
-  'lotte-1016-101609': l_lotte_1016_101609,
-  'lotte-1016-101610': l_lotte_1016_101610,
-  'lotte-1016-101613': l_lotte_1016_101613,
-  'lotte-1016-101614': l_lotte_1016_101614,
-  'lotte-1016-101615': l_lotte_1016_101615,
-  'lotte-1016-101616': l_lotte_1016_101616,
-  'lotte-1016-101617': l_lotte_1016_101617,
-  'lotte-1016-101618': l_lotte_1016_101618,
-  'lotte-1016-101619': l_lotte_1016_101619,
-  'lotte-1016-101620': l_lotte_1016_101620,
-  'lotte-1016-101621': l_lotte_1016_101621,
-  'lotte-1016-1201': l_lotte_1016_1201,
-  'lotte-1016-1202': l_lotte_1016_1202,
-  'megabox-1212-01': l_megabox_1212_01,
-  'megabox-1212-02': l_megabox_1212_02,
-  'megabox-1212-03': l_megabox_1212_03,
-  'megabox-1212-04': l_megabox_1212_04,
-  'megabox-1212-05': l_megabox_1212_05,
-  'megabox-1351-01': l_megabox_1351_01,
-  'megabox-1351-02': l_megabox_1351_02,
-  'megabox-1351-03': l_megabox_1351_03,
-  'megabox-1351-04': l_megabox_1351_04,
-  'megabox-1351-05': l_megabox_1351_05,
-  'megabox-1351-06': l_megabox_1351_06,
-  'megabox-1351-07': l_megabox_1351_07,
-  'megabox-1351-08': l_megabox_1351_08,
-  'megabox-1351-09': l_megabox_1351_09,
-  'megabox-1351-10': l_megabox_1351_10,
-  'megabox-1351-11': l_megabox_1351_11,
-  'megabox-1351-12': l_megabox_1351_12,
-  'megabox-1351-13': l_megabox_1351_13,
-  'megabox-1351-14': l_megabox_1351_14,
-  'megabox-1351-15': l_megabox_1351_15,
-  'megabox-1351-16': l_megabox_1351_16,
-  'megabox-1351-17': l_megabox_1351_17,
-  'megabox-1351-18': l_megabox_1351_18,
-  'megabox-1371-01': l_megabox_1371_01,
-  'megabox-1371-02': l_megabox_1371_02,
-  'megabox-1371-03': l_megabox_1371_03,
-  'megabox-1371-04': l_megabox_1371_04,
-  'megabox-1371-05': l_megabox_1371_05,
-  'megabox-1372-01': l_megabox_1372_01,
-  'megabox-1372-02': l_megabox_1372_02,
-  'megabox-1372-03': l_megabox_1372_03,
-  'megabox-1372-04': l_megabox_1372_04,
-  'megabox-1372-05': l_megabox_1372_05,
-  'megabox-1372-06': l_megabox_1372_06,
-  'megabox-1372-07': l_megabox_1372_07,
-  'megabox-1581-01': l_megabox_1581_01,
-  'megabox-1581-02': l_megabox_1581_02,
-  'megabox-1581-03': l_megabox_1581_03,
-  'megabox-1581-04': l_megabox_1581_04,
-  'megabox-1581-05': l_megabox_1581_05,
-  'megabox-1581-06': l_megabox_1581_06,
-  'megabox-1581-07': l_megabox_1581_07,
-  'megabox-1581-08': l_megabox_1581_08,
-  'megabox-1581-09': l_megabox_1581_09,
+export const loadLayout: Record<string, () => unknown> = {
+  'cgv-0001-001': () => require('./cgv-0001-001.json'),
+  'cgv-0001-002': () => require('./cgv-0001-002.json'),
+  'cgv-0001-003': () => require('./cgv-0001-003.json'),
+  'cgv-0001-004': () => require('./cgv-0001-004.json'),
+  'cgv-0001-005': () => require('./cgv-0001-005.json'),
+  'cgv-0001-006': () => require('./cgv-0001-006.json'),
+  'cgv-0001-007': () => require('./cgv-0001-007.json'),
+  'cgv-0001-008': () => require('./cgv-0001-008.json'),
+  'cgv-0001-009': () => require('./cgv-0001-009.json'),
+  'cgv-0001-010': () => require('./cgv-0001-010.json'),
+  'cgv-0001-011': () => require('./cgv-0001-011.json'),
+  'cgv-0009-001': () => require('./cgv-0009-001.json'),
+  'cgv-0009-002': () => require('./cgv-0009-002.json'),
+  'cgv-0009-003': () => require('./cgv-0009-003.json'),
+  'cgv-0009-004': () => require('./cgv-0009-004.json'),
+  'cgv-0009-005': () => require('./cgv-0009-005.json'),
+  'cgv-0010-001': () => require('./cgv-0010-001.json'),
+  'cgv-0010-002': () => require('./cgv-0010-002.json'),
+  'cgv-0010-005': () => require('./cgv-0010-005.json'),
+  'cgv-0010-006': () => require('./cgv-0010-006.json'),
+  'cgv-0010-007': () => require('./cgv-0010-007.json'),
+  'cgv-0010-008': () => require('./cgv-0010-008.json'),
+  'cgv-0010-009': () => require('./cgv-0010-009.json'),
+  'cgv-0010-010': () => require('./cgv-0010-010.json'),
+  'cgv-0013-001': () => require('./cgv-0013-001.json'),
+  'cgv-0013-002': () => require('./cgv-0013-002.json'),
+  'cgv-0013-003': () => require('./cgv-0013-003.json'),
+  'cgv-0013-004': () => require('./cgv-0013-004.json'),
+  'cgv-0013-005': () => require('./cgv-0013-005.json'),
+  'cgv-0013-006': () => require('./cgv-0013-006.json'),
+  'cgv-0013-007': () => require('./cgv-0013-007.json'),
+  'cgv-0013-009': () => require('./cgv-0013-009.json'),
+  'cgv-0013-010': () => require('./cgv-0013-010.json'),
+  'cgv-0013-011': () => require('./cgv-0013-011.json'),
+  'cgv-0013-012': () => require('./cgv-0013-012.json'),
+  'cgv-0013-013': () => require('./cgv-0013-013.json'),
+  'cgv-0013-014': () => require('./cgv-0013-014.json'),
+  'cgv-0013-015': () => require('./cgv-0013-015.json'),
+  'cgv-0013-016': () => require('./cgv-0013-016.json'),
+  'cgv-0013-017': () => require('./cgv-0013-017.json'),
+  'cgv-0013-018': () => require('./cgv-0013-018.json'),
+  'cgv-0013-024': () => require('./cgv-0013-024.json'),
+  'cgv-0030-001': () => require('./cgv-0030-001.json'),
+  'cgv-0030-002': () => require('./cgv-0030-002.json'),
+  'cgv-0030-003': () => require('./cgv-0030-003.json'),
+  'cgv-0030-004': () => require('./cgv-0030-004.json'),
+  'cgv-0030-006': () => require('./cgv-0030-006.json'),
+  'cgv-0030-007': () => require('./cgv-0030-007.json'),
+  'cgv-0030-008': () => require('./cgv-0030-008.json'),
+  'cgv-0030-009': () => require('./cgv-0030-009.json'),
+  'cgv-0040-001': () => require('./cgv-0040-001.json'),
+  'cgv-0040-003': () => require('./cgv-0040-003.json'),
+  'cgv-0040-004': () => require('./cgv-0040-004.json'),
+  'cgv-0040-005': () => require('./cgv-0040-005.json'),
+  'cgv-0040-006': () => require('./cgv-0040-006.json'),
+  'cgv-0046-001': () => require('./cgv-0046-001.json'),
+  'cgv-0046-002': () => require('./cgv-0046-002.json'),
+  'cgv-0046-003': () => require('./cgv-0046-003.json'),
+  'cgv-0046-004': () => require('./cgv-0046-004.json'),
+  'cgv-0046-005': () => require('./cgv-0046-005.json'),
+  'cgv-0046-006': () => require('./cgv-0046-006.json'),
+  'cgv-0046-007': () => require('./cgv-0046-007.json'),
+  'cgv-0056-001': () => require('./cgv-0056-001.json'),
+  'cgv-0056-003': () => require('./cgv-0056-003.json'),
+  'cgv-0056-004': () => require('./cgv-0056-004.json'),
+  'cgv-0056-005': () => require('./cgv-0056-005.json'),
+  'cgv-0056-006': () => require('./cgv-0056-006.json'),
+  'cgv-0057-001': () => require('./cgv-0057-001.json'),
+  'cgv-0057-002': () => require('./cgv-0057-002.json'),
+  'cgv-0057-003': () => require('./cgv-0057-003.json'),
+  'cgv-0057-004': () => require('./cgv-0057-004.json'),
+  'cgv-0057-005': () => require('./cgv-0057-005.json'),
+  'cgv-0057-006': () => require('./cgv-0057-006.json'),
+  'cgv-0059-001': () => require('./cgv-0059-001.json'),
+  'cgv-0059-002': () => require('./cgv-0059-002.json'),
+  'cgv-0059-003': () => require('./cgv-0059-003.json'),
+  'cgv-0059-004': () => require('./cgv-0059-004.json'),
+  'cgv-0059-005': () => require('./cgv-0059-005.json'),
+  'cgv-0059-007': () => require('./cgv-0059-007.json'),
+  'cgv-0059-008': () => require('./cgv-0059-008.json'),
+  'cgv-0059-009': () => require('./cgv-0059-009.json'),
+  'cgv-0059-010': () => require('./cgv-0059-010.json'),
+  'cgv-0059-011': () => require('./cgv-0059-011.json'),
+  'cgv-0059-017': () => require('./cgv-0059-017.json'),
+  'cgv-0063-001': () => require('./cgv-0063-001.json'),
+  'cgv-0063-002': () => require('./cgv-0063-002.json'),
+  'cgv-0063-003': () => require('./cgv-0063-003.json'),
+  'cgv-0063-004': () => require('./cgv-0063-004.json'),
+  'cgv-0063-005': () => require('./cgv-0063-005.json'),
+  'cgv-0063-006': () => require('./cgv-0063-006.json'),
+  'cgv-0063-007': () => require('./cgv-0063-007.json'),
+  'cgv-0063-008': () => require('./cgv-0063-008.json'),
+  'cgv-0074-001': () => require('./cgv-0074-001.json'),
+  'cgv-0074-002': () => require('./cgv-0074-002.json'),
+  'cgv-0074-004': () => require('./cgv-0074-004.json'),
+  'cgv-0074-005': () => require('./cgv-0074-005.json'),
+  'cgv-0074-006': () => require('./cgv-0074-006.json'),
+  'cgv-0074-007': () => require('./cgv-0074-007.json'),
+  'cgv-0074-008': () => require('./cgv-0074-008.json'),
+  'cgv-0074-009': () => require('./cgv-0074-009.json'),
+  'cgv-0074-010': () => require('./cgv-0074-010.json'),
+  'cgv-0107-001': () => require('./cgv-0107-001.json'),
+  'cgv-0107-003': () => require('./cgv-0107-003.json'),
+  'cgv-0107-004': () => require('./cgv-0107-004.json'),
+  'cgv-0107-005': () => require('./cgv-0107-005.json'),
+  'cgv-0107-008': () => require('./cgv-0107-008.json'),
+  'cgv-0112-003': () => require('./cgv-0112-003.json'),
+  'cgv-0112-004': () => require('./cgv-0112-004.json'),
+  'cgv-0112-005': () => require('./cgv-0112-005.json'),
+  'cgv-0112-006': () => require('./cgv-0112-006.json'),
+  'cgv-0112-008': () => require('./cgv-0112-008.json'),
+  'cgv-0112-009': () => require('./cgv-0112-009.json'),
+  'cgv-0131-001': () => require('./cgv-0131-001.json'),
+  'cgv-0131-002': () => require('./cgv-0131-002.json'),
+  'cgv-0131-003': () => require('./cgv-0131-003.json'),
+  'cgv-0131-004': () => require('./cgv-0131-004.json'),
+  'cgv-0131-005': () => require('./cgv-0131-005.json'),
+  'cgv-0131-006': () => require('./cgv-0131-006.json'),
+  'cgv-0131-007': () => require('./cgv-0131-007.json'),
+  'cgv-0150-003': () => require('./cgv-0150-003.json'),
+  'cgv-0150-004': () => require('./cgv-0150-004.json'),
+  'cgv-0150-005': () => require('./cgv-0150-005.json'),
+  'cgv-0150-006': () => require('./cgv-0150-006.json'),
+  'cgv-0150-007': () => require('./cgv-0150-007.json'),
+  'cgv-0150-008': () => require('./cgv-0150-008.json'),
+  'cgv-0150-016': () => require('./cgv-0150-016.json'),
+  'cgv-0191-001': () => require('./cgv-0191-001.json'),
+  'cgv-0191-002': () => require('./cgv-0191-002.json'),
+  'cgv-0191-003': () => require('./cgv-0191-003.json'),
+  'cgv-0191-004': () => require('./cgv-0191-004.json'),
+  'cgv-0191-005': () => require('./cgv-0191-005.json'),
+  'cgv-0191-006': () => require('./cgv-0191-006.json'),
+  'cgv-0199-001': () => require('./cgv-0199-001.json'),
+  'cgv-0199-002': () => require('./cgv-0199-002.json'),
+  'cgv-0199-003': () => require('./cgv-0199-003.json'),
+  'cgv-0199-004': () => require('./cgv-0199-004.json'),
+  'cgv-0199-005': () => require('./cgv-0199-005.json'),
+  'cgv-0199-006': () => require('./cgv-0199-006.json'),
+  'cgv-0223-001': () => require('./cgv-0223-001.json'),
+  'cgv-0223-002': () => require('./cgv-0223-002.json'),
+  'cgv-0223-004': () => require('./cgv-0223-004.json'),
+  'cgv-0223-005': () => require('./cgv-0223-005.json'),
+  'cgv-0223-006': () => require('./cgv-0223-006.json'),
+  'cgv-0230-001': () => require('./cgv-0230-001.json'),
+  'cgv-0230-002': () => require('./cgv-0230-002.json'),
+  'cgv-0230-003': () => require('./cgv-0230-003.json'),
+  'cgv-0230-004': () => require('./cgv-0230-004.json'),
+  'cgv-0230-005': () => require('./cgv-0230-005.json'),
+  'cgv-0230-006': () => require('./cgv-0230-006.json'),
+  'cgv-0252-001': () => require('./cgv-0252-001.json'),
+  'cgv-0252-002': () => require('./cgv-0252-002.json'),
+  'cgv-0252-003': () => require('./cgv-0252-003.json'),
+  'cgv-0252-004': () => require('./cgv-0252-004.json'),
+  'cgv-0252-006': () => require('./cgv-0252-006.json'),
+  'cgv-0276-001': () => require('./cgv-0276-001.json'),
+  'cgv-0276-002': () => require('./cgv-0276-002.json'),
+  'cgv-0276-003': () => require('./cgv-0276-003.json'),
+  'cgv-0276-004': () => require('./cgv-0276-004.json'),
+  'cgv-0276-005': () => require('./cgv-0276-005.json'),
+  'cgv-0276-006': () => require('./cgv-0276-006.json'),
+  'cgv-0276-007': () => require('./cgv-0276-007.json'),
+  'cgv-0276-008': () => require('./cgv-0276-008.json'),
+  'cgv-0276-009': () => require('./cgv-0276-009.json'),
+  'cgv-0288-001': () => require('./cgv-0288-001.json'),
+  'cgv-0288-002': () => require('./cgv-0288-002.json'),
+  'cgv-0288-003': () => require('./cgv-0288-003.json'),
+  'cgv-0288-004': () => require('./cgv-0288-004.json'),
+  'cgv-0288-005': () => require('./cgv-0288-005.json'),
+  'cgv-0288-006': () => require('./cgv-0288-006.json'),
+  'cgv-0288-007': () => require('./cgv-0288-007.json'),
+  'cgv-0292-001': () => require('./cgv-0292-001.json'),
+  'cgv-0292-002': () => require('./cgv-0292-002.json'),
+  'cgv-0292-003': () => require('./cgv-0292-003.json'),
+  'cgv-0292-004': () => require('./cgv-0292-004.json'),
+  'cgv-0292-005': () => require('./cgv-0292-005.json'),
+  'cgv-0292-006': () => require('./cgv-0292-006.json'),
+  'cgv-0300-001': () => require('./cgv-0300-001.json'),
+  'cgv-0300-002': () => require('./cgv-0300-002.json'),
+  'cgv-0300-003': () => require('./cgv-0300-003.json'),
+  'cgv-0300-004': () => require('./cgv-0300-004.json'),
+  'cgv-0366-001': () => require('./cgv-0366-001.json'),
+  'cgv-0366-002': () => require('./cgv-0366-002.json'),
+  'cgv-0366-003': () => require('./cgv-0366-003.json'),
+  'cgv-0366-004': () => require('./cgv-0366-004.json'),
+  'cgv-0366-005': () => require('./cgv-0366-005.json'),
+  'cgv-0366-006': () => require('./cgv-0366-006.json'),
+  'cgv-0366-007': () => require('./cgv-0366-007.json'),
+  'cgv-0366-008': () => require('./cgv-0366-008.json'),
+  'lotte-1001-100101': () => require('./lotte-1001-100101.json'),
+  'lotte-1001-100102': () => require('./lotte-1001-100102.json'),
+  'lotte-1001-100103': () => require('./lotte-1001-100103.json'),
+  'lotte-1001-100105': () => require('./lotte-1001-100105.json'),
+  'lotte-1001-101': () => require('./lotte-1001-101.json'),
+  'lotte-1002-100201': () => require('./lotte-1002-100201.json'),
+  'lotte-1002-100202': () => require('./lotte-1002-100202.json'),
+  'lotte-1002-100203': () => require('./lotte-1002-100203.json'),
+  'lotte-1002-100204': () => require('./lotte-1002-100204.json'),
+  'lotte-1002-100205': () => require('./lotte-1002-100205.json'),
+  'lotte-1002-100206': () => require('./lotte-1002-100206.json'),
+  'lotte-1002-100207': () => require('./lotte-1002-100207.json'),
+  'lotte-1003-100301': () => require('./lotte-1003-100301.json'),
+  'lotte-1003-100302': () => require('./lotte-1003-100302.json'),
+  'lotte-1003-100303': () => require('./lotte-1003-100303.json'),
+  'lotte-1003-100304': () => require('./lotte-1003-100304.json'),
+  'lotte-1003-100305': () => require('./lotte-1003-100305.json'),
+  'lotte-1003-100306': () => require('./lotte-1003-100306.json'),
+  'lotte-1003-100307': () => require('./lotte-1003-100307.json'),
+  'lotte-1003-100308': () => require('./lotte-1003-100308.json'),
+  'lotte-1003-100309': () => require('./lotte-1003-100309.json'),
+  'lotte-1003-100310': () => require('./lotte-1003-100310.json'),
+  'lotte-1004-100401': () => require('./lotte-1004-100401.json'),
+  'lotte-1004-100402': () => require('./lotte-1004-100402.json'),
+  'lotte-1004-100403': () => require('./lotte-1004-100403.json'),
+  'lotte-1004-100404': () => require('./lotte-1004-100404.json'),
+  'lotte-1004-100405': () => require('./lotte-1004-100405.json'),
+  'lotte-1004-100406': () => require('./lotte-1004-100406.json'),
+  'lotte-1004-100407': () => require('./lotte-1004-100407.json'),
+  'lotte-1004-100408': () => require('./lotte-1004-100408.json'),
+  'lotte-1004-100409': () => require('./lotte-1004-100409.json'),
+  'lotte-1004-100410': () => require('./lotte-1004-100410.json'),
+  'lotte-1004-301': () => require('./lotte-1004-301.json'),
+  'lotte-1005-100503': () => require('./lotte-1005-100503.json'),
+  'lotte-1005-100504': () => require('./lotte-1005-100504.json'),
+  'lotte-1005-100505': () => require('./lotte-1005-100505.json'),
+  'lotte-1005-100506': () => require('./lotte-1005-100506.json'),
+  'lotte-1007-100701': () => require('./lotte-1007-100701.json'),
+  'lotte-1007-100702': () => require('./lotte-1007-100702.json'),
+  'lotte-1007-100703': () => require('./lotte-1007-100703.json'),
+  'lotte-1007-100704': () => require('./lotte-1007-100704.json'),
+  'lotte-1007-100705': () => require('./lotte-1007-100705.json'),
+  'lotte-1007-100706': () => require('./lotte-1007-100706.json'),
+  'lotte-1007-100707': () => require('./lotte-1007-100707.json'),
+  'lotte-1007-100708': () => require('./lotte-1007-100708.json'),
+  'lotte-1008-100801': () => require('./lotte-1008-100801.json'),
+  'lotte-1008-100802': () => require('./lotte-1008-100802.json'),
+  'lotte-1008-100803': () => require('./lotte-1008-100803.json'),
+  'lotte-1008-100804': () => require('./lotte-1008-100804.json'),
+  'lotte-1008-100805': () => require('./lotte-1008-100805.json'),
+  'lotte-1008-100806': () => require('./lotte-1008-100806.json'),
+  'lotte-1008-100807': () => require('./lotte-1008-100807.json'),
+  'lotte-1008-100808': () => require('./lotte-1008-100808.json'),
+  'lotte-1009-100902': () => require('./lotte-1009-100902.json'),
+  'lotte-1009-100903': () => require('./lotte-1009-100903.json'),
+  'lotte-1009-100904': () => require('./lotte-1009-100904.json'),
+  'lotte-1009-100905': () => require('./lotte-1009-100905.json'),
+  'lotte-1009-100906': () => require('./lotte-1009-100906.json'),
+  'lotte-1009-100907': () => require('./lotte-1009-100907.json'),
+  'lotte-1009-100908': () => require('./lotte-1009-100908.json'),
+  'lotte-1009-100909': () => require('./lotte-1009-100909.json'),
+  'lotte-1009-100910': () => require('./lotte-1009-100910.json'),
+  'lotte-1009-701': () => require('./lotte-1009-701.json'),
+  'lotte-1012-101201': () => require('./lotte-1012-101201.json'),
+  'lotte-1012-101202': () => require('./lotte-1012-101202.json'),
+  'lotte-1012-101203': () => require('./lotte-1012-101203.json'),
+  'lotte-1012-101204': () => require('./lotte-1012-101204.json'),
+  'lotte-1012-101205': () => require('./lotte-1012-101205.json'),
+  'lotte-1013-101301': () => require('./lotte-1013-101301.json'),
+  'lotte-1013-101302': () => require('./lotte-1013-101302.json'),
+  'lotte-1013-101303': () => require('./lotte-1013-101303.json'),
+  'lotte-1013-101304': () => require('./lotte-1013-101304.json'),
+  'lotte-1013-101305': () => require('./lotte-1013-101305.json'),
+  'lotte-1013-101306': () => require('./lotte-1013-101306.json'),
+  'lotte-1014-101401': () => require('./lotte-1014-101401.json'),
+  'lotte-1014-101402': () => require('./lotte-1014-101402.json'),
+  'lotte-1014-101403': () => require('./lotte-1014-101403.json'),
+  'lotte-1014-101404': () => require('./lotte-1014-101404.json'),
+  'lotte-1014-101405': () => require('./lotte-1014-101405.json'),
+  'lotte-1014-101406': () => require('./lotte-1014-101406.json'),
+  'lotte-1014-101407': () => require('./lotte-1014-101407.json'),
+  'lotte-1014-101408': () => require('./lotte-1014-101408.json'),
+  'lotte-1015-101501': () => require('./lotte-1015-101501.json'),
+  'lotte-1015-101502': () => require('./lotte-1015-101502.json'),
+  'lotte-1015-101503': () => require('./lotte-1015-101503.json'),
+  'lotte-1015-101504': () => require('./lotte-1015-101504.json'),
+  'lotte-1015-101505': () => require('./lotte-1015-101505.json'),
+  'lotte-1016-101603': () => require('./lotte-1016-101603.json'),
+  'lotte-1016-101604': () => require('./lotte-1016-101604.json'),
+  'lotte-1016-101605': () => require('./lotte-1016-101605.json'),
+  'lotte-1016-101606': () => require('./lotte-1016-101606.json'),
+  'lotte-1016-101607': () => require('./lotte-1016-101607.json'),
+  'lotte-1016-101608': () => require('./lotte-1016-101608.json'),
+  'lotte-1016-101609': () => require('./lotte-1016-101609.json'),
+  'lotte-1016-101610': () => require('./lotte-1016-101610.json'),
+  'lotte-1016-101613': () => require('./lotte-1016-101613.json'),
+  'lotte-1016-101614': () => require('./lotte-1016-101614.json'),
+  'lotte-1016-101615': () => require('./lotte-1016-101615.json'),
+  'lotte-1016-101616': () => require('./lotte-1016-101616.json'),
+  'lotte-1016-101617': () => require('./lotte-1016-101617.json'),
+  'lotte-1016-101618': () => require('./lotte-1016-101618.json'),
+  'lotte-1016-101619': () => require('./lotte-1016-101619.json'),
+  'lotte-1016-101620': () => require('./lotte-1016-101620.json'),
+  'lotte-1016-101621': () => require('./lotte-1016-101621.json'),
+  'lotte-1016-1201': () => require('./lotte-1016-1201.json'),
+  'lotte-1016-1202': () => require('./lotte-1016-1202.json'),
+  'lotte-1017-101701': () => require('./lotte-1017-101701.json'),
+  'lotte-1017-101702': () => require('./lotte-1017-101702.json'),
+  'lotte-1017-101703': () => require('./lotte-1017-101703.json'),
+  'lotte-1017-101704': () => require('./lotte-1017-101704.json'),
+  'lotte-1017-101705': () => require('./lotte-1017-101705.json'),
+  'lotte-1017-101706': () => require('./lotte-1017-101706.json'),
+  'lotte-1017-101707': () => require('./lotte-1017-101707.json'),
+  'lotte-1017-101708': () => require('./lotte-1017-101708.json'),
+  'lotte-1021-102101': () => require('./lotte-1021-102101.json'),
+  'lotte-1021-102102': () => require('./lotte-1021-102102.json'),
+  'lotte-1021-102103': () => require('./lotte-1021-102103.json'),
+  'lotte-1021-102104': () => require('./lotte-1021-102104.json'),
+  'lotte-1021-102105': () => require('./lotte-1021-102105.json'),
+  'lotte-1021-102106': () => require('./lotte-1021-102106.json'),
+  'lotte-1021-102107': () => require('./lotte-1021-102107.json'),
+  'lotte-1021-102108': () => require('./lotte-1021-102108.json'),
+  'lotte-1023-102301': () => require('./lotte-1023-102301.json'),
+  'lotte-1023-102302': () => require('./lotte-1023-102302.json'),
+  'lotte-1023-102303': () => require('./lotte-1023-102303.json'),
+  'lotte-1023-102304': () => require('./lotte-1023-102304.json'),
+  'lotte-1023-102305': () => require('./lotte-1023-102305.json'),
+  'lotte-1023-102306': () => require('./lotte-1023-102306.json'),
+  'lotte-1023-102307': () => require('./lotte-1023-102307.json'),
+  'lotte-1024-102401': () => require('./lotte-1024-102401.json'),
+  'lotte-1024-102402': () => require('./lotte-1024-102402.json'),
+  'lotte-1024-102403': () => require('./lotte-1024-102403.json'),
+  'lotte-1024-102404': () => require('./lotte-1024-102404.json'),
+  'lotte-1024-102405': () => require('./lotte-1024-102405.json'),
+  'lotte-1024-102406': () => require('./lotte-1024-102406.json'),
+  'lotte-9010-901001': () => require('./lotte-9010-901001.json'),
+  'lotte-9010-901002': () => require('./lotte-9010-901002.json'),
+  'lotte-9010-901003': () => require('./lotte-9010-901003.json'),
+  'lotte-9010-901004': () => require('./lotte-9010-901004.json'),
+  'lotte-9010-901005': () => require('./lotte-9010-901005.json'),
+  'lotte-9010-901006': () => require('./lotte-9010-901006.json'),
+  'lotte-9010-901010': () => require('./lotte-9010-901010.json'),
+  'lotte-9083-908301': () => require('./lotte-9083-908301.json'),
+  'lotte-9083-908302': () => require('./lotte-9083-908302.json'),
+  'lotte-9083-908303': () => require('./lotte-9083-908303.json'),
+  'lotte-9083-908304': () => require('./lotte-9083-908304.json'),
+  'lotte-9083-908305': () => require('./lotte-9083-908305.json'),
+  'lotte-9083-908306': () => require('./lotte-9083-908306.json'),
+  'lotte-9083-908307': () => require('./lotte-9083-908307.json'),
+  'lotte-9083-908308': () => require('./lotte-9083-908308.json'),
+  'lotte-9094-909401': () => require('./lotte-9094-909401.json'),
+  'lotte-9094-909402': () => require('./lotte-9094-909402.json'),
+  'lotte-9094-909403': () => require('./lotte-9094-909403.json'),
+  'lotte-9094-909404': () => require('./lotte-9094-909404.json'),
+  'lotte-9094-909405': () => require('./lotte-9094-909405.json'),
+  'lotte-9094-909406': () => require('./lotte-9094-909406.json'),
+  'lotte-9104-910401': () => require('./lotte-9104-910401.json'),
+  'lotte-9104-910402': () => require('./lotte-9104-910402.json'),
+  'lotte-9104-910403': () => require('./lotte-9104-910403.json'),
+  'lotte-9104-910404': () => require('./lotte-9104-910404.json'),
+  'lotte-9104-910405': () => require('./lotte-9104-910405.json'),
+  'lotte-9104-910406': () => require('./lotte-9104-910406.json'),
+  'megabox-0041-01': () => require('./megabox-0041-01.json'),
+  'megabox-0041-02': () => require('./megabox-0041-02.json'),
+  'megabox-0041-03': () => require('./megabox-0041-03.json'),
+  'megabox-0041-04': () => require('./megabox-0041-04.json'),
+  'megabox-0041-05': () => require('./megabox-0041-05.json'),
+  'megabox-0041-06': () => require('./megabox-0041-06.json'),
+  'megabox-0041-07': () => require('./megabox-0041-07.json'),
+  'megabox-0041-08': () => require('./megabox-0041-08.json'),
+  'megabox-0083-01': () => require('./megabox-0083-01.json'),
+  'megabox-0083-02': () => require('./megabox-0083-02.json'),
+  'megabox-0083-03': () => require('./megabox-0083-03.json'),
+  'megabox-0083-04': () => require('./megabox-0083-04.json'),
+  'megabox-0083-05': () => require('./megabox-0083-05.json'),
+  'megabox-0090-01': () => require('./megabox-0090-01.json'),
+  'megabox-0090-02': () => require('./megabox-0090-02.json'),
+  'megabox-0090-03': () => require('./megabox-0090-03.json'),
+  'megabox-0090-04': () => require('./megabox-0090-04.json'),
+  'megabox-0090-05': () => require('./megabox-0090-05.json'),
+  'megabox-0090-06': () => require('./megabox-0090-06.json'),
+  'megabox-0090-07': () => require('./megabox-0090-07.json'),
+  'megabox-0090-08': () => require('./megabox-0090-08.json'),
+  'megabox-0099-01': () => require('./megabox-0099-01.json'),
+  'megabox-0099-02': () => require('./megabox-0099-02.json'),
+  'megabox-0099-03': () => require('./megabox-0099-03.json'),
+  'megabox-0099-04': () => require('./megabox-0099-04.json'),
+  'megabox-0099-05': () => require('./megabox-0099-05.json'),
+  'megabox-0099-06': () => require('./megabox-0099-06.json'),
+  'megabox-1211-01': () => require('./megabox-1211-01.json'),
+  'megabox-1211-02': () => require('./megabox-1211-02.json'),
+  'megabox-1211-03': () => require('./megabox-1211-03.json'),
+  'megabox-1211-04': () => require('./megabox-1211-04.json'),
+  'megabox-1211-05': () => require('./megabox-1211-05.json'),
+  'megabox-1211-06': () => require('./megabox-1211-06.json'),
+  'megabox-1211-07': () => require('./megabox-1211-07.json'),
+  'megabox-1211-08': () => require('./megabox-1211-08.json'),
+  'megabox-1211-09': () => require('./megabox-1211-09.json'),
+  'megabox-1212-01': () => require('./megabox-1212-01.json'),
+  'megabox-1212-02': () => require('./megabox-1212-02.json'),
+  'megabox-1212-03': () => require('./megabox-1212-03.json'),
+  'megabox-1212-04': () => require('./megabox-1212-04.json'),
+  'megabox-1212-05': () => require('./megabox-1212-05.json'),
+  'megabox-1311-01': () => require('./megabox-1311-01.json'),
+  'megabox-1311-02': () => require('./megabox-1311-02.json'),
+  'megabox-1311-03': () => require('./megabox-1311-03.json'),
+  'megabox-1311-04': () => require('./megabox-1311-04.json'),
+  'megabox-1341-01': () => require('./megabox-1341-01.json'),
+  'megabox-1341-02': () => require('./megabox-1341-02.json'),
+  'megabox-1341-03': () => require('./megabox-1341-03.json'),
+  'megabox-1341-04': () => require('./megabox-1341-04.json'),
+  'megabox-1351-01': () => require('./megabox-1351-01.json'),
+  'megabox-1351-02': () => require('./megabox-1351-02.json'),
+  'megabox-1351-03': () => require('./megabox-1351-03.json'),
+  'megabox-1351-04': () => require('./megabox-1351-04.json'),
+  'megabox-1351-05': () => require('./megabox-1351-05.json'),
+  'megabox-1351-06': () => require('./megabox-1351-06.json'),
+  'megabox-1351-07': () => require('./megabox-1351-07.json'),
+  'megabox-1351-08': () => require('./megabox-1351-08.json'),
+  'megabox-1351-09': () => require('./megabox-1351-09.json'),
+  'megabox-1351-10': () => require('./megabox-1351-10.json'),
+  'megabox-1351-11': () => require('./megabox-1351-11.json'),
+  'megabox-1351-12': () => require('./megabox-1351-12.json'),
+  'megabox-1351-13': () => require('./megabox-1351-13.json'),
+  'megabox-1351-14': () => require('./megabox-1351-14.json'),
+  'megabox-1351-15': () => require('./megabox-1351-15.json'),
+  'megabox-1351-16': () => require('./megabox-1351-16.json'),
+  'megabox-1351-17': () => require('./megabox-1351-17.json'),
+  'megabox-1351-18': () => require('./megabox-1351-18.json'),
+  'megabox-1371-01': () => require('./megabox-1371-01.json'),
+  'megabox-1371-02': () => require('./megabox-1371-02.json'),
+  'megabox-1371-03': () => require('./megabox-1371-03.json'),
+  'megabox-1371-04': () => require('./megabox-1371-04.json'),
+  'megabox-1371-05': () => require('./megabox-1371-05.json'),
+  'megabox-1372-01': () => require('./megabox-1372-01.json'),
+  'megabox-1372-02': () => require('./megabox-1372-02.json'),
+  'megabox-1372-03': () => require('./megabox-1372-03.json'),
+  'megabox-1372-04': () => require('./megabox-1372-04.json'),
+  'megabox-1372-05': () => require('./megabox-1372-05.json'),
+  'megabox-1372-06': () => require('./megabox-1372-06.json'),
+  'megabox-1372-07': () => require('./megabox-1372-07.json'),
+  'megabox-1381-01': () => require('./megabox-1381-01.json'),
+  'megabox-1381-02': () => require('./megabox-1381-02.json'),
+  'megabox-1381-03': () => require('./megabox-1381-03.json'),
+  'megabox-1381-04': () => require('./megabox-1381-04.json'),
+  'megabox-1381-05': () => require('./megabox-1381-05.json'),
+  'megabox-1381-06': () => require('./megabox-1381-06.json'),
+  'megabox-1381-07': () => require('./megabox-1381-07.json'),
+  'megabox-1381-08': () => require('./megabox-1381-08.json'),
+  'megabox-1381-09': () => require('./megabox-1381-09.json'),
+  'megabox-1431-01': () => require('./megabox-1431-01.json'),
+  'megabox-1431-03': () => require('./megabox-1431-03.json'),
+  'megabox-1431-04': () => require('./megabox-1431-04.json'),
+  'megabox-1431-05': () => require('./megabox-1431-05.json'),
+  'megabox-1431-06': () => require('./megabox-1431-06.json'),
+  'megabox-1431-07': () => require('./megabox-1431-07.json'),
+  'megabox-1431-08': () => require('./megabox-1431-08.json'),
+  'megabox-1431-09': () => require('./megabox-1431-09.json'),
+  'megabox-1431-10': () => require('./megabox-1431-10.json'),
+  'megabox-1572-01': () => require('./megabox-1572-01.json'),
+  'megabox-1572-02': () => require('./megabox-1572-02.json'),
+  'megabox-1572-03': () => require('./megabox-1572-03.json'),
+  'megabox-1572-04': () => require('./megabox-1572-04.json'),
+  'megabox-1572-05': () => require('./megabox-1572-05.json'),
+  'megabox-1572-06': () => require('./megabox-1572-06.json'),
+  'megabox-1581-01': () => require('./megabox-1581-01.json'),
+  'megabox-1581-02': () => require('./megabox-1581-02.json'),
+  'megabox-1581-03': () => require('./megabox-1581-03.json'),
+  'megabox-1581-04': () => require('./megabox-1581-04.json'),
+  'megabox-1581-05': () => require('./megabox-1581-05.json'),
+  'megabox-1581-06': () => require('./megabox-1581-06.json'),
+  'megabox-1581-07': () => require('./megabox-1581-07.json'),
+  'megabox-1581-08': () => require('./megabox-1581-08.json'),
+  'megabox-1581-09': () => require('./megabox-1581-09.json'),
 };

@@ -13,3 +13,11 @@ export function fromIsoDate(iso: string) {
 export function formatKoreanDate(date: Date) {
   return `${date.getFullYear()}년 ${date.getMonth() + 1}월 ${date.getDate()}일 (${WEEKDAYS[date.getDay()]})`;
 }
+
+export function formatShortDate(date: Date) {
+  return `${date.getMonth() + 1}월 ${date.getDate()}일`;
+}
+
+export function formatMonth(date: Date) {
+  return `${date.getFullYear()}년 ${date.getMonth() + 1}월`;
+}

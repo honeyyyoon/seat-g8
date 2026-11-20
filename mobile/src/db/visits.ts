@@ -12,9 +12,10 @@ export type NewVisit = {
   height: Rating;
   side: Rating;
   discomforts?: Discomfort[];
+  movie?: string | null;
 };
 
-export type Visit = Omit<NewVisit, 'discomforts'> & { id: number; discomforts: Discomfort[] };
+export type Visit = Omit<NewVisit, 'discomforts' | 'movie'> & { id: number; discomforts: Discomfort[]; movie: string | null };
 
 type VisitRow = Omit<Visit, 'discomforts'> & { discomforts: string };
 
@@ -29,8 +30,8 @@ function parseDiscomforts(json: string): Discomfort[] {
 
 export async function addVisit(db: Db, visit: NewVisit) {
   await db.runAsync(
-    `INSERT INTO visits (screen_id, seat_row, seat_number, visit_date, status, height, side, discomforts, created_at)
-     VALUES (?, ?, ?, ?, 'watched', ?, ?, ?, ?)`,
+    `INSERT INTO visits (screen_id, seat_row, seat_number, visit_date, status, height, side, discomforts, movie, created_at)
+     VALUES (?, ?, ?, ?, 'watched', ?, ?, ?, ?, ?)`,
     [
       visit.screenId,
       visit.seatRow,
@@ -39,19 +40,27 @@ export async function addVisit(db: Db, visit: NewVisit) {
       visit.height,
       visit.side,
       JSON.stringify(visit.discomforts ?? []),
+      visit.movie?.trim() || null,
       new Date().toISOString(),
     ],
   );
 }
 
-export async function listVisitsByScreen(db: Db, screenId: string): Promise<Visit[]> {
-  const rows = await db.getAllAsync<VisitRow>(
-    `SELECT id, screen_id AS screenId, seat_row AS seatRow, seat_number AS seatNumber,
-            visit_date AS visitDate, height, side, discomforts
-     FROM visits WHERE screen_id = ? ORDER BY visit_date DESC, id DESC`,
-    [screenId],
-  );
+const SELECT_VISITS = `SELECT id, screen_id AS screenId, seat_row AS seatRow, seat_number AS seatNumber,
+            visit_date AS visitDate, height, side, discomforts, movie
+     FROM visits`;
+
+async function selectVisits(db: Db, where: string, params: (string | number)[]): Promise<Visit[]> {
+  const rows = await db.getAllAsync<VisitRow>(`${SELECT_VISITS} ${where} ORDER BY visit_date DESC, id DESC`, params);
   return rows.map((row) => ({ ...row, discomforts: parseDiscomforts(row.discomforts) }));
+}
+
+export function listVisitsByScreen(db: Db, screenId: string): Promise<Visit[]> {
+  return selectVisits(db, 'WHERE screen_id = ?', [screenId]);
+}
+
+export function listAllVisits(db: Db): Promise<Visit[]> {
+  return selectVisits(db, '', []);
 }
 
 export async function deleteVisit(db: Db, id: number) {

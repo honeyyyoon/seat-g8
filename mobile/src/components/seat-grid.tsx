@@ -1,8 +1,11 @@
-import { useRef, useState, type ComponentRef } from 'react';
-import { Animated, Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
+import { useEffect, useRef, useState, type ComponentRef } from 'react';
+import { Animated, Pressable, ScrollView, StyleSheet, View, useWindowDimensions } from 'react-native';
 import { GestureDetector, usePinchGesture } from 'react-native-gesture-handler';
 
-import { colors, radius } from '@/constants/theme';
+import { Icon } from '@/components/icon';
+import { Text } from '@/components/text';
+import { verdictLabel, type Verdict } from '@/constants/ratings';
+import { colors, radius, verdictColors, verdictIcons, verdictInk } from '@/constants/theme';
 import { seatKey, type Layout, type Seat } from '@/data/layouts';
 
 const ROW_LABEL_WIDTH = 20;
@@ -11,11 +14,12 @@ const MAX_CELL = 48;
 
 type Props = {
   layout: Layout;
-  markedSeats: Set<string>;
+  verdicts: Map<string, Verdict>;
+  highlight?: { row: string; number: number | null } | null;
   onPressSeat: (seat: Seat) => void;
 };
 
-export function SeatGrid({ layout, markedSeats, onPressSeat }: Props) {
+export function SeatGrid({ layout, verdicts, highlight = null, onPressSeat }: Props) {
   const { width } = useWindowDimensions();
   const [factor, setFactor] = useState(1);
   const pinchScale = useRef(new Animated.Value(1)).current;
@@ -51,6 +55,16 @@ export function SeatGrid({ layout, markedSeats, onPressSeat }: Props) {
     setFactor(clampFactor([...ZOOM_LEVELS].reverse().find((level) => level < factor - 0.01) ?? 1));
   }
 
+  const highlighted = highlight
+    ? layout.seats.find((s) => s.row === highlight.row && s.number === highlight.number)
+    : undefined;
+  const highlightX = highlighted ? ROW_LABEL_WIDTH + highlighted.x * cell : null;
+
+  useEffect(() => {
+    if (highlightX === null) return;
+    scrollRef.current?.scrollTo({ x: Math.max(0, highlightX + 16 + cell / 2 - viewportWidth.current / 2), animated: true });
+  }, [highlightX, cell]);
+
   const rowLabels = new Map(layout.seats.map((seat) => [seat.y, seat.row]));
   const gridWidth = layout.grid.width * cell;
   const showNumbers = cell >= 22;
@@ -61,8 +75,8 @@ export function SeatGrid({ layout, markedSeats, onPressSeat }: Props) {
         <Text style={styles.title}>좌석표에서 고르기</Text>
         {zoomable && (
           <>
-            <ZoomButton label="−" name="좌석표 축소" disabled={!canZoomOut} onPress={zoomOut} />
-            <ZoomButton label="+" name="좌석표 확대" disabled={!canZoomIn} onPress={zoomIn} />
+            <ZoomButton icon="minus" name="좌석표 축소" disabled={!canZoomOut} onPress={zoomOut} />
+            <ZoomButton icon="plus" name="좌석표 확대" disabled={!canZoomIn} onPress={zoomIn} />
           </>
         )}
       </View>
@@ -86,7 +100,9 @@ export function SeatGrid({ layout, markedSeats, onPressSeat }: Props) {
           <Animated.View style={{ transform: [{ scale: pinchScale }] }}>
             <View style={[styles.screenWrap, { marginLeft: ROW_LABEL_WIDTH, width: gridWidth }]}>
               <View style={styles.screenBar} />
-              <Text style={styles.screenText}>SCREEN</Text>
+              <Text maxFontSizeMultiplier={1} style={styles.screenText}>
+                SCREEN
+              </Text>
             </View>
             <View
               style={{
@@ -94,23 +110,35 @@ export function SeatGrid({ layout, markedSeats, onPressSeat }: Props) {
                 height: layout.grid.height * cell,
               }}>
               {[...rowLabels].map(([y, row]) => (
-                <Text key={`row-${y}`} style={[styles.rowLabel, { top: y * cell, height: cell, lineHeight: cell }]}>
+                <Text
+                  key={`row-${y}`}
+                  maxFontSizeMultiplier={1}
+                  style={[
+                    styles.rowLabel,
+                    row === highlight?.row && styles.rowLabelActive,
+                    { top: y * cell, height: cell, lineHeight: cell },
+                  ]}>
                   {row}
                 </Text>
               ))}
               {layout.seats.map((seat) => {
-                const marked = markedSeats.has(seatKey(seat.row, seat.number));
+                const verdict = verdicts.get(seatKey(seat.row, seat.number));
+                const marked = verdict !== undefined;
+                const active = seat === highlighted;
                 const size = cell - 3;
                 return (
                   <Pressable
                     key={seatKey(seat.row, seat.number)}
                     accessibilityRole="button"
                     accessibilityLabel={`${seat.row}열 ${seat.number}번${marked ? ', 내가 앉았던 좌석' : ''}`}
+                    accessibilityState={{ selected: active }}
+                    accessibilityValue={verdict ? { text: verdictLabel(verdict) } : undefined}
                     onPress={() => onPressSeat(seat)}
                     hitSlop={2}
                     style={[
                       styles.seat,
-                      marked && styles.marked,
+                      verdict && { backgroundColor: verdictColors[verdict], borderWidth: 0 },
+                      active && (marked ? styles.activeMarked : styles.active),
                       {
                         left: ROW_LABEL_WIDTH + seat.x * cell,
                         top: seat.y * cell,
@@ -120,10 +148,19 @@ export function SeatGrid({ layout, markedSeats, onPressSeat }: Props) {
                         borderTopRightRadius: size * 0.4,
                       },
                     ]}>
-                    {showNumbers && (
-                      <Text style={[styles.seatNumber, marked && styles.seatNumberMarked, { lineHeight: size }]}>
-                        {seat.number}
-                      </Text>
+                    {verdict ? (
+                      <Icon
+                        name={verdictIcons[verdict]}
+                        size={Math.max(7, Math.round(size * 0.5))}
+                        color={verdictInk[verdict]}
+                        weight="bold"
+                      />
+                    ) : (
+                      showNumbers && (
+                        <Text maxFontSizeMultiplier={1} style={styles.seatNumber}>
+                          {seat.number}
+                        </Text>
+                      )
                     )}
                   </Pressable>
                 );
@@ -137,12 +174,12 @@ export function SeatGrid({ layout, markedSeats, onPressSeat }: Props) {
 }
 
 function ZoomButton({
-  label,
+  icon,
   name,
   disabled,
   onPress,
 }: {
-  label: string;
+  icon: 'minus' | 'plus';
   name: string;
   disabled: boolean;
   onPress: () => void;
@@ -153,10 +190,10 @@ function ZoomButton({
       accessibilityLabel={name}
       accessibilityState={{ disabled }}
       disabled={disabled}
-      hitSlop={6}
+      hitSlop={4}
       onPress={onPress}
       style={({ pressed }) => [styles.zoomButton, disabled && styles.zoomDisabled, pressed && styles.zoomPressed]}>
-      <Text style={styles.zoomText}>{label}</Text>
+      <Icon name={icon} size={16} color={colors.ink} weight="bold" />
     </Pressable>
   );
 }
@@ -190,20 +227,29 @@ const styles = StyleSheet.create({
     color: colors.muted,
     textAlign: 'center',
   },
-  seat: { position: 'absolute', borderRadius: 3, backgroundColor: colors.seat },
-  marked: { backgroundColor: colors.accent },
+  seat: {
+    position: 'absolute',
+    borderRadius: 3,
+    backgroundColor: colors.seatFill,
+    borderWidth: 1,
+    borderColor: colors.seatEdge,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  active: { backgroundColor: colors.accentSoft, borderWidth: 2, borderColor: colors.accent },
+  activeMarked: { borderWidth: 2, borderColor: colors.ink },
+  rowLabelActive: { color: colors.accent, fontWeight: '800' },
   seatNumber: {
     textAlign: 'center',
     fontSize: 11,
     fontWeight: '600',
     color: colors.muted,
   },
-  seatNumberMarked: { color: colors.onAccent },
   zoomBar: { flexDirection: 'row', alignItems: 'center', gap: 6, minHeight: 32, paddingHorizontal: 16, paddingTop: 16 },
   title: { flex: 1, fontSize: 15, fontWeight: '700', color: colors.ink },
   zoomButton: {
-    width: 36,
-    height: 32,
+    width: 44,
+    height: 36,
     borderRadius: radius.md,
     backgroundColor: colors.bg,
     alignItems: 'center',
@@ -211,10 +257,4 @@ const styles = StyleSheet.create({
   },
   zoomDisabled: { opacity: 0.35 },
   zoomPressed: { backgroundColor: colors.line },
-  zoomText: {
-    fontSize: 20,
-    fontWeight: '600',
-    color: colors.ink,
-    marginTop: -2,
-  },
 });

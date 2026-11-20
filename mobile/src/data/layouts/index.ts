@@ -1,6 +1,8 @@
 import { getRegExp } from 'korean-regexp';
 
-import { rawLayouts } from './raw';
+import theaterList from '../theaters.json';
+import meta from './meta.json';
+import { loadLayout } from './raw';
 
 export type Seat = {
   row: string;
@@ -13,7 +15,7 @@ export type Seat = {
   aisleRight: boolean;
 };
 
-export type Layout = {
+export type ScreenInfo = {
   id: string;
   chain: string;
   theater: string;
@@ -21,30 +23,67 @@ export type Layout = {
   screenNo: string;
   grid: { width: number; height: number };
   seatCount: number;
-  seats: Seat[];
 };
 
-export type Theater = { name: string; screens: Layout[] };
+export type Layout = ScreenInfo & { seats: Seat[] };
 
-const layouts: Layout[] = Object.entries(rawLayouts).map(([id, raw]) => ({ ...(raw as Omit<Layout, 'id'>), id }));
+export type Theater = {
+  id: string;
+  name: string;
+  chain: string;
+  lat: number | null;
+  lng: number | null;
+  screens: ScreenInfo[];
+};
 
-const byId = new Map(layouts.map((layout) => [layout.id, layout]));
+type MetaRow = Omit<ScreenInfo, 'id'> & { siteNo: string };
 
-export function getLayout(id: string): Layout | undefined {
+const screens: (ScreenInfo & { theaterId: string })[] = Object.entries(meta as Record<string, MetaRow>).map(
+  ([id, { siteNo, ...row }]) => ({ ...row, id, theaterId: id.split('-').slice(0, 2).join('-') }),
+);
+
+const byId = new Map(screens.map((screen) => [screen.id, screen]));
+const places = new Map(theaterList.map((t) => [t.id, t]));
+const loaded = new Map<string, Layout>();
+
+export function getScreen(id: string): ScreenInfo | undefined {
   return byId.get(id);
 }
 
-export function listTheaters(): Theater[] {
-  const theaters = new Map<string, Layout[]>();
-  for (const layout of layouts) {
-    theaters.set(layout.theater, [...(theaters.get(layout.theater) ?? []), layout]);
+export function getLayout(id: string): Layout | undefined {
+  const info = byId.get(id);
+  if (!info) return undefined;
+  let layout = loaded.get(id);
+  if (!layout) {
+    const raw = loadLayout[id]() as { seats: Seat[] };
+    layout = { ...info, seats: raw.seats };
+    loaded.set(id, layout);
   }
-  return [...theaters]
-    .map(([name, screens]) => ({
-      name,
-      screens: screens.sort((a, b) => a.screenNo.localeCompare(b.screenNo)),
-    }))
+  return layout;
+}
+
+const theaters: Theater[] = (() => {
+  const groups = new Map<string, (ScreenInfo & { theaterId: string })[]>();
+  for (const screen of screens) {
+    groups.set(screen.theaterId, [...(groups.get(screen.theaterId) ?? []), screen]);
+  }
+  return [...groups]
+    .map(([id, list]) => {
+      const place = places.get(id);
+      return {
+        id,
+        name: list[0].theater,
+        chain: list[0].chain,
+        lat: place?.lat ?? null,
+        lng: place?.lng ?? null,
+        screens: list.sort((a, b) => a.screenNo.localeCompare(b.screenNo)),
+      };
+    })
     .sort((a, b) => a.name.localeCompare(b.name, 'ko'));
+})();
+
+export function listTheaters(): Theater[] {
+  return theaters;
 }
 
 export type Chain = { name: string; theaters: Theater[]; screenCount: number };
@@ -71,10 +110,10 @@ export function searchTheaters(query: string): Theater[] {
   if (patterns.length === 0) return listTheaters();
   return listTheaters()
     .map((theater) => {
-      const theaterText = `${theater.screens[0].chain} ${theater.name}`;
+      const theaterText = `${theater.chain} ${theater.name}`;
       if (patterns.every((p) => p.test(theaterText))) return theater;
-      const screens = theater.screens.filter((screen) => patterns.every((p) => p.test(`${theaterText} ${screen.screen}`)));
-      return { ...theater, screens };
+      const matched = theater.screens.filter((screen) => patterns.every((p) => p.test(`${theaterText} ${screen.screen}`)));
+      return { ...theater, screens: matched };
     })
     .filter((theater) => theater.screens.length > 0);
 }
@@ -82,14 +121,21 @@ export function searchTheaters(query: string): Theater[] {
 export function listChains(query = ''): Chain[] {
   const chains = new Map<string, Theater[]>();
   for (const theater of searchTheaters(query)) {
-    const chain = theater.screens[0].chain;
-    chains.set(chain, [...(chains.get(chain) ?? []), theater]);
+    chains.set(theater.chain, [...(chains.get(theater.chain) ?? []), theater]);
   }
-  return [...chains].map(([name, theaters]) => ({
+  return [...chains].map(([name, list]) => ({
     name,
-    theaters,
-    screenCount: theaters.reduce((sum, t) => sum + t.screens.length, 0),
+    theaters: list,
+    screenCount: list.reduce((sum, t) => sum + t.screens.length, 0),
   }));
+}
+
+export function distanceKm(a: { lat: number; lng: number }, b: { lat: number; lng: number }) {
+  const rad = (d: number) => (d * Math.PI) / 180;
+  const h =
+    Math.sin(rad(b.lat - a.lat) / 2) ** 2 +
+    Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(rad(b.lng - a.lng) / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(h));
 }
 
 export function seatKey(row: string, number: number) {

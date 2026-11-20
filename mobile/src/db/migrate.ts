@@ -21,4 +21,16 @@ export async function migrate(db: Db) {
       PRAGMA user_version = 1;
     `);
   }
+  if ((row?.user_version ?? 0) < 2) {
+    await db.execAsync(`
+      CREATE TABLE IF NOT EXISTS prefs (key TEXT PRIMARY KEY, value TEXT NOT NULL);
+      PRAGMA user_version = 2;
+    `);
+  }
+  if ((row?.user_version ?? 0) < 3) {
+    await db.execAsync(`
+      ALTER TABLE visits ADD COLUMN movie TEXT;
+      PRAGMA user_version = 3;
+    `);
+  }
 }

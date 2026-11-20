@@ -1,0 +1,181 @@
+{
+ "chain": "CGV",
+ "theater": "CGV 연남",
+ "siteNo": "0292",
+ "screen": "SUITE CINEMA",
+ "screenNo": "003",
+ "sampledShowDate": "20261120",
+ "grid": {
+  "width": 10,
+  "height": 3
+ },
+ "seatCount": 16,
+ "seats": [
+  {
+   "row": "A",
+   "number": 1,
+   "x": 0,
+   "y": 0,
+   "zone": "SUITE A1-4",
+   "kind": "Suite 4인",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 2,
+   "x": 1,
+   "y": 0,
+   "zone": "SUITE A1-4",
+   "kind": "Suite 4인",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 3,
+   "x": 2,
+   "y": 0,
+   "zone": "SUITE A1-4",
+   "kind": "Suite 4인",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 4,
+   "x": 3,
+   "y": 0,
+   "zone": "SUITE A1-4",
+   "kind": "Suite 4인",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "A",
+   "number": 5,
+   "x": 6,
+   "y": 0,
+   "zone": "SUITE A5-8",
+   "kind": "Suite 4인",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 6,
+   "x": 7,
+   "y": 0,
+   "zone": "SUITE A5-8",
+   "kind": "Suite 4인",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 7,
+   "x": 8,
+   "y": 0,
+   "zone": "SUITE A5-8",
+   "kind": "Suite 4인",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "A",
+   "number": 8,
+   "x": 9,
+   "y": 0,
+   "zone": "SUITE A5-8",
+   "kind": "Suite 4인",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 1,
+   "x": 0,
+   "y": 2,
+   "zone": "SUITE B1-4",
+   "kind": "Suite 4인",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 2,
+   "x": 1,
+   "y": 2,
+   "zone": "SUITE B1-4",
+   "kind": "Suite 4인",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 3,
+   "x": 2,
+   "y": 2,
+   "zone": "SUITE B1-4",
+   "kind": "Suite 4인",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 4,
+   "x": 3,
+   "y": 2,
+   "zone": "SUITE B1-4",
+   "kind": "Suite 4인",
+   "aisleLeft": false,
+   "aisleRight": true
+  },
+  {
+   "row": "B",
+   "number": 5,
+   "x": 6,
+   "y": 2,
+   "zone": "SUITE B5-8",
+   "kind": "Suite 4인",
+   "aisleLeft": true,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 6,
+   "x": 7,
+   "y": 2,
+   "zone": "SUITE B5-8",
+   "kind": "Suite 4인",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 7,
+   "x": 8,
+   "y": 2,
+   "zone": "SUITE B5-8",
+   "kind": "Suite 4인",
+   "aisleLeft": false,
+   "aisleRight": false
+  },
+  {
+   "row": "B",
+   "number": 8,
+   "x": 9,
+   "y": 2,
+   "zone": "SUITE B5-8",
+   "kind": "Suite 4인",
+   "aisleLeft": false,
+   "aisleRight": true
+  }
+ ],
+ "entrances": [
+  {
+   "x": 2,
+   "y": -3
+  }
+ ]
+}

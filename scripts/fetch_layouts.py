@@ -105,10 +105,17 @@ def save(out_dir, chain, result):
 
 
 def write_index(out_dir):
-    ids = sorted(f[:-5] for f in os.listdir(out_dir) if f.endswith(".json"))
-    name = lambda i: "l_" + i.replace("-", "_")
-    lines = [f"import {name(i)} from './{i}.json';" for i in ids]
-    lines += ["", "export const rawLayouts = {"] + [f"  '{i}': {name(i)}," for i in ids] + ["};", ""]
+    ids = sorted(f[:-5] for f in os.listdir(out_dir) if f.endswith(".json") and f != "meta.json")
+    meta = {}
+    for i in ids:
+        with open(os.path.join(out_dir, f"{i}.json"), encoding="utf-8") as f:
+            layout = json.load(f)
+        meta[i] = {k: layout[k] for k in ("chain", "theater", "siteNo", "screen", "screenNo", "grid", "seatCount")}
+    with open(os.path.join(out_dir, "meta.json"), "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, separators=(",", ":"))
+    lines = ["export const loadLayout: Record<string, () => unknown> = {"]
+    lines += [f"  '{i}': () => require('./{i}.json')," for i in ids]
+    lines += ["};", ""]
     with open(os.path.join(out_dir, "raw.ts"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
     print(f"raw.ts: 상영관 {len(ids)}개")

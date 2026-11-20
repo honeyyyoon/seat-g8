@@ -16,3 +16,22 @@ export type Discomfort = (typeof DISCOMFORTS)[number]['id'];
 export function discomfortLabel(id: string) {
   return DISCOMFORTS.find((d) => d.id === id)?.label ?? id;
 }
+
+export type Verdict = 'good' | 'okay' | 'bad';
+
+export const VERDICTS: { id: Verdict; label: string; legend: string }[] = [
+  { id: 'good', label: '좋았음', legend: '좋았던 좌석' },
+  { id: 'okay', label: '무난함', legend: '무난했던 좌석' },
+  { id: 'bad', label: '아쉬움', legend: '아쉬웠던 좌석' },
+];
+
+export function seatVerdict(visit: { height: number; side: number; discomforts: readonly string[] }): Verdict {
+  const score = Math.abs(visit.height - 3) + Math.abs(visit.side - 3) + visit.discomforts.length;
+  if (score <= 1) return 'good';
+  if (score === 2) return 'okay';
+  return 'bad';
+}
+
+export function verdictLabel(verdict: Verdict) {
+  return VERDICTS.find((v) => v.id === verdict)!.label;
+}

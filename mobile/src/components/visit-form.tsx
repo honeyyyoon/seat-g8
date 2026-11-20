@@ -1,7 +1,8 @@
 import DateTimePicker, { DateTimePickerAndroid } from '@react-native-community/datetimepicker';
 import { useState } from 'react';
-import { Modal, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Modal, Platform, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
+import { Text, TextInput } from '@/components/text';
 import { DISCOMFORTS, HEIGHT_LABELS, SIDE_LABELS, type Discomfort } from '@/constants/ratings';
 import { colors, radius, spacing } from '@/constants/theme';
 import type { Seat } from '@/data/layouts';
@@ -25,6 +26,7 @@ export function VisitForm({ screenId, subtitle, seat, onSaved, onCancel }: Props
   const [height, setHeight] = useState<Rating | null>(null);
   const [side, setSide] = useState<Rating | null>(null);
   const [discomforts, setDiscomforts] = useState<Discomfort[]>([]);
+  const [movie, setMovie] = useState('');
   const [saving, setSaving] = useState(false);
   const [failed, setFailed] = useState(false);
   const canSave = !saving && height !== null && side !== null;
@@ -53,7 +55,7 @@ export function VisitForm({ screenId, subtitle, seat, onSaved, onCancel }: Props
       if (__DEV__ && takeFailNextSave()) {
         throw new Error('forced failure');
       }
-      await addVisit(db, { screenId, seatRow: seat.row, seatNumber: seat.number, visitDate: toIsoDate(visitDate), height, side, discomforts });
+      await addVisit(db, { screenId, seatRow: seat.row, seatNumber: seat.number, visitDate: toIsoDate(visitDate), height, side, discomforts, movie });
       onSaved();
     } catch {
       setFailed(true);
@@ -100,6 +102,23 @@ export function VisitForm({ screenId, subtitle, seat, onSaved, onCancel }: Props
                 }}
               />
             )}
+          </View>
+
+          <View style={styles.section}>
+            <View style={styles.labelRow}>
+              <Text style={styles.label}>영화</Text>
+              <Text style={styles.optional}>선택</Text>
+            </View>
+            <TextInput
+              accessibilityLabel="영화 제목"
+              value={movie}
+              onChangeText={setMovie}
+              placeholder="무슨 영화를 봤나요?"
+              placeholderTextColor={colors.muted}
+              maxLength={60}
+              returnKeyType="done"
+              style={styles.input}
+            />
           </View>
 
           <RatingPicker title="높이" labels={HEIGHT_LABELS} value={height} onChange={setHeight} />
@@ -199,6 +218,7 @@ const styles = StyleSheet.create({
   dateButtonActive: { backgroundColor: colors.accentSoft },
   dateText: { fontSize: 16, color: colors.ink, fontWeight: '600' },
   dateTextActive: { color: colors.accent },
+  input: { backgroundColor: colors.bg, borderRadius: radius.md, paddingHorizontal: spacing.md, paddingVertical: 12, fontSize: 16, color: colors.ink },
   labelRow: { flexDirection: 'row', alignItems: 'baseline', gap: spacing.sm },
   optional: { fontSize: 13, color: colors.muted },
   discomfortSelected: { backgroundColor: colors.errorSoft, borderColor: colors.error },
